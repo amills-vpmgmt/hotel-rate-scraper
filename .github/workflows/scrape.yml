@@ -1,35 +1,33 @@
 name: Daily Hotel Rate Scraper
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'  # every day at 12:00 UTC (adjust time if needed)
+  workflow_dispatch:       # keep manual trigger too
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 
-      - name: Run hotel rate scraper
-        run: python scrape_hotels.py
+    - name: Run hotel rate scraper
+      run: python scrape_hotels.py
 
-      - name: Commit and push updated data
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/beckley_rates.json
-          git commit -m "Update Beckley hotel rates"
-          git push origin HEAD
+    - name: Commit and push updated data
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add data/beckley_rates.json
+        git commit -m "Update Beckley hotel rates" || echo "No changes to commit"
+        git push
