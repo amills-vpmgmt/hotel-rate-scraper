@@ -6,7 +6,7 @@ import time
 
 
 def fetch_google_search_results(query):
-    api_key = os.environ["SERPAPI_API_KEY"]  # 🔧 Fixed here
+    api_key = os.environ["SERPAPI_KEY"]  # ✅ FIXED to match GitHub secret name
     params = {
         "engine": "google",
         "q": query,
@@ -83,20 +83,20 @@ def run():
             print(f"\n🔎 Searching: {query}")
 
             result = fetch_google_search_results(query)
-            time.sleep(2)  # To avoid hitting rate limits
+            time.sleep(2)  # Respect SerpAPI rate limit
 
-            # Try to extract meaningful text from the result
             serp_result = json.dumps(result)
             rate = extract_rate_with_ai(serp_result)
 
             rate_data["rates_by_day"][day_name][hotel] = rate
             print(f"✅ {hotel}: {rate}")
 
-            # Optional: write individual debug file
+            # Save debug file
             debug_filename = f"data/debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
             with open(debug_filename, "w") as f:
                 json.dump(result, f, indent=2)
 
+    # Save final rates
     with open("data/beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
 
