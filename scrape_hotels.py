@@ -53,7 +53,14 @@ Return just the number (no $ symbol or explanation). If you can't find a rate, r
             "messages": [{"role": "user", "content": prompt}]
         }
     )
-    return res.json()["choices"][0]["message"]["content"].strip()
+
+    try:
+        response_data = res.json()
+        print("🔧 OpenRouter response:", response_data)  # Debug output
+        return response_data["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print("❌ Failed to parse OpenRouter response:", res.text)
+        return "N/A"
 
 def run():
     checkin_dates = get_checkin_dates()
@@ -76,7 +83,6 @@ def run():
     os.makedirs("data", exist_ok=True)
     with open("data/beckley_rates.json", "w") as f:
         json.dump(out, f, indent=2)
-
     print("✅ Done! Data written to data/beckley_rates.json")
 
 if __name__ == "__main__":
