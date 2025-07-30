@@ -1,14 +1,14 @@
-import os
-import json
-import re
+# scrape_hotels.py
 import requests
+import json
 from datetime import datetime, timedelta
 import pytz
+import os
 
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY")
 
-HOTELS = [
+hotels = [
     "Courtyard Beckley",
     "Hampton Inn Beckley",
     "Tru by Hilton Beckley",
@@ -20,33 +20,31 @@ HOTELS = [
 
 def get_checkin_dates():
     today = datetime.now(pytz.timezone("US/Eastern")).date()
-    tomorrow = today + timedelta(days=1)
-    friday = today + timedelta((4 - today.weekday()) % 7 or 7)
     return {
-        "Today": today.isoformat(),
-        "Tomorrow": tomorrow.isoformat(),
-        "Friday": friday.isoformat()
+        "Today": today.strftime("%Y-%m-%d"),
+        "Tomorrow": (today + timedelta(days=1)).strftime("%Y-%m-%d"),
+        "Friday": (today + timedelta(days=(4 - today.weekday()) % 7)).strftime("%Y-%m-%d")
     }
 
-def search_hotel_rates(hotel_name, checkin_date):
-    query = f"{hotel_name} Beckley WV site:expedia.com OR site:booking.com rate for {checkin_date}"
+def query_serpapi(query):
     params = {
         "engine": "google",
         "q": query,
-        "api_key": SERPAPI_KEY,
-        "location": "Beckley, WV"
+        "api_key": SERPAPI_KEY
     }
     response = requests.get("https://serpapi.com/search", params=params)
     return response.json()
 
 def extract_rate_with_ai(search_results, model="openai/gpt-3.5-turbo"):
     prompt = f"""
-Here is a search result JSON for a hotel query. Your task is to extract the nightly price for the hotel.
+Your job is to extract the **nightly hotel price in USD** from the following Google search results (in JSON format). 
+The price is usually shown like "$139", "USD 149", or "$159 per night".
 
-Search Results:
+Return only the **number** (e.g. 139). If you find multiple prices, return the **lowest** one. 
+If no valid price is found, just return "N/A".
+
+Here are the results:
 {json.dumps(search_results)}
-
-Return just the number (no $ symbol or explanation). If you can't find a rate, respond with "N/A".
 """
     res = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
@@ -61,47 +59,28 @@ Return just the number (no $ symbol or explanation). If you can't find a rate, r
     except KeyError:
         return "N/A"
 
-def extract_rate_with_regex(search_results):
-    text_dump = json.dumps(search_results)
-    matches = re.findall(r"\$\s?(\d{2,4})", text_dump)
-    if matches:
-        return matches[0]
-    return "N/A"
-
 def run():
     checkin_dates = get_checkin_dates()
-    all_rates = {}
-
-    for label, date_str in checkin_dates.items():
-        daily_rates = {}
-        for hotel in HOTELS:
-            print(f"🔍 {hotel} for {label} ({date_str})")
-            serp_result = search_hotel_rates(hotel, date_str)
-
-            # Save raw output for debugging
-            debug_file = f"data/debug_{hotel.replace(' ', '_')}_{label}.json"
-            with open(debug_file, "w") as dbg:
-                json.dump(serp_result, dbg, indent=2)
-
-            rate = extract_rate_with_ai(serp_result)
-            if rate == "N/A":
-                print("⚠️  AI couldn't find price, trying regex fallback...")
-                rate = extract_rate_with_regex(serp_result)
-
-            daily_rates[hotel] = int(rate) if rate.isdigit() else "N/A"
-
-        all_rates[label] = daily_rates
-
-    out = {
-        "generated": datetime.now(pytz.timezone("US/Eastern")).strftime("%Y-%m-%d"),
+    data = {
+        "generated": str(datetime.now(pytz.timezone("US/Eastern")).date()),
         "checkin_dates": checkin_dates,
-        "rates_by_day": all_rates
+        "rates_by_day": {"Today": {}, "Tomorrow": {}, "Friday": {}}
     }
 
-    with open("data/beckley_rates.json", "w") as f:
-        json.dump(out, f, indent=2)
+    for day, checkin in checkin_dates.items():
+        for hotel in hotels:
+            query = f"{hotel} Beckley WV room price {checkin}"
+            serp_result = query_serpapi(query)
+            rate = extract_rate_with_ai(serp_result)
 
-    print("✅ Done! Data written to data/beckley_rates.json")
+            data["rates_by_day"][day][hotel] = rate
+
+            # Save debug info
+            with open(f"data/debug_{hotel.replace(' ', '_')}_{day}.json", "w", encoding="utf-8") as f:
+                json.dump(serp_result, f, indent=2)
+
+    with open("data/beckley_rates.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
 
 if __name__ == "__main__":
     run()
