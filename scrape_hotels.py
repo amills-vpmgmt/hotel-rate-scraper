@@ -5,9 +5,8 @@ import datetime
 import time
 
 
-
 def fetch_google_search_results(query):
-    api_key = os.environ["SERPAPI_KEY"]
+    api_key = os.environ["SERPAPI_API_KEY"]  # 🔧 Fixed here
     params = {
         "engine": "google",
         "q": query,
