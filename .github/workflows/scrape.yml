@@ -10,28 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 
-      - name: Run hotel rate scraper
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python scrape_hotels.py
+    - name: Run hotel rate scraper
+      env:
+        SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      run: python scrape_hotels.py
 
-
-      - name: Commit and push updated data
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add data/beckley_rates.json
-          git commit -m "🤖 Auto-update hotel rates"
-          git push
+    - name: Commit and push updated data
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add data/beckley_rates.json
+        git commit -m "📊 Auto-update hotel rates"
+        git push
