@@ -3,7 +3,7 @@ import json
 import requests
 import datetime
 import time
-from bs4 import BeautifulSoup
+
 
 
 def fetch_google_search_results(query):
