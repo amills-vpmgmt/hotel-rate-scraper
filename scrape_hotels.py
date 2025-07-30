@@ -3,10 +3,11 @@ import json
 import requests
 import datetime
 import time
+import openai
 
 
 def fetch_google_search_results(query):
-    api_key = os.environ["SERPAPI_KEY"]  # ✅ FIXED to match GitHub secret name
+    api_key = os.environ["SERPAPI_KEY"]
     params = {
         "engine": "google",
         "q": query,
@@ -19,8 +20,16 @@ def fetch_google_search_results(query):
     return response.json()
 
 
-def extract_rate_with_ai(search_result):
-    import openai
+def extract_text_snippets(search_result_json):
+    snippets = []
+    for result in search_result_json.get("organic_results", []):
+        snippet = result.get("snippet")
+        if snippet:
+            snippets.append(snippet)
+    return "\n".join(snippets)
+
+
+def extract_rate_with_ai(search_text):
     openai.api_key = os.environ["OPENROUTER_API_KEY"]
     openai.api_base = "https://openrouter.ai/api/v1"
 
@@ -33,7 +42,7 @@ Rules:
 - If there's no price mentioned, return "N/A".
 
 Search result:
-{search_result}
+{search_text}
 
 Price:"""
 
@@ -43,10 +52,6 @@ Price:"""
             messages=[{"role": "user", "content": prompt}],
             max_tokens=10,
         )
-
-        print("🔍 AI got this result:\n", search_result)
-        print("💬 AI response:", response)
-
         return response["choices"][0]["message"]["content"].strip()
     except Exception as e:
         print("❌ Error extracting rate:", e)
@@ -83,20 +88,18 @@ def run():
             print(f"\n🔎 Searching: {query}")
 
             result = fetch_google_search_results(query)
-            time.sleep(2)  # Respect SerpAPI rate limit
+            time.sleep(2)
 
-            serp_result = json.dumps(result)
-            rate = extract_rate_with_ai(serp_result)
-
-            rate_data["rates_by_day"][day_name][hotel] = rate
+            snippets = extract_text_snippets(result)
+            rate = extract_rate_with_ai(snippets)
             print(f"✅ {hotel}: {rate}")
 
-            # Save debug file
+            rate_data["rates_by_day"][day_name][hotel] = rate
+
             debug_filename = f"data/debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
             with open(debug_filename, "w") as f:
                 json.dump(result, f, indent=2)
 
-    # Save final rates
     with open("data/beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
 
