@@ -20,30 +20,28 @@ def fetch_google_search_results(query):
 
 def extract_rate_from_serpapi(result):
     """
-    Try to extract dollar amounts from SerpAPI response by checking both
+    Extract all dollar amounts from SerpAPI response by checking both
     'hotel_results' prices and 'organic_results' snippets.
-    Returns the lowest price found or 'N/A'.
+    Returns a range string "min-max" or single value if only one.
     """
     try:
         prices = []
-        # Extract from structured hotel_results if available
+        # structured hotel_results
         for hotel in result.get("hotel_results", []):
             price_str = hotel.get("price", "")
             if price_str.startswith("$"):
-                # normalize and parse
                 amount = int(price_str.replace("$", "").replace(",", ""))
                 prices.append(amount)
-        # Extract from organic_results snippets
+        # organic_results snippets
         for item in result.get("organic_results", []):
             snippet = item.get("snippet", "")
-            # find all $NNN patterns
             for match in re.findall(r"\$[\d,]+", snippet):
                 amount = int(match.replace("$", "").replace(",", ""))
                 prices.append(amount)
-        # Return the lowest price found
-        if prices:
-            return str(min(prices))
-        return "N/A"
+        if not prices:
+            return "N/A"
+        lo, hi = min(prices), max(prices)
+        return f"{lo}-{hi}" if lo != hi else str(lo)
     except Exception as e:
         print("❌ Error extracting rate:", e)
         return "N/A"
@@ -86,12 +84,12 @@ def run():
             rate_data["rates_by_day"][day_name][hotel] = rate
             print(f"✅ {hotel}: {rate}")
 
-            # save raw JSON for debug
+            # save raw JSON for debugging
             debug_name = f"data/debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
             with open(debug_name, "w") as f:
                 json.dump(result, f, indent=2)
 
-    # write out consolidated rates
+    # write consolidated rates
     with open("data/beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
 
