@@ -5,6 +5,7 @@ import datetime
 import time
 import re
 
+
 def fetch_google_search_results(query):
     api_key = os.environ.get("SERPAPI_KEY")
     params = {
@@ -18,33 +19,50 @@ def fetch_google_search_results(query):
     response = requests.get("https://serpapi.com/search", params=params)
     return response.json()
 
+
 def extract_rate_from_serpapi(result):
     """
-    Extract all dollar amounts from SerpAPI response by checking both
-    'hotel_results' prices and 'organic_results' snippets.
+    Extract all dollar amounts from SerpAPI response by checking:
+      - structured 'hotel_results' prices
+      - 'organic_results' snippets
+      - explicit pricing from 'knowledge_graph.pricing.offers'
     Returns a range string "min-max" or single value if only one.
     """
     try:
         prices = []
-        # structured hotel_results
+
+        # 1) structured hotel_results
         for hotel in result.get("hotel_results", []):
             price_str = hotel.get("price", "")
             if price_str.startswith("$"):
                 amount = int(price_str.replace("$", "").replace(",", ""))
                 prices.append(amount)
-        # organic_results snippets
+
+        # 2) organic_results snippets
         for item in result.get("organic_results", []):
             snippet = item.get("snippet", "")
             for match in re.findall(r"\$[\d,]+", snippet):
                 amount = int(match.replace("$", "").replace(",", ""))
                 prices.append(amount)
+
+        # 3) knowledge_graph pricing offers
+        kg = result.get("knowledge_graph", {})
+        for offer in kg.get("pricing", {}).get("offers", []):
+            price_str = offer.get("price", "")
+            if price_str.startswith("$"):
+                amount = int(price_str.replace("$", "").replace(",", ""))
+                prices.append(amount)
+
         if not prices:
             return "N/A"
+
         lo, hi = min(prices), max(prices)
         return f"{lo}-{hi}" if lo != hi else str(lo)
+
     except Exception as e:
         print("❌ Error extracting rate:", e)
         return "N/A"
+
 
 def run():
     hotels = [
@@ -92,6 +110,7 @@ def run():
     # write consolidated rates
     with open("data/beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
+
 
 if __name__ == "__main__":
     run()
