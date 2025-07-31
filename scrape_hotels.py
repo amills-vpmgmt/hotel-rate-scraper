@@ -3,8 +3,6 @@ import json
 import requests
 import datetime
 import time
-import openai
-
 
 def fetch_google_search_results(query):
     api_key = os.environ["SERPAPI_KEY"]
@@ -19,44 +17,19 @@ def fetch_google_search_results(query):
     response = requests.get("https://serpapi.com/search", params=params)
     return response.json()
 
-
-def extract_text_snippets(search_result_json):
-    snippets = []
-    for result in search_result_json.get("organic_results", []):
-        snippet = result.get("snippet")
-        if snippet:
-            snippets.append(snippet)
-    return "\n".join(snippets)
-
-
-def extract_rate_with_ai(search_text):
-    openai.api_key = os.environ["OPENROUTER_API_KEY"]
-    openai.api_base = "https://openrouter.ai/api/v1"
-
-    prompt = f"""
-You're an AI assistant that extracts hotel nightly rates from search results. Your job is to look at the text and return just the number.
-
-Rules:
-- Output only the nightly rate as a number (e.g., "132").
-- If multiple rates are mentioned, choose the lowest.
-- If there's no price mentioned, return "N/A".
-
-Search result:
-{search_text}
-
-Price:"""
-
+def extract_rate_from_serpapi(result):
     try:
-        response = openai.ChatCompletion.create(
-            model="openai/gpt-3.5-turbo",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=10,
-        )
-        return response["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        print("❌ Error extracting rate:", e)
+        if "hotel_results" in result:
+            prices = []
+            for hotel in result["hotel_results"]:
+                if "price" in hotel and hotel["price"].startswith("$"):
+                    price = int(hotel["price"].replace("$", "").replace(",", ""))
+                    prices.append(price)
+            return str(min(prices)) if prices else "N/A"
         return "N/A"
-
+    except Exception as e:
+        print("❌ Error extracting rate from SerpAPI:", e)
+        return "N/A"
 
 def run():
     hotels = [
@@ -88,13 +61,12 @@ def run():
             print(f"\n🔎 Searching: {query}")
 
             result = fetch_google_search_results(query)
-            time.sleep(2)
+            time.sleep(2)  # To avoid hitting rate limits
 
-            snippets = extract_text_snippets(result)
-            rate = extract_rate_with_ai(snippets)
-            print(f"✅ {hotel}: {rate}")
+            rate = extract_rate_from_serpapi(result)
 
             rate_data["rates_by_day"][day_name][hotel] = rate
+            print(f"✅ {hotel}: {rate}")
 
             debug_filename = f"data/debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
             with open(debug_filename, "w") as f:
@@ -102,7 +74,6 @@ def run():
 
     with open("data/beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
-
 
 if __name__ == "__main__":
     run()
