@@ -68,6 +68,7 @@ def run():
             rate_data["rates_by_day"][day_name][hotel] = rate
             print(f"✅ {hotel}: {rate}")
 
+            # ✅ Fixed line below
             debug_filename = f"data/debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
             with open(debug_filename, "w") as f:
                 json.dump(result, f, indent=2)
