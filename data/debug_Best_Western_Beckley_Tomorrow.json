@@ -1,3 +1,391 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9fa8b2c613cfced4f6c9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/d861519a058d0180/688b9fa8b2c613cfced4f6c9.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/d861519a058d0180/688b9fa8b2c613cfced4f6c9.json_with_pixel_position",
+    "created_at": "2025-07-31 16:54:00 UTC",
+    "processed_at": "2025-07-31 16:54:00 UTC",
+    "google_url": "https://www.google.com/search?q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&oq=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/d861519a058d0180/688b9fa8b2c613cfced4f6c9.html",
+    "total_time_taken": 2.82
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Best Western Beckley Beckley WV 2025-08-01 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Best Western Beckley Beckley WV 2025-08-01 hotel price",
+    "total_results": 10800,
+    "time_taken_displayed": 0.55,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Best Western Plus Beckley Inn",
+    "thumbnail": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/366611d5bd205499055d2b75195210002940c2ef8de636b4a51e85225f513038.jpeg",
+    "type": "2-star hotel",
+    "entity_type": "hotels",
+    "kgmid": "/g/11t2q82mmt",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11t2q82mmt&hl=en-US&q=Best+Western+Plus+Beckley+Inn",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11t2q82mmt&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Plus+Beckley+Inn",
+    "place_id": "ChIJbew5RVnyTogRT7fR27A0fB8",
+    "website": "https://www.bestwestern.com/en_US/book/hotel-rooms.49036.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:49036",
+    "directions": "https://maps.google.com/maps?hl=en&gl=us&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&um=1&ie=UTF-8&fb=1&sa=X&geocode=KW3sOUVZ8k6IMU-30duwNHwf&daddr=125+Hylton+Ln,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEGcHJpY2Vz&ictx=111",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/366611d5bd205499055d2b75195210007a8f2aaac00a6477a4da2750a4cfb19c.webp",
+      "link": "https://www.google.com/maps/place/Best+Western+Plus+Beckley+Inn/data=!4m2!3m1!1s0x0:0x1f7c34b0dbd1b74f?sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ_BJ6BAgrEAA&hl=en&gl=us"
+    },
+    "rating": 4.0,
+    "review_count": 249,
+    "address": "125 Hylton Ln, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=best+western+plus+beckley+inn+address&ludocid=2268746246494730063&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ6BN6BAg8EAI"
+      }
+    ],
+    "phone": "(304) 252-8661",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=best+western+plus+beckley+inn+phone&ludocid=2268746246494730063&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ6BN6BAg6EAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sat, Nov 1"
+      },
+      "offers": [
+        {
+          "source": "Expedia.com",
+          "price": "$111",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjx7f7nx-eOAxX0KUQIHdByLJ0YACICCAEQBBoCZHo%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI8e3-58fnjgMV9ClECB3QciydEAoYASABEgLnUPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_2igssnq9hYe3upXFGfelza3Sqcuw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$111",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjx7f7nx-eOAxX0KUQIHdByLJ0YACICCAEQBxoCZHo%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI8e3-58fnjgMV9ClECB3QciydEAoYAiABEgIVJfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1ImgNABuLerQmxQiXkaRqua1o2KQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Best Western Plus Beckley Inn",
+          "price": "$111",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjx7f7nx-eOAxX0KUQIHdByLJ0YACICCAEQBRoCZHo%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI8e3-58fnjgMV9ClECB3QciydEAoYAyABEgIcz_D_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_0Z6OtVc0NuYcN0l7oroad2itZlLQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Priceline",
+          "price": "$111",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjx7f7nx-eOAxX0KUQIHdByLJ0YACICCAEQBhoCZHo%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI8e3-58fnjgMV9ClECB3QciydEAoYBCABEgKdD_D_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_0ruKDVBaVGbK2pv1obEXboKHTkgg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Best Western Plus Beckley Inn",
+          "price": "$111",
+          "link": "https://www.google.com/travel/clk?pc=AA80Osz_iJ7FeRnXV5HDE8a51FN-vfI-bHz525qGpPJriSed2m44L7jm42MeWnL1ZvxI9Y0c0vprf5VAe1HUTFmBFUnzVJuZWp6mPRR_S0_BtvSy4at7RLvM0PkifwDT75sWFKtC0_o_S7aVVhrN9t8S5Grwg2v6QIqwnHGwMkEzY2FgHi_-aWTNqE9ioNj2JoQ&pcurl=https://travel-productads.koddi.com/PropertyAdvocateAPI/ClickRedirect?client%3DBestWestern%26channel%3DGHPA%26placement%3Dlocaluniversal%26campaign%3D%26destinationUrl%3Dhttps://www.bestwestern.com/en_US/book/hotel-rooms.49036.html?checkIn%3D2025-11-01%26checkOut%3D2025-11-02%26iata%3D00170240%26rateCode%3D2U%26costBreakdown%3Dshow%26adults%3D2%26ssob%3DMTPBM0004G%26cid%3DMTPBM0004G:google:META:49036_localuniversal_1_US_desktop_01_11_2025_default___organic%262333143-4%26verification%3Dnull"
+        },
+        {
+          "source": "Stayforlong.com",
+          "price": "$110",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxKQC_UOFUQM8-n_gMvHegXk7I6nUS4zOOa1b2AqYnGp3kOJ_98YH9yYhPpg7_HuRIVGR7PFIBMjfdq07Tx9mBvZBOL9gJJ2oaAOUJLdaJ-pthzklfRLYQ3I-mcY0wLiQtGBNf2wpntqVrEjSf93UcbzgqnTPuqR6lYBdVCO4OhabO7&pcurl=https://www.stayforlong.com/hotel-detail/202315?checkin%3D2025-11-01%26checkout%3D2025-11-02%26adults%3D2%26metadevice%3Ddesktop%26aid%3Dgha%26market%3Dus%26lang%3Den%26total%3D118%26query_type%3Dpull%26ch%3D0%26adclick%3Dfree%26defaultdate%3Dtrue%26googlesite%3Dlocaluniversal%26p%3D198a51f30a25a711d27acb72f47df492%26r%3Dd26bd7943b44bb4b392ebe07df52ee0c%26source%3Dmeta"
+        }
+      ]
+    },
+    "user_reviews": [
+      {
+        "summary": "Rooms are nice service was not the best staff is very friendly .",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Margarita Vargas",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/366611d5bd205499055d2b751952100084a6cf7809864922fd5a30d6b30782ea1e6a83842157f18634f88037213dbc93.png"
+        }
+      },
+      {
+        "summary": "Room again was OK but bathroom a bit small and the bed was not very comfortable.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "David Gallagher",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/366611d5bd205499055d2b751952100084a6cf7809864922e9f0dad4dd91b85d1033b51a39067a111352c54af4483981.png"
+        }
+      },
+      {
+        "summary": "Clean place, large selection of breakfast items.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Steve White",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0NTM5ZWM2ZDoweDFmN2MzNGIwZGJkMWI3NGYSGhIUCgcI6Q8QCxgBEgcI6Q8QCxgCGAEyAhAA&qs=CAEyE0Nnb0l6LTdHM28yV2piNGZFQUU4AkIJCU-30duwNHwfQgkJT7fR27A0fB8&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/366611d5bd205499055d2b751952100084a6cf7809864922411aa91666591d0fb6f005c3e797f9fab8fb429089af9fff.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "X (Twitter)",
+        "link": "https://twitter.com/thebestwestern",
+        "image": "https://ssl.gstatic.com/kpui/social/x_32x32.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/100247722741440",
+        "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "What is the difference between a Best Western and a Best Western Plus hotel?",
+      "type": "featured_snippet",
+      "snippet": "Usually plus has a pool and hot tub, nicer lobby, great coffee machine, huge included breakfast of everything under the sun, and nicer comfy beds/pillows. And frequently an extra space, other than the two beds, that serve as an extra sleeping space or pullout couch. My family looks for BW plus each time we travel.",
+      "title": "What is the difference between best western and best western plus : r/askhotels",
+      "date": "Jan 19, 2025",
+      "link": "https://www.reddit.com/r/askhotels/comments/1i4o8su/what_is_the_difference_between_best_western_and/",
+      "displayed_link": "https://www.reddit.com \u203a askhotels \u203a comments \u203a what_i...",
+      "source_logo": null,
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBhIEJlc3QgV2VzdGVybiBhbmQgYSBCZXN0IFdlc3Rlcm4gUGx1cyBob3RlbD8iLCJsayI6ImMxMkl5d25BTUF6Rjl1anA3ZE1wOG5uQmdlQ1cyTUhyMS1kZWhLVHJEaW1PYVhBaC1oeURtOXFJU2c5U1VkTE1FUW51VE8zXzlhNWprTWU1UGciLCJicyI6ImMtTmF3TWpsRTU2UldLS1FXYXhRa3BHcWtKS1pscFphbEpxWG5LcVFsRnBTbnBxYXA1Q280SlJhWEtJUURpUlNpNERjdkJSMG9ZQ2MwbUtGalB5UzFCeDdpYzhCUnI1UzN1V0VqRXdDNlM5SE1SSkZxQUJ1SkZjUWw2cEhmcmxDYm1seWhrSkp2a0pTYVNXNl9WQ3J0OFlacVVtcFpHQ29SVEVZWXFZMWwxUjRSaVhJaFU2cHlkazVxWlU2Q3VGaENtbUp1Zm1seGZZU1Q0Mk5wS1FreWlFS2tpQUtGTXJMb1BKY1VWeWFJQWZsNTZTQTdFaFBMUUhhQVRaV29TZ19QeGZGYWZZUzI2T050S1EwTXZDb1IzYWVBQ01BIiwiaWQiOiJmY19xWi1MYU16UkZPakRrUElQZzlTU3dBUV80In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBhIEJlc3QgV2VzdGVybiBhbmQgYSBCZXN0IFdlc3Rlcm4gUGx1cyBob3RlbD8iLCJsayI6ImMxMkl5d25BTUF6Rjl1anA3ZE1wOG5uQmdlQ1cyTUhyMS1kZWhLVHJEaW1PYVhBaC1oeURtOXFJU2c5U1VkTE1FUW51VE8zXzlhNWprTWU1UGciLCJicyI6ImMtTmF3TWpsRTU2UldLS1FXYXhRa3BHcWtKS1pscFphbEpxWG5LcVFsRnBTbnBxYXA1Q280SlJhWEtJUURpUlNpNERjdkJSMG9ZQ2MwbUtGalB5UzFCeDdpYzhCUnI1UzN1V0VqRXdDNlM5SE1SSkZxQUJ1SkZjUWw2cEhmcmxDYm1seWhrSkp2a0pTYVNXNl9WQ3J0OFlacVVtcFpHQ29SVEVZWXFZMWwxUjRSaVhJaFU2cHlkazVxWlU2Q3VGaENtbUp1Zm1seGZZU1Q0Mk5wS1FreWlFS2tpQUtGTXJMb1BKY1VWeWFJQWZsNTZTQTdFaFBMUUhhQVRaV29TZ19QeGZGYWZZUzI2T050S1EwTXZDb1IzYWVBQ01BIiwiaWQiOiJmY19xWi1MYU16UkZPakRrUElQZzlTU3dBUV80In0%3D"
+    },
+    {
+      "question": "How much to buy a Best Western hotel?",
+      "type": "featured_snippet",
+      "snippet": "How much is Best Western franchise? The cost of opening a Best Western franchise can vary depending on a number of factors. On average, you can expect to invest between $6.13M-$32.49M. This range includes expenses like the initial franchise fee, equipment, signage, seating, and other essential costs.",
+      "title": "Best Western Franchise Cost & Profit Exposed (2025 Update) | Vetted Biz",
+      "link": "https://www.vettedbiz.com/franchises/best-western/#:~:text=How%20much%20is%20Best%20Western,seating%2C%20and%20other%20essential%20costs.",
+      "displayed_link": "https://www.vettedbiz.com \u203a franchises \u203a best-western",
+      "source_logo": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/1c4947a46e3aa3811c52ed0c6acdb5cb0afb3e3b4e53bff11e82783e27ce2fca.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIHRvIGJ1eSBhIEJlc3QgV2VzdGVybiBob3RlbD8iLCJsayI6IkdpUm9iM2NnYlhWamFDQjBieUJpZFhrZ1lTQmlaWE4wSUhkbGMzUmxjbTRnYUc5MFpXdyIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIHRvIGJ1eSBhIEJlc3QgV2VzdGVybiBob3RlbD8iLCJsayI6IkdpUm9iM2NnYlhWamFDQjBieUJpZFhrZ1lTQmlaWE4wSUhkbGMzUmxjbTRnYUc5MFpXdyIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ%3D%3D"
+    },
+    {
+      "question": "Why is Beckley, WV famous?",
+      "type": "featured_snippet",
+      "snippet": "Beckley, known as the \"Smokeless Coal Capital\", is best known for its two tourist attractions, the Beckley Exhibition Coal Mine, and the Tamarack, a showcase of Appalachian arts and crafts. Beckley can claim recognition for owning the first community antenna and being a forerunner of cable TV.",
+      "title": "Beckley, WV - Forbes",
+      "link": "https://www.forbes.com/places/wv/beckley/#:~:text=Beckley%2C%20known%20as%20the%20%22Smokeless,a%20forerunner%20of%20cable%20TV.",
+      "displayed_link": "https://www.forbes.com \u203a places \u203a wv \u203a beckley",
+      "source_logo": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/1c4947a46e3aa3811c52ed0c6acdb5cbdd5ecc6b854f66d21defb6e2d8a06302.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IldoeSBpcyBCZWNrbGV5LCBXViBmYW1vdXM/IiwibGsiOiJHaGgzYUhrZ2FYTWdZbVZqYTJ4bGVTQjNkaUJtWVcxdmRYTSIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IldoeSBpcyBCZWNrbGV5LCBXViBmYW1vdXM%2FIiwibGsiOiJHaGgzYUhrZ2FYTWdZbVZqYTJ4bGVTQjNkaUJtWVcxdmRYTSIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ%3D%3D"
+    },
+    {
+      "question": "How old to get a hotel room Best Western?",
+      "type": "featured_snippet",
+      "snippet": "Minimum check-in age is 21. Check-in time is anytime after 3PM.",
+      "title": "21",
+      "link": "https://www.bestwesternwestminster.com/policies.html#:~:text=Minimum%20check%2Din%20age%20is,time%20is%20anytime%20after%203PM.",
+      "displayed_link": "https://www.bestwesternwestminster.com \u203a policies",
+      "source_logo": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/1c4947a46e3aa3811c52ed0c6acdb5cb187dbb63037405d6892cdc0fb2037e79.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IkhvdyBvbGQgdG8gZ2V0IGEgaG90ZWwgcm9vbSBCZXN0IFdlc3Rlcm4/IiwibGsiOiJHaWhvYjNjZ2IyeGtJSFJ2SUdkbGRDQmhJR2h2ZEdWc0lISnZiMjBnWW1WemRDQjNaWE4wWlhKdSIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaR1pERkVSeTFVZVhKUWJESm9aMEZXWmxCZmMzQTVTbEJIT1U1blVtNTZibXhrVjFFMGVFUnpiMDl0V0RVdGRXbHpjMEpJY0VGUmNsTmFlbmxUTUhJMk1Gb3RjbGxPTjJOTWNreEJWWG8zYkZKdFQxTkRkbGhVTTJoeVp4SVhjVm90VEdGTmVsSkdUMnBFYTFCSlVHYzVVMU4zUVZFYUlrRkdUVUZIUjNBNGEyMXlRMVkzYVRoRWNYSjFSRFZ0T1c1SGVIZHFNWEJwWmxFIiwiZmN2IjoiMyIsImVpIjoicVotTGFNelJGT2pEa1BJUGc5U1N3QVEiLCJxYyI6ImMtTXlTMG90TGxFb0J4S3BSWGtLU2FuSjJUbXBsWEM2dkV6QnlNRElWTUhBUXNIQVVDRWp2eVExUjZHZ0tETTVWWUNoOWxPUXZEMEEiLCJxdWVzdGlvbiI6IkhvdyBvbGQgdG8gZ2V0IGEgaG90ZWwgcm9vbSBCZXN0IFdlc3Rlcm4%2FIiwibGsiOiJHaWhvYjNjZ2IyeGtJSFJ2SUdkbGRDQmhJR2h2ZEdWc0lISnZiMjBnWW1WemRDQjNaWE4wWlhKdSIsImJzIjoiYy1OYXdNamxFNTZSV0tLUVdheFFrcEdxa0pLWmxwWmFsSnFYbktxUWxGcFNucHFhcDVDbzRKUmFYS0lRRGlSU2k0RGN2QlIwb1lDYzBtS0ZqUHlTMUJ4N2ljOEJScjVTM3VXRWpFd0M2UzlITVJKRnFBQnVKRmNRbDZwSGZybENibWx5aGtKSnZrSlNhU1c2X1ZDcnQ4WVpxVW1wWkdDb1JURVlZcVkxbDFSNFJpWEloVTZweWRrNXFaVTZDdUZoQ21tSnVmbWx4ZllTVDQyTnBLUWt5aUVLa2lBS0ZNckxvUEpjVVZ5YUlBZmw1NlNBN0VoUExRSGFBVFpXb1NnX1B4ZkZhZllTMjZPTnRLUTBNdkNvUjNhZUFDTUEiLCJpZCI6ImZjX3FaLUxhTXpSRk9qRGtQSVBnOVNTd0FRXzQifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "pwTQu3icxZbLkqpIEIa38yLDxqMi3vBEEBNVxUW8tWijwsYAxFIBywZt1N28yzzVPMispwrU1j72xJmYxZSGXDIr68_MLzL8_Y9wvQ3-_OWv1X6_S76Xy2maljAhOPRLHonKTnLaeuUlCZPYW_22CiV_y-FQOiTc4RD6UlpAQDd0pG-MaLJxhGPoj48zezbgddXeedFi50bhqqdODs5sFNoIvi40lbdnfe70LlU5L5F4zl9Lb3ax5_TPI_VlIwdDfYhb43EKDC47XZq7TuJvqLjjJinPy_Qn-LUq04dSUvK3JR5MOs5q-L5uKCWBr4ill7ITUQfwHxf-_ELPvsAACszv8qU8cb1EMJgRgOBZVCuLBRHInHTz81H4EhwpWJ63Uk9-EgM9xgYH9m6NVbpfUR4CosfNzAjZjfpJ8uOuzNd7Zrlfo_v0CVD6YHh9qgGgUUAyAXqNaDe3tg58-QSMlHR_DMiUvaEXGxYN_UdrrgaPBr32lDmXF5h2my-7Mb1UynHCeo9eWzxp76IucYrW69FuH-2pTdBsNYjwZAhejW8ZVV5ywyq5x8pdHYV2deBvES71SrByZQpDVslxXguIM60IQB2MvqxOXqL7gn70z7hixOw9FWkgKxWsGQbA0MCXGvatOiJ0G74WB3z0XaflztqrA4TS7ph5INosxpRBb4wcVROyjQE7ukM_QdZOjFgK-q3mMl4aLAoCWAfQyAT2s0MZU6zoV9m3FBC-JaTp4AA1BUDVAFOZ1KjcS3a0aixi3jhg0tciC846rygWaGOE2jjLQmbCaUHzLC-pAkJlygBa-ZOVKUsBw_2BKZpS_5_bkMc0vjY-gUiBjarYlJPKDo5k50AWfqA2rXiy7s7SC0Qkcv_FcPL-H8z0zK7Antq9YWZ-iRkePY4uhhm-YlZjmLHRZeaj6wGzzhUzpYMC3KajS5Q_MFuBD8yie8zuR1dwlQ1yKn4OM-UBM3yHmfIlZqO8tvkiMOjLwytmNWjQ0fUEs58dXdYXTXoYXRltfn55nGOHDf6MoibGs-Tcctf6CXSI5iSd5uytY51a04TOs2W0_76LCf42Xy--Q6GzPy24Nwn6yb4wpT9-vC1A3wtC_3S7TicFgRfqRV4s8pXCiuz9sLCL157PRWFMJN6p9RR5-K6pZ6EbTt3urOX0G-HWsf2-Nq6NLBOnlilWo7kozFYvCW5i2623W5vXOtmMyLShDsb8YtpASctNdXMu2mMyT_G4ZqjFSXFpOk4TOOd0cjzPnTlqvWnRFLlmoPCgZyzT9Hz06upS6x8bFkY4rpLwRdbdDcjEJZKJQ0EbzwVwMrnIWSS-VOGi2JMoL7UADAz6_yHxnLmfvEstxxcFv-kuXV6suk6di_D-tJOEyt_90KIM",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=pwTQu3icxZbLkqpIEIa38yLDxqMi3vBEEBNVxUW8tWijwsYAxFIBywZt1N28yzzVPMispwrU1j72xJmYxZSGXDIr68_MLzL8_Y9wvQ3-_OWv1X6_S76Xy2maljAhOPRLHonKTnLaeuUlCZPYW_22CiV_y-FQOiTc4RD6UlpAQDd0pG-MaLJxhGPoj48zezbgddXeedFi50bhqqdODs5sFNoIvi40lbdnfe70LlU5L5F4zl9Lb3ax5_TPI_VlIwdDfYhb43EKDC47XZq7TuJvqLjjJinPy_Qn-LUq04dSUvK3JR5MOs5q-L5uKCWBr4ill7ITUQfwHxf-_ELPvsAACszv8qU8cb1EMJgRgOBZVCuLBRHInHTz81H4EhwpWJ63Uk9-EgM9xgYH9m6NVbpfUR4CosfNzAjZjfpJ8uOuzNd7Zrlfo_v0CVD6YHh9qgGgUUAyAXqNaDe3tg58-QSMlHR_DMiUvaEXGxYN_UdrrgaPBr32lDmXF5h2my-7Mb1UynHCeo9eWzxp76IucYrW69FuH-2pTdBsNYjwZAhejW8ZVV5ywyq5x8pdHYV2deBvES71SrByZQpDVslxXguIM60IQB2MvqxOXqL7gn70z7hixOw9FWkgKxWsGQbA0MCXGvatOiJ0G74WB3z0XaflztqrA4TS7ph5INosxpRBb4wcVROyjQE7ukM_QdZOjFgK-q3mMl4aLAoCWAfQyAT2s0MZU6zoV9m3FBC-JaTp4AA1BUDVAFOZ1KjcS3a0aixi3jhg0tciC846rygWaGOE2jjLQmbCaUHzLC-pAkJlygBa-ZOVKUsBw_2BKZpS_5_bkMc0vjY-gUiBjarYlJPKDo5k50AWfqA2rXiy7s7SC0Qkcv_FcPL-H8z0zK7Antq9YWZ-iRkePY4uhhm-YlZjmLHRZeaj6wGzzhUzpYMC3KajS5Q_MFuBD8yie8zuR1dwlQ1yKn4OM-UBM3yHmfIlZqO8tvkiMOjLwytmNWjQ0fUEs58dXdYXTXoYXRltfn55nGOHDf6MoibGs-Tcctf6CXSI5iSd5uytY51a04TOs2W0_76LCf42Xy--Q6GzPy24Nwn6yb4wpT9-vC1A3wtC_3S7TicFgRfqRV4s8pXCiuz9sLCL157PRWFMJN6p9RR5-K6pZ6EbTt3urOX0G-HWsf2-Nq6NLBOnlilWo7kozFYvCW5i2623W5vXOtmMyLShDsb8YtpASctNdXMu2mMyT_G4ZqjFSXFpOk4TOOd0cjzPnTlqvWnRFLlmoPCgZyzT9Hz06upS6x8bFkY4rpLwRdbdDcjEJZKJQ0EbzwVwMrnIWSS-VOGi2JMoL7UADAz6_yHxnLmfvEstxxcFv-kuXV6suk6di_D-tJOEyt_90KIM"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Best Western Plus Beckley Inn | Hotel in Beckley WV",
+      "link": "https://www.bestwestern.com/en_US/book/hotels-in-beckley/best-western-plus-beckley-inn/propertyCode.49036.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bestwestern.com/en_US/book/hotels-in-beckley/best-western-plus-beckley-inn/propertyCode.49036.html&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECBQQAQ",
+      "displayed_link": "https://www.bestwestern.com \u203a Home \u203a Hotels in Beckley",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026a61b7f5808b1294c583c468743575923a.png",
+      "snippet": "A Beckley hotel located off I-77 & I-64 with outstanding service to make all your travels easy and comfortable - at an exceptional value.",
+      "snippet_highlighted_words": [
+        "Beckley hotel"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.3,
+            "reviews": 1994
+          },
+          "extensions": [
+            "4.3(1,994)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Best Western"
+    },
+    {
+      "position": 2,
+      "title": "Best Western Plus Beckley Inn | Hotel Rooms in Beckley WV",
+      "link": "https://www.bestwestern.com/en_US/book/beckley/hotel-rooms/best-western-plus-beckley-inn/propertyCode.49036.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bestwestern.com/en_US/book/beckley/hotel-rooms/best-western-plus-beckley-inn/propertyCode.49036.html&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECBMQAQ",
+      "displayed_link": "https://www.bestwestern.com \u203a propertyCode.49036.html",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026a8145ae5be198c0b22d01595aac8aeef8.png",
+      "snippet": "Book your stay at the Best Western Plus Beckley Inn in Beckley WV. Spacious guest rooms include mini-fridge and microwave. Free breakfast, free Wi-Fi.",
+      "snippet_highlighted_words": [
+        "Best Western Plus Beckley Inn in Beckley WV"
+      ],
+      "source": "Best Western"
+    },
+    {
+      "position": 3,
+      "title": "Best Western Plus Beckley Inn",
+      "link": "https://www.booking.com/hotel/us/fairfield-inn-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/fairfield-inn-beckley.html&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECBIQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026aacda2e458c28aafc1d1984f670cde1d2.png",
+      "snippet": "The prices at Best Western Plus Beckley Inn may vary depending on your stay (e.g. dates, hotel's policy etc.). To see prices, enter your dates. What is there to ...",
+      "snippet_highlighted_words": [
+        "Best Western Plus Beckley Inn may vary depending on your stay"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 4,
+      "title": "Best Western Plus Beckley Inn - I-64 & I-77, Exit 44, WV",
+      "link": "https://hotelguides.com/hotels/west-virginia/beckley/109015.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hotelguides.com/hotels/west-virginia/beckley/109015.html&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEcQAQ",
+      "displayed_link": "https://hotelguides.com \u203a hotels \u203a west-virginia \u203a beckley",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026a1d2b40bd89429cccabb16aaae8acaa95.png",
+      "snippet": "125 Hylton Lane, I-64 & I-77, Exit 44, Beckley, WV 25801. Upper-midscale, smoke-free hotel near Tamarack and I-77. Rated High. $$$",
+      "snippet_highlighted_words": [
+        "Beckley",
+        "WV",
+        "hotel"
+      ],
+      "source": "Hotel Guides"
+    },
+    {
+      "position": 5,
+      "title": "Best Western Plus Beckley Inn",
+      "link": "https://www.hotelplanner.com/Hotels/19372/Reservations-Best-Western-Plus-Hotel-Beckley-Inn-Beckley-125-Hylton-Lane-25801",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotelplanner.com/Hotels/19372/Reservations-Best-Western-Plus-Hotel-Beckley-Inn-Beckley-125-Hylton-Lane-25801&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEwQAQ",
+      "displayed_link": "https://www.hotelplanner.com \u203a Hotels \u203a Reservations-...",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026acb58449fcaea367e3d0c5a985ed8f41c.png",
+      "snippet": "30-Dec-2024 Verified Review, stayed from Fri Dec 27 to Sat Dec 28 2024 at a $116.99 average nightly rate. \"Hotel room fine\u2026.breakfast good.\" Overall Score4.0 ...",
+      "snippet_highlighted_words": [
+        "116.99 average nightly rate"
+      ],
+      "source": "HotelPlanner.com"
+    },
+    {
+      "position": 6,
+      "title": "Best Western Plus Beckley Inn Reviews, Deals & Photos ...",
+      "link": "https://www.expedia.com/Beckley-Hotels-Fairfield-Inn-Suites-By-Marriott-Beckley.h37424.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Fairfield-Inn-Suites-By-Marriott-Beckley.h37424.Hotel-Information&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEsQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026abaff17533ac158519cb041036b8f7aa4.png",
+      "snippet": "Best Western Plus Beckley Inn, Hotel with free breakfast, near Raleigh General Hospital. Choose dates to view prices.",
+      "snippet_highlighted_words": [
+        "Best Western Plus Beckley Inn"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 7,
+      "title": "Best Western Plus Beckley Inn - Hotels",
+      "link": "https://www.kayak.com/Beckley-Hotels-Fairfield-Inn-and-Suites-by-Marriott-Beckley.19993.ksp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.kayak.com/Beckley-Hotels-Fairfield-Inn-and-Suites-by-Marriott-Beckley.19993.ksp&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEYQAQ",
+      "displayed_link": "https://www.kayak.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026ac7c1078ef76b4e822d921aa76da34d41.jpeg",
+      "snippet": "Latest deals for Best Western Plus Beckley Inn ; 1 king bed. $114 ; 1 king bed. $120 ; bed type unknown. $129.",
+      "snippet_highlighted_words": [
+        "1 king bed. $114"
+      ],
+      "source": "KAYAK"
+    },
+    {
+      "position": 8,
+      "title": "Compare Top Hotels in Beckley, WV for 2025",
+      "link": "https://www.cozycozy.com/ca/beckley-wv-hotels",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cozycozy.com/ca/beckley-wv-hotels&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEoQAQ",
+      "displayed_link": "https://www.cozycozy.com \u203a ... \u203a West Virginia hotels",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026ae53116875721469f36a9705a5419323d.png",
+      "snippet": "Compare the best Hotels in Beckley, WV in 2025 with flexible cancellation policies. 27 Hotels are available. Book now with cozycozy.",
+      "snippet_highlighted_words": [
+        "best Hotels",
+        "Beckley",
+        "WV",
+        "Hotels"
+      ],
+      "source": "Cozycozy"
+    },
+    {
+      "position": 9,
+      "title": "BEST WESTERN PLUS BECKLEY INN - Updated 2025 ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d224146-Reviews-Best_Western_Plus_Beckley_Inn-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d224146-Reviews-Best_Western_Plus_Beckley_Inn-Beckley_West_Virginia.html&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEkQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026aa8087f07bb21c279267758c9578d3cd8.png",
+      "snippet": "The Best Western Plus Beckley Inn is popular among travelers for its updated decor and quiet rooms, providing a pleasant atmosphere.",
+      "snippet_highlighted_words": [
+        "updated decor and quiet rooms"
+      ],
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 10,
+      "title": "Best Western Plus Beckley Inn",
+      "link": "https://www.hotels.com/ho138813/fairfield-inn-suites-by-marriott-beckley-beckley-united-states-of-america/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotels.com/ho138813/fairfield-inn-suites-by-marriott-beckley-beckley-united-states-of-america/&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQFnoECEgQAQ",
+      "displayed_link": "https://www.hotels.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9fa8b2c613cfced4f6c9/images/0bfa396bbf85ca4e6b3c8da76c81026a95a0804fa1d0e3fbfc12eafd318400c1.png",
+      "snippet": "Best Western Plus Beckley Inn, Hotel convenient to Raleigh General Hospital. Choose dates to view prices.",
+      "snippet_highlighted_words": [
+        "Best Western Plus Beckley Inn"
+      ],
+      "source": "Hotels.com"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Best Western Plus Beckley Inn prices",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Best+Western+Plus+Beckley+Inn+prices&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ1QJ6BAhhEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Plus+Beckley+Inn+prices"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Western Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Best+Western+Beckley+WV&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ1QJ6BAhiEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "HotelsBeckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=HotelsBeckley,+WV&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ1QJ6BAhgEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=HotelsBeckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Western Plus Beckley, WV reviews",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Best+Western+Plus+Beckley,+WV+reviews&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ1QJ6BAhjEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Plus+Beckley%2C+WV+reviews"
+    },
+    {
+      "block_position": 1,
+      "query": "SureStay by Best Western Summersville",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=SureStay+by+Best+Western+Summersville&sa=X&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ1QJ6BAhfEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=SureStay+by+Best+Western+Summersville"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=qZ-LaMzRFOjDkPIPg9SSwAQ&start=10&sa=N&sstk=Ac65TH7uo3Hcq2-YolTpPLy1rF4v96lOSecO0IIETDMMcMBPEtfQ2mDMAjZGlCNeslhEROfKPtKGRFhpBOXHE6bNESzlL7CiHvG3vw&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ8NMDegQIDhAG",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=qZ-LaMzRFOjDkPIPg9SSwAQ&start=10&sa=N&sstk=Ac65TH7uo3Hcq2-YolTpPLy1rF4v96lOSecO0IIETDMMcMBPEtfQ2mDMAjZGlCNeslhEROfKPtKGRFhpBOXHE6bNESzlL7CiHvG3vw&ved=2ahUKEwiMyvbnx-eOAxXoIUQIHQOqBEgQ8tMDegQIDhAE"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10"
+    }
+  }
 }

@@ -1,3 +1,541 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9f84f0114a2137d12e75",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/944524adbba26e7e/688b9f84f0114a2137d12e75.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/944524adbba26e7e/688b9f84f0114a2137d12e75.json_with_pixel_position",
+    "created_at": "2025-07-31 16:53:24 UTC",
+    "processed_at": "2025-07-31 16:53:24 UTC",
+    "google_url": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&oq=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/944524adbba26e7e/688b9f84f0114a2137d12e75.html",
+    "total_time_taken": 7.72
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Comfort Inn Beckley Beckley WV 2025-07-31 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Comfort Inn Beckley Beckley WV 2025-07-31 hotel price",
+    "total_results": 380,
+    "time_taken_displayed": 0.58,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Comfort Inn",
+    "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/ea0e9f9db4e21431190fc0ba0982873acea57beca77276fd5b8985df4a3a496e.jpeg",
+    "type": "2-star hotel",
+    "entity_type": "hotels",
+    "kgmid": "/g/11s2zq8vkw",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11s2zq8vkw&hl=en-US&q=Comfort+Inn",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11s2zq8vkw&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn",
+    "place_id": "ChIJQ5siWZfzTogR5Y6238P9eTY",
+    "website": "https://www.choicehotels.com/west-virginia/beckley/comfort-inn-hotels/wv070?mc=llgoxxpx",
+    "directions": "https://maps.google.com/maps?gl=us&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KUObIlmX806IMeWOtt_D_Xk2&daddr=134+Harper+Park+Dr,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEGcHJpY2Vz&ictx=111",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/ea0e9f9db4e21431190fc0ba0982873a6debdeb272aa0286c1e16187a406b408.webp",
+      "link": "https://www.google.com/maps/place/Comfort+Inn/data=!4m2!3m1!1s0x0:0x3679fdc3dfb68ee5?sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ_BJ6BAg1EAA&hl=en&gl=us"
+    },
+    "rating": 4.3,
+    "review_count": 222,
+    "address": "134 Harper Park Dr, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=comfort+inn+beckley+address&ludocid=3925447567943831269&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ6BN6BAhGEAI"
+      }
+    ],
+    "phone": "(304) 255-9091",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=comfort+inn+beckley+phone&ludocid=3925447567943831269&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ6BN6BAhDEAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Aug 3"
+      },
+      "offers": [
+        {
+          "source": "Comfort Inn",
+          "price": "Get price",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj1nLLZx-eOAxV7QEECHdnNPJMYACICCAEQBBoCd3M%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI9Zyy2cfnjgMVe0BBAh3ZzTyTEAoYASABEgIz7PD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_11WJWbmPTfxUr8co1X2avREJEPRg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj1nLLZx-eOAxV7QEECHdnNPJMYACICCAEQBxoCd3M%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI9Zyy2cfnjgMVe0BBAh3ZzTyTEAoYAiABEgLR2PD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_26Wr7BCkgoor2SgKLpxVw3k-SnVA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Priceline",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj1nLLZx-eOAxV7QEECHdnNPJMYACICCAEQBRoCd3M%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI9Zyy2cfnjgMVe0BBAh3ZzTyTEAoYAyABEgIRf_D_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3QscNiSmG6wIMrAkRFBhR6gy8Xhw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Agoda",
+          "price": "$126",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj1nLLZx-eOAxV7QEECHdnNPJMYACICCAEQBhoCd3M%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI9Zyy2cfnjgMVe0BBAh3ZzTyTEAoYBCABEgKJ5_D_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1cKvN-nMfR3H_jkSLq93rvgQpKdQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Comfort Inn",
+          "price": "Get price",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxF7t4WRz36bBJYZe-av9AXceokDMM2aTrre8i7xkc2psboomVPh5JTS76TjD7-tRuOb9QG6a6g73wnOe2seYQtbz5gwYA855NP-KioYvLGIV28jtyUOoYK1lYqZ3cAGRgQHMt6tJ0PtBHOHM4nUXf9hArRzeqz7CI-FgiSF8YX1vE&pcurl=https://travel-productads.koddi.com/PropertyAdvocateAPI/ClickRedirect?client%3DChoice%26channel%3DGHPA%26placement%3Dlocaluniversal%26campaign%3D%26hotel%3DWV070%26destinationUrl%3Dhttps://www.choicehotels.com/WV070?checkInDate%3D2025-08-03%26checkOutDate%3D2025-08-05%26srp%3DSOPRM2%26adults%3D2%26minors%3D0%26mc%3DHAGOHPUS%26meta%3DPMFGPADUSSOPRM2_WV070_localuniversal_US_2_desktop_2025-08-03_default___organic%26gal%3D%26pmf%3Dhpagoogle%26gpa%3DGPADSOPRM2%26rooms%3D1%26gmp%3DMetaOrganic%26product%3Dlocaluniversal"
+        },
+        {
+          "source": "Super.com",
+          "price": "$114",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxzZg8ExBZXBtGMP7IC2m4WoWrGs5EXL3C0wusKblvPIOaakJCMjKC_5ZHVRsy_-3LIViN5-GApYeSGu6lniNnE0RJh_JbEcNgOBPFRww86qHw3ciFH4qSBmOM_XUaUq-jv0kcmqh50YtCH3RVZOBzjNBRMSK8IEaMi8wf4u542&pcurl=https://www.super.com/travel/transition/?data%3Dprice%3D228.2%2526total_price%3D255.59%2526retail_price%3D247.8%2526retail_total_price%3D277.54%2526request_id%3Dbe3bd1c2-ac0b-4c31-a6c2-93d63572cd69%2526ps%3D22284431%2526pp%3DXtwCD5vG0X1sEU35f8WrJA%2526pb%3DhM6uy3t7w5_YXQfjPsS5mxG7YjLeE0jVTHsQ6HHchkHhQJvDGTUDj0w0llgI_3mMds3yqKQUWXCgv5ThqQOfA6htTjUbCdrm6NVmkWDSsnA1lUwaZ48RVUrUaLwDPCZMotBgt9HW027oyl--KaRBofnqZbynqkP2Np0CaD4-0JPahAf-LSi4_KJdnW4rixGlA3x9hI9BUNxNq6Lqxr1oNjKIB4E1i4JKy4P1v1RyNDCUXgsxpJ-ttsUscix5u_NzxGSPXu-rPxnTla0K39jlj63PRvGl3viSlng_5tvag84iIi-d8__Cb0SRHeKjbe1Vsc6TKGsAEhK5iWNOgcdtwApUyLlXUytQDzbJO68CkQY%25253D%2526gha_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dtrue%2526alwd_risk%3Dfalse%2526alwd_rand%3Dtrue%2526gt%3D1753978228%2526sg%3Dd8LIW%2526sid%3DGHA_MD6_5%2526cmab_id%3D7%2526ttl_bkt%3Dnone%26utm_source%3Dgha%26utm_content%3Dlocaluniversal%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26display_currency%3DUSD%26display_all_inclusive_price%3D255.58%26checkin_at%3D2025-08-03%26checkout_at%3D2025-08-05%26provider_hotel_id%3D10004214457%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26hotel_campaign%3D%26utm_campaign%3D%26user_locale%3Den-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_organic"
+        }
+      ]
+    },
+    "posts": [
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipOJmNqbblDWQIZa7EKX1jhlCmfDEplFlvy-BFgK=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/gift-card?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Comfort+Inn&ludocid=3925447567943831269&lpsid=CIHM0ogKENOesvyQyb3IjQE&source=sh/x/localposts/m1/1&lsig=AB86z5WGew5GGKGMi0FMpstwYPhP&shndl=-1",
+        "description": "Summer Deal Reminder! Stay 2X, Get a $50 Gift Card!* 2x the Fun = 2x the Sun \u2600\ufe0f Even more reasons to travel this summer as when Choice Privileges Rewards members register and stay twice between now and September 2 2025 they will earn enough Choice Privileges reward points to redeem for a $50 gift card! *Terms and Conditions Apply.",
+        "date": "Jul 2, 2025"
+      },
+      {
+        "title": "Check Into More!",
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipOAj4k2WqLORC3aVW4_nrMP2iNBfcRRuSK6dxvv=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/gift-card?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Comfort+Inn&ludocid=3925447567943831269&lpsid=CIHM0ogKEKyQ7qKT8Oa0ZA&source=sh/x/localposts/m1/1&lsig=AB86z5WGew5GGKGMi0FMpstwYPhP&shndl=-1",
+        "description": "Stay 2X, Get a $50 Gift Card!* 2x the Fun = 2x the Sun \u2600\ufe0f Even more reasons to travel as when Choice Privileges Rewards members register and stay twice between May 19 2025 and September 2 2025 they will earn enough Choice Privileges reward points to redeem for a $50 gift card! *Terms and Conditions Apply.",
+        "duration": "May 19 - Sep 2",
+        "date": "May 23, 2025"
+      },
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipNo81PkPRTSXI7DEvZOghA_hhYslRj0uEBgnawF=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/earn-double-points?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Comfort+Inn&ludocid=3925447567943831269&lpsid=CIHM0ogKEICAgMComYabFw&source=sh/x/localposts/m1/1&lsig=AB86z5WGew5GGKGMi0FMpstwYPhP&shndl=-1",
+        "description": "Deal Extended! Earn Double Reward Points!* Time together is important so get the most out of your family getaway when you earn double Choice Privileges reward points to put towards the next family getaway. We are giving you even more time to earn double points as when Choice Privileges Rewards members register and stay between now and May 14, 2025 they earn 2x points! *Terms and Conditions Apply.",
+        "date": "Apr 18, 2025"
+      },
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipMDDOULzNuR0ug4Na6FpWnPA4EL12_iWjmSTkL5=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/earn-double-points?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Comfort+Inn&ludocid=3925447567943831269&lpsid=CIHM0ogKEICAgMCwq92F3gE&source=sh/x/localposts/m1/1&lsig=AB86z5WGew5GGKGMi0FMpstwYPhP&shndl=-1",
+        "description": "Deal Reminder! Earn Double Reward Points!* Get more out of your spring break getaway and get the most out of yours when you earn double Choice Privileges reward points to put towards the next getaway. As when Choice Privileges Rewards members register and stay between now and April 7, 2025 they earn 2x points! *Terms and Conditions Apply.",
+        "date": "Mar 21, 2025"
+      }
+    ],
+    "user_reviews": [
+      {
+        "summary": "Room was nice beds, bathroom, breakfast in the morning.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Christopher Purcell",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/ea0e9f9db4e21431190fc0ba0982873a7759f25051d3f8f4b4ac3e8b2d3d3b8c19cba40f2efe835803d24d7f716f0a9f.png"
+        }
+      },
+      {
+        "summary": "Rooms were clean with modern amenities, good hot breakfast, and friendly staff.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Amber Eichhorn",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/ea0e9f9db4e21431190fc0ba0982873a7759f25051d3f8f4104809f94afbc372f870827d24335f36d1134a17d1634387.png"
+        }
+      },
+      {
+        "summary": "Typical food like eggs, bacon, waffles.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Cindy McManus",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzOTc1OTIyOWI0MzoweDM2NzlmZGMzZGZiNjhlZTUSGhIUCgcI6Q8QCBgDEgcI6Q8QCBgFGAIyAhAA&qs=CAEyE0Nnb0k1WjNhX2IyNF83dzJFQUU4AkIJCeWOtt_D_Xk2QgkJ5Y6238P9eTY&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/ea0e9f9db4e21431190fc0ba0982873a7759f25051d3f8f4c1a73cfdf92810c168ae219c7430a39c1b9e9cec38a6797e.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "YouTube",
+        "link": "http://www.youtube.com/user/Choicehotels",
+        "image": "https://ssl.gstatic.com/kpui/social/youtube_32x32.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "http://www.facebook.com/choicehotels",
+        "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+      },
+      {
+        "name": "X (Twitter)",
+        "link": "http://twitter.com/choicehotels",
+        "image": "https://ssl.gstatic.com/kpui/social/x_32x32.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "How much does it cost to buy a Comfort Inn?",
+      "type": "featured_snippet",
+      "snippet": "How much is Comfort Inn franchise? The cost of opening a Comfort Inn franchise can vary depending on a number of factors. On average, you can expect to invest between $9.46M-$14.35M. This range includes expenses like the initial franchise fee, equipment, signage, seating, and other essential costs.",
+      "title": "Comfort Inn Franchise Cost & Profit Exposed (2025 Update) | Vetted Biz",
+      "link": "https://www.vettedbiz.com/franchises/comfort-inn/#:~:text=How%20much%20is%20Comfort%20Inn,seating%2C%20and%20other%20essential%20costs.",
+      "displayed_link": "https://www.vettedbiz.com \u203a franchises \u203a comfort-inn",
+      "source_logo": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/a726cc91f5bb8a18ab23a383add66bcaed92b633e265b58f8a9b9c7bc066feb6.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIGRvZXMgaXQgY29zdCB0byBidXkgYSBDb21mb3J0IElubj8iLCJsayI6IkdpcG9iM2NnYlhWamFDQmtiMlZ6SUdsMElHTnZjM1FnZEc4Z1luVjVJR0VnWTI5dFptOXlkQ0JwYm00IiwiYnMiOiJjNDJPc1E0QlFSUkZvNTFLSVNJYnhZM1FvQm82aFlTR1NrY25HZVBKVE96T2lKbmR6ZjZWYnhBXzRXLU1qUWdpb25uTk8tZmV5OWFzTjdNNWtsUXFiQzA1YUE5cG5ZZTMyS1FGQktZMjJkbWp4OXlZY2VQRWVUX3FxdC1HZkJqYUdHYlk0SjV2NDIyQVVkZ1VTbVJVc3VWMVhnVEZmX1pjUm53WWNmV2YtZHEzWU8yNXc0VGtQcWFpajlVeV9JMldoRU1zWk9uRk9xTng0eXg1TzJwcEY4SktGSG4ybFdRVDFsbXBVQk5RcndpR2NoaVJFRUxqLS1Scms5ZWoyc3VXSjF1dDNBQSIsImlkIjoiZmNfaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVVfMyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIGRvZXMgaXQgY29zdCB0byBidXkgYSBDb21mb3J0IElubj8iLCJsayI6IkdpcG9iM2NnYlhWamFDQmtiMlZ6SUdsMElHTnZjM1FnZEc4Z1luVjVJR0VnWTI5dFptOXlkQ0JwYm00IiwiYnMiOiJjNDJPc1E0QlFSUkZvNTFLSVNJYnhZM1FvQm82aFlTR1NrY25HZVBKVE96T2lKbmR6ZjZWYnhBXzRXLU1qUWdpb25uTk8tZmV5OWFzTjdNNWtsUXFiQzA1YUE5cG5ZZTMyS1FGQktZMjJkbWp4OXlZY2VQRWVUX3FxdC1HZkJqYUdHYlk0SjV2NDIyQVVkZ1VTbVJVc3VWMVhnVEZmX1pjUm53WWNmV2YtZHEzWU8yNXc0VGtQcWFpajlVeV9JMldoRU1zWk9uRk9xTng0eXg1TzJwcEY4SktGSG4ybFdRVDFsbXBVQk5RcndpR2NoaVJFRUxqLS1Scms5ZWoyc3VXSjF1dDNBQSIsImlkIjoiZmNfaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVVfMyJ9"
+    },
+    {
+      "question": "How old do you have to be to stay at a Comfort Inn?",
+      "type": "featured_snippet",
+      "snippet": "Do Comfort hotels have a minimum age requirement? Some properties allow reservations to guests ages 19 and older. However, others require you to be at least 21 years of age. Please contact your Comfort Inn hotel directly for information about their policy.",
+      "title": "Comfort Inn and Comfort Suites by Choice Hotels",
+      "link": "https://www.choicehotels.com/comfort-hotels#:~:text=Do%20Comfort%20hotels%20have%20a,for%20information%20about%20their%20policy.",
+      "displayed_link": "https://www.choicehotels.com \u203a comfort-hotels",
+      "source_logo": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/a726cc91f5bb8a18ab23a383add66bca25e5fa577ea9e7e773d8dd80184549bd.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IkhvdyBvbGQgZG8geW91IGhhdmUgdG8gYmUgdG8gc3RheSBhdCBhIENvbWZvcnQgSW5uPyIsImxrIjoiYzVNeXlzZ3ZWOGpQU1ZGSXlWZW96QzlWeUVnc1MxVW95VmRJQXBQRkpZbVZDb2tsQ29rS3lmbTVhZmxGSlFxWmVYa0EiLCJicyI6ImM0Mk9zUTRCUVJSRm81MUtJU0lieFkzUW9CbzZoWVNHU2tjbkdlUEpUT3pPaUpuZHpmNlZieEFfNFctTWpRZ2lvbm5OTy1mZXk5YXNON001a2xRcWJDMDVhQTlwblllMzJLUUZCS1kyMmRtang5eVljZVBFZVRfcXF0LUdmQmphR0diWTRKNXY0MjJBVWRnVVNtUlVzdVYxWGdURmZfWmNSbndZY2ZXZi1kcTNZTzI1dzRUa1BxYWlqOVV5X0kyV2hFTXNaT25GT3FOeDR5eDVPMnBwRjhKS0ZIbjJsV1FUMWxtcFVCTlFyd2lHY2hpUkVFTGotLVJyazllajJzdVdKMXV0M0FBIiwiaWQiOiJmY19pcC1MYUpxLUtjNlR4YzhQMG9XQ29RVV8zIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IkhvdyBvbGQgZG8geW91IGhhdmUgdG8gYmUgdG8gc3RheSBhdCBhIENvbWZvcnQgSW5uPyIsImxrIjoiYzVNeXlzZ3ZWOGpQU1ZGSXlWZW96QzlWeUVnc1MxVW95VmRJQXBQRkpZbVZDb2tsQ29rS3lmbTVhZmxGSlFxWmVYa0EiLCJicyI6ImM0Mk9zUTRCUVJSRm81MUtJU0lieFkzUW9CbzZoWVNHU2tjbkdlUEpUT3pPaUpuZHpmNlZieEFfNFctTWpRZ2lvbm5OTy1mZXk5YXNON001a2xRcWJDMDVhQTlwblllMzJLUUZCS1kyMmRtang5eVljZVBFZVRfcXF0LUdmQmphR0diWTRKNXY0MjJBVWRnVVNtUlVzdVYxWGdURmZfWmNSbndZY2ZXZi1kcTNZTzI1dzRUa1BxYWlqOVV5X0kyV2hFTXNaT25GT3FOeDR5eDVPMnBwRjhKS0ZIbjJsV1FUMWxtcFVCTlFyd2lHY2hpUkVFTGotLVJyazllajJzdVdKMXV0M0FBIiwiaWQiOiJmY19pcC1MYUpxLUtjNlR4YzhQMG9XQ29RVV8zIn0%3D"
+    },
+    {
+      "question": "Is Beckley, WV a nice place to live?",
+      "type": "featured_snippet",
+      "snippet": "Beckley is a city in West Virginia that has a high crime rate compared to the national and state averages12. The total crime rate in Beckley is 6055.2 per 100000 people, which is 144.49% higher than the national rate and 218.70% higher than the West Virginia rate1.",
+      "title": "Noticed in another post people pretending Beckley Wv is a safe place. : r/WestVirginia",
+      "date": "Oct 16, 2023",
+      "link": "https://www.reddit.com/r/WestVirginia/comments/1795e5d/noticed_in_another_post_people_pretending_beckley/",
+      "displayed_link": "https://www.reddit.com \u203a WestVirginia \u203a comments \u203a no...",
+      "source_logo": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/a726cc91f5bb8a18ab23a383add66bca4f1b40b8c555ae1239d82a6cc0d071af.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IklzIEJlY2tsZXksIFdWIGEgbmljZSBwbGFjZSB0byBsaXZlPyIsImxrIjoiR2lKcGN5QmlaV05yYkdWNUlIZDJJR0VnYm1salpTQndiR0ZqWlNCMGJ5QnNhWFpsIiwiYnMiOiJjNDJPc1E0QlFSUkZvNTFLSVNJYnhZM1FvQm82aFlTR1NrY25HZVBKVE96T2lKbmR6ZjZWYnhBXzRXLU1qUWdpb25uTk8tZmV5OWFzTjdNNWtsUXFiQzA1YUE5cG5ZZTMyS1FGQktZMjJkbWp4OXlZY2VQRWVUX3FxdC1HZkJqYUdHYlk0SjV2NDIyQVVkZ1VTbVJVc3VWMVhnVEZmX1pjUm53WWNmV2YtZHEzWU8yNXc0VGtQcWFpajlVeV9JMldoRU1zWk9uRk9xTng0eXg1TzJwcEY4SktGSG4ybFdRVDFsbXBVQk5RcndpR2NoaVJFRUxqLS1Scms5ZWoyc3VXSjF1dDNBQSIsImlkIjoiZmNfaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVVfMyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IklzIEJlY2tsZXksIFdWIGEgbmljZSBwbGFjZSB0byBsaXZlPyIsImxrIjoiR2lKcGN5QmlaV05yYkdWNUlIZDJJR0VnYm1salpTQndiR0ZqWlNCMGJ5QnNhWFpsIiwiYnMiOiJjNDJPc1E0QlFSUkZvNTFLSVNJYnhZM1FvQm82aFlTR1NrY25HZVBKVE96T2lKbmR6ZjZWYnhBXzRXLU1qUWdpb25uTk8tZmV5OWFzTjdNNWtsUXFiQzA1YUE5cG5ZZTMyS1FGQktZMjJkbWp4OXlZY2VQRWVUX3FxdC1HZkJqYUdHYlk0SjV2NDIyQVVkZ1VTbVJVc3VWMVhnVEZmX1pjUm53WWNmV2YtZHEzWU8yNXc0VGtQcWFpajlVeV9JMldoRU1zWk9uRk9xTng0eXg1TzJwcEY4SktGSG4ybFdRVDFsbXBVQk5RcndpR2NoaVJFRUxqLS1Scms5ZWoyc3VXSjF1dDNBQSIsImlkIjoiZmNfaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVVfMyJ9"
+    },
+    {
+      "question": "What is the new name for Comfort Inn?",
+      "type": "featured_snippet",
+      "snippet": "Choice Hotels rebranded Comfort in 2018, which brought its Comfort Inn, Comfort Inn & Suites, and Comfort Suites brands under one umbrella.",
+      "title": "Choice Hotels - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Choice_Hotels#:~:text=Choice%20Hotels%20rebranded%20Comfort%20in,Suites%20brands%20under%20one%20umbrella.",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Choice_Hotels",
+      "source_logo": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/a726cc91f5bb8a18ab23a383add66bca656e4ff98c021ebf420ba28f35b90162.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIG5ldyBuYW1lIGZvciBDb21mb3J0IElubj8iLCJsayI6IkdoUmpiMjFtYjNKMElHbHViaUJ1WlhjZ2JtRnRaUSIsImJzIjoiYzQyT3NRNEJRUlJGbzUxS0lTSWJ4WTNRb0JvNmhZU0dTa2NuR2VQSlRPek9pSm5kemY2VmJ4QV80Vy1NalFnaW9ubk5PLWZleTlhc043TTVrbFFxYkMwNWFBOXBuWWUzMktRRkJLWTIyZG1qeDl5WWNlUEVlVF9xcXQtR2ZCamFHR2JZNEo1djQyMkFVZGdVU21SVXN1VjFYZ1RGZl9aY1Jud1ljZldmLWRxM1lPMjV3NFRrUHFhaWo5VXlfSTJXaEVNc1pPbkZPcU54NHl4NU8ycHBGOEpLRkhuMmxXUVQxbG1wVUJOUXJ3aUdjaGlSRUVMai0tUnJrOWVqMnN1V0oxdXQzQUEiLCJpZCI6ImZjX2lwLUxhSnEtS2M2VHhjOFAwb1dDb1FVXzMifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSVFVZFFWMDh3WDBSS05qQjFWa2RGU0ZwQ1NVeHNSMVU1VTIwNGNuZEVRVVpWVVRjMGNXOVFOMkUyTlZCc05tc3RUVGRhY2xKVk9YRkViVGRvZVdsbGFIRk9RMmxGUjBoM1VqbFJUWE5CTFhwQlVXOUlXV3BqWVU1WGR4SVhhWEF0VEdGS2NTMUxZelpVZUdNNFVEQnZWME52VVZVYUlrRkdUVUZIUjI5WlpXTjZRM0paZVU1NVdrcEdOV2hDU25kVlpFaExWbmxaYmxFIiwiZmN2IjoiMyIsImVpIjoiaXAtTGFKcS1LYzZUeGM4UDBvV0NvUVUiLCJxYyI6ImMtTXlUYzdQVGNzdktsSEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HNWdyR2hnb1otU1dwT1FvRlJabkpxUUlNdFg1Rkd2WUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIG5ldyBuYW1lIGZvciBDb21mb3J0IElubj8iLCJsayI6IkdoUmpiMjFtYjNKMElHbHViaUJ1WlhjZ2JtRnRaUSIsImJzIjoiYzQyT3NRNEJRUlJGbzUxS0lTSWJ4WTNRb0JvNmhZU0dTa2NuR2VQSlRPek9pSm5kemY2VmJ4QV80Vy1NalFnaW9ubk5PLWZleTlhc043TTVrbFFxYkMwNWFBOXBuWWUzMktRRkJLWTIyZG1qeDl5WWNlUEVlVF9xcXQtR2ZCamFHR2JZNEo1djQyMkFVZGdVU21SVXN1VjFYZ1RGZl9aY1Jud1ljZldmLWRxM1lPMjV3NFRrUHFhaWo5VXlfSTJXaEVNc1pPbkZPcU54NHl4NU8ycHBGOEpLRkhuMmxXUVQxbG1wVUJOUXJ3aUdjaGlSRUVMai0tUnJrOWVqMnN1V0oxdXQzQUEiLCJpZCI6ImZjX2lwLUxhSnEtS2M2VHhjOFAwb1dDb1FVXzMifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "6t31onicxZRLkuI4EIa3c5HxhgbMGyrC0SHJBmyeonhvHMYI8bCRsU0Zajd3mVPNKeYILdlAQTU10ROzGEWAZKWU-jPzi_zjT2ez3_3129_rMPSCl2w2iqIMZYw6JGMzN2sF572dXTEn8O31d-oox0A6Hh2iRCkEdKwjfYvd8dbKnxzyeprOp11Zr8892116C9dZt-vjozUdOHMEh8tGXZ5PO9LaUcheOr8pBckOFFkiG2XjpduWcUi37PLwZFf7MpsghkdS_LpiLqyAbLm40zbImln-t_u9oPKPTJAh-4wMxoa17r9tylomL-eqmV7WcvkB8B8HfbKn8x8GGkxWydCeHxUesDACsHvmdRb7ggjEh_TR53foxTnSqGrWIlt94gM9-gZHsbehdX5f0x4cosfLwgjFov5J8uOt-Kz9zHI_BvfhM6B1QP_6VYyDwbEAo8jI7VhTB0Q9Axyx1s8OhbID6s1hGus_WxM1dNBtNyficHZJebXl7MLnUy7rB6L2aFiTWbPSPYw60ex1ovphuuDXywFYUy-CYx9_i6mygxtWwT1Wi_Up3yx0yR7RTDsDczemoMjka5ILSGOtCEAdDL7MTpKiy0zv_oFA6c5u1FEj3kGwiDGgENNLDjuzEmL8Gr0mB3zUXefpjsurA4Si1qs4gXixBFOYL7CwUDCC4uKOr7ABDL7QhH4kQtBvOVfpCgsvCFAdQBwL7MSPCqb4U_Qm-xoCoreAGhQcYUMDsI7BRGVFLvdSPcqd08taAyO-XRXO48prM9CkCDVpHAUSwnlCkygvoQLGZfLUz5KvWawsAgL3B6Z4SJ1_LkPiE39tfAJRvdcsa3A-UY_I37wNwTBXJ6vmykHv-egCEXMX_6I52f8PZnps16BRb90wG32JGR08ti6BGb1iVhSYidY1SlrXA2bGFTPNQDvaNGunqvqB2Rp8YObeY_bRunRtd5OdUPFrmGkPmNE7zLQvMRskuU0Gg7uO2r9iVhTK9CeY_Wrrmn1RpIfWFdNGkumxjx239DOKjdqmV4G9xjyaeekBDg69lR6wvJpeljmKKzd88XxGv5mb5QvMG-F5KR0UxNwV88OUvt-nILF3Djnf5sk4lZfzpbRcSRdyqTULiZPy_I1NJNfxmSJbxfBcGG7eB8TM1ShzTEhUqKoDu9tB59x0vHqbmmbY2vX0oT5p257cCKkbaF1wnobr0sSfvndb75DsLHPZKpWbfXNM-nhc6Y6KKNgWbVapjYdBp6AW7YMFXtXSst_f9HOFmhamDdSajMF7y_WY0e4tzLBUQ1sQ6woUu-odjep-VG5gybWWAVFykuvbCieluANdDLAU2JZJgjelZpFqnlQWq4VcLSyskuTS8Owp-dwPK6WfUQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=6t31onicxZRLkuI4EIa3c5HxhgbMGyrC0SHJBmyeonhvHMYI8bCRsU0Zajd3mVPNKeYILdlAQTU10ROzGEWAZKWU-jPzi_zjT2ez3_3129_rMPSCl2w2iqIMZYw6JGMzN2sF572dXTEn8O31d-oox0A6Hh2iRCkEdKwjfYvd8dbKnxzyeprOp11Zr8892116C9dZt-vjozUdOHMEh8tGXZ5PO9LaUcheOr8pBckOFFkiG2XjpduWcUi37PLwZFf7MpsghkdS_LpiLqyAbLm40zbImln-t_u9oPKPTJAh-4wMxoa17r9tylomL-eqmV7WcvkB8B8HfbKn8x8GGkxWydCeHxUesDACsHvmdRb7ggjEh_TR53foxTnSqGrWIlt94gM9-gZHsbehdX5f0x4cosfLwgjFov5J8uOt-Kz9zHI_BvfhM6B1QP_6VYyDwbEAo8jI7VhTB0Q9Axyx1s8OhbID6s1hGus_WxM1dNBtNyficHZJebXl7MLnUy7rB6L2aFiTWbPSPYw60ex1ovphuuDXywFYUy-CYx9_i6mygxtWwT1Wi_Up3yx0yR7RTDsDczemoMjka5ILSGOtCEAdDL7MTpKiy0zv_oFA6c5u1FEj3kGwiDGgENNLDjuzEmL8Gr0mB3zUXefpjsurA4Si1qs4gXixBFOYL7CwUDCC4uKOr7ABDL7QhH4kQtBvOVfpCgsvCFAdQBwL7MSPCqb4U_Qm-xoCoreAGhQcYUMDsI7BRGVFLvdSPcqd08taAyO-XRXO48prM9CkCDVpHAUSwnlCkygvoQLGZfLUz5KvWawsAgL3B6Z4SJ1_LkPiE39tfAJRvdcsa3A-UY_I37wNwTBXJ6vmykHv-egCEXMX_6I52f8PZnps16BRb90wG32JGR08ti6BGb1iVhSYidY1SlrXA2bGFTPNQDvaNGunqvqB2Rp8YObeY_bRunRtd5OdUPFrmGkPmNE7zLQvMRskuU0Gg7uO2r9iVhTK9CeY_Wrrmn1RpIfWFdNGkumxjx239DOKjdqmV4G9xjyaeekBDg69lR6wvJpeljmKKzd88XxGv5mb5QvMG-F5KR0UxNwV88OUvt-nILF3Djnf5sk4lZfzpbRcSRdyqTULiZPy_I1NJNfxmSJbxfBcGG7eB8TM1ShzTEhUqKoDu9tB59x0vHqbmmbY2vX0oT5p257cCKkbaF1wnobr0sSfvndb75DsLHPZKpWbfXNM-nhc6Y6KKNgWbVapjYdBp6AW7YMFXtXSst_f9HOFmhamDdSajMF7y_WY0e4tzLBUQ1sQ6woUu-odjep-VG5gybWWAVFykuvbCieluANdDLAU2JZJgjelZpFqnlQWq4VcLSyskuTS8Owp-dwPK6WfUQ"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Hotel in Beckley, WV | Comfort Inn | Maximize Your Vacation",
+      "link": "https://www.choicehotels.com/west-virginia/beckley/comfort-inn-hotels/wv070",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.choicehotels.com/west-virginia/beckley/comfort-inn-hotels/wv070&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECBoQAQ",
+      "displayed_link": "https://www.choicehotels.com \u203a west-virginia \u203a comfort-i...",
+      "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ea6cf4094a4e2c9fa7e7f1217df1d82e8.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8e12daf6b0ab25f0afbdc84591be468570.png",
+      "snippet": "Book direct at the Comfort Inn hotel in Beckley, WV near Beckley Exhibition Coal Mine and Tamarack Marketplace. Free breakfast, free WiFi, outdoor pool.",
+      "snippet_highlighted_words": [
+        "Comfort Inn hotel in Beckley, WV"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.5,
+            "reviews": 804,
+            "price_range": "$-$"
+          },
+          "extensions": [
+            "4.5(804)",
+            "Price range: $NaN-$NaN"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Choice Hotels"
+    },
+    {
+      "position": 2,
+      "title": "Comfort Inn, Beckley (updated prices 2025)",
+      "link": "https://www.booking.com/hotel/us/baymont-inn-suites-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/baymont-inn-suites-beckley.html&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECBgQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Inns in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8e7acae65ca47c4bb3877d9b20d06f8c41.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ee6d50e0fe703bcf5ce56b55fd921dca0.png",
+      "snippet": "Comfort Inn offers accommodations in Beckley. Guests can enjoy the on-site bar. Every room is fitted with a TV. You will find a coffee machine in the room.",
+      "snippet_highlighted_words": [
+        "Comfort Inn offers accommodations in Beckley"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 3,
+      "title": "Comfort Inn Reviews, Deals & Photos 2025",
+      "link": "https://www.expedia.com/Beckley-Hotels-Baymont-By-Wyndham-Beckley.h34444.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Baymont-By-Wyndham-Beckley.h34444.Hotel-Information&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECBkQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ef6dc91aa21c26542dd492393f1afa075.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8e20eb96527ddcbb187532adcfd4af82af.png",
+      "snippet": "Comfort Inn. 2.5 star property. Hotel in Beckley with free breakfast and a fitness ...",
+      "snippet_highlighted_words": [
+        "Comfort Inn"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 9.2,
+            "reviews": 686
+          },
+          "extensions": [
+            "9.2/10(686)"
+          ]
+        }
+      },
+      "source": "Expedia"
+    },
+    {
+      "position": 4,
+      "title": "Hotel in Beckley, WV | Comfort Inn\u00ae Official Site",
+      "link": "https://www.choicehotels.com/en-au/west-virginia/beckley/comfort-inn-hotels/wv070",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.choicehotels.com/en-au/west-virginia/beckley/comfort-inn-hotels/wv070&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFQQAQ",
+      "displayed_link": "https://www.choicehotels.com \u203a en-au \u203a west-virginia \u203a c...",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ecff1c71d3402beb76517b68ada2a9185.png",
+      "snippet": "Book direct at the Comfort Inn hotel in Beckley, WV near Beckley Exhibition Coal Mine and Tamarack Marketplace. Free breakfast, free WiFi, outdoor pool.",
+      "snippet_highlighted_words": [
+        "Comfort Inn hotel in Beckley, WV"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Choice Hotels"
+    },
+    {
+      "position": 5,
+      "title": "COMFORT INN\u00ae - Beckley WV 134 Harper Park 25801",
+      "link": "https://www.hotelplanner.com/Hotels/286151/Reservations-Comfort-Inn-Beckley-134-Harper-Park-Dr-25801",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotelplanner.com/Hotels/286151/Reservations-Comfort-Inn-Beckley-134-Harper-Park-Dr-25801&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFMQAQ",
+      "displayed_link": "https://www.hotelplanner.com \u203a Hotels \u203a Reservations-...",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8e4558d35ae49ea7a9a689fccf07b91b76.png",
+      "snippet": "12-Apr-2024 Verified Review, stayed from Tue Apr 09 to Wed Apr 10 2024 at a $149.00 average nightly rate. \"Clean Hotel\". Overall Score3.0/ 5.",
+      "snippet_highlighted_words": [
+        "49.00 average nightly rate"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.0,
+            "reviews": 651
+          },
+          "extensions": [
+            "3.0(651)"
+          ]
+        }
+      },
+      "source": "HotelPlanner.com"
+    },
+    {
+      "position": 6,
+      "title": "COMFORT INN - Updated 2025 Prices & Hotel Reviews ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d234876-Reviews-Comfort_Inn-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d234876-Reviews-Comfort_Inn-Beckley_West_Virginia.html&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFIQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8eedd553490d9711c7e9f38740178a9bc0.png",
+      "snippet": "Book Comfort Inn, Beckley on Tripadvisor: See 914 traveler reviews, 102 candid photos, and great deals for Comfort Inn, ranked #9 of 18 hotels in Beckley ...",
+      "snippet_highlighted_words": [
+        "Comfort Inn, Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.5,
+            "reviews": 914,
+            "price_range": "$"
+          },
+          "extensions": [
+            "3.5(914)",
+            "Price range: $ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 7,
+      "title": "Hotel Deals & Discounts in Beckley, WV",
+      "link": "https://www.choicehotels.com/en-ca/west-virginia/beckley/deal-hotels?checkInDate=2025-07-31&checkOutDate=2025-08-01",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.choicehotels.com/en-ca/west-virginia/beckley/deal-hotels%3FcheckInDate%3D2025-07-31%26checkOutDate%3D2025-08-01&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFUQAQ",
+      "displayed_link": "https://www.choicehotels.com \u203a beckley \u203a deal-hotels \u203a c...",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ea920151b9521e4293d65ec049e4a4bf4.png",
+      "date": "1 day ago",
+      "snippet": "Hotel deals. 8 hotels in Beckley. Highest Price. $158. Lowest Price. $70. Avg. rating. 3.9 (10967 reviews). Best Hotel Deal in Beckley. 12% off.",
+      "snippet_highlighted_words": [
+        "Hotel",
+        "hotels",
+        "Beckley",
+        "Price",
+        "Price",
+        "Hotel",
+        "Beckley"
+      ],
+      "source": "Choice Hotels"
+    },
+    {
+      "position": 8,
+      "title": "Comfort Inn Hotel (Beckley (WV)) - Deals, Photos & Reviews",
+      "link": "https://www.agoda.com/baymont-beckley-hotel/hotel/beckley-wv-us.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.agoda.com/baymont-beckley-hotel/hotel/beckley-wv-us.html&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFYQAQ",
+      "displayed_link": "https://www.agoda.com \u203a baymont-beckley-hotel \u203a bec...",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ec07ad362e8f24e56b40960d1f8af82fb.png",
+      "snippet": "The typical room rate for Comfort Inn in the past month is 167.41 USD, compared to city's average of 157.68 USD. What do visitors like most about Comfort Inn?",
+      "snippet_highlighted_words": [
+        "167.41 USD"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.6,
+            "reviews": 2,
+            "price": 119,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.6/10(2)",
+            "Price range: room rates from $119 per night (USD)",
+            "We Price Match!"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Agoda.com"
+    },
+    {
+      "position": 9,
+      "title": "Comfort Inn Beckley - I-64 & I-77, Exit 44, WV - See Discounts",
+      "link": "https://hotelguides.com/hotels/west-virginia/beckley/136094.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hotelguides.com/hotels/west-virginia/beckley/136094.html&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECFEQAQ",
+      "displayed_link": "https://hotelguides.com \u203a hotels \u203a west-virginia \u203a beckley",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8ed81a22df6f06dd0760178714c74c9f4e.png",
+      "snippet": "134 Harper Park Drive, I-64 & I-77, Exit 44, Beckley, WV 25801. Midscale, smoke-free hotel near Tamarack and I-77. Rated Average. $$$",
+      "snippet_highlighted_words": [
+        "Beckley",
+        "WV",
+        "hotel"
+      ],
+      "source": "Hotel Guides"
+    },
+    {
+      "position": 10,
+      "title": "Comfort Inn, Beckley: Room, Prices & Reviews",
+      "link": "https://www.travelocity.com/Beckley-Hotels-Baymont-By-Wyndham-Beckley.h34444.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.travelocity.com/Beckley-Hotels-Baymont-By-Wyndham-Beckley.h34444.Hotel-Information&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQFnoECGcQAQ",
+      "displayed_link": "https://www.travelocity.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60cJEa5At1cY_Qh9Xk2xFr2Ge9DZS9E48bfEX8F7i0CmWh34dEC0M54U&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f84f0114a2137d12e75/images/6b0a84eb510bc95f7dc4565840a05d8e20e3f4ec6caf79e15a5654c06e743181.png",
+      "snippet": "Book Comfort Inn, located near Raleigh General Hospital in Beckley & Save BIG on Your Next Stay! Compare Reviews, Photos, & Availability w/ Travelocity.",
+      "snippet_highlighted_words": [
+        "Comfort Inn, located near Raleigh General Hospital in Beckley"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Travelocity"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "134 Harper Park Drive Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=134+Harper+Park+Drive+Beckley+WV&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiFARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=134+Harper+Park+Drive+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels on Harper Road Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hotels+on+Harper+Road+Beckley+WV&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiBARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+on+Harper+Road+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels in Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hotels+in+Beckley,+WV&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiGARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+in+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Comfort Inn Beckley, WV reviews",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Comfort+Inn+Beckley,+WV+reviews&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiDARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley%2C+WV+reviews"
+    },
+    {
+      "block_position": 1,
+      "query": "hotels in beckley wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=hotels+in+beckley+wv+near+i-77&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiCARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=hotels+in+beckley+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "2120 Harper Rd Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=2120+Harper+Rd+Beckley+WV&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BQiAARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=2120+Harper+Rd+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hampton Inn Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hampton+Inn+Beckley,+WV&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BAh_EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Country Inn and Suites Beckley, WV bed bugs",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Country+Inn+and+Suites+Beckley,+WV+bed+bugs&sa=X&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ1QJ6BAh8EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+and+Suites+Beckley%2C+WV+bed+bugs"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=10&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8NMDegQIEBAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=10&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAE",
+      "3": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=20&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAG",
+      "4": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=30&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAI",
+      "5": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=40&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAK",
+      "6": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=50&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAM",
+      "7": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=60&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAO",
+      "8": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=70&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAQ",
+      "9": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=80&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAS",
+      "10": "https://www.google.com/search?q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=ip-LaJq-Kc6Txc8P0oWCoQU&start=90&sa=N&sstk=Ac65TH5Uv0O86GwFOXI9U_s1nZpRP7qm1T0TLW92aLEUXXPD9KEq3WgAsYTvOUoS8yTi2aIdtnx6tO3KS63PyJ-tcXoKBe2fw9t7TA&ved=2ahUKEwiaq6fZx-eOAxXOSfEDHdKCIFQQ8tMDegQIEBAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Comfort+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=90"
+    }
+  }
 }

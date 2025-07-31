@@ -1,3 +1,561 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9f6ac986afa02c944396",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/64d90e4b95f9a844/688b9f6ac986afa02c944396.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/64d90e4b95f9a844/688b9f6ac986afa02c944396.json_with_pixel_position",
+    "created_at": "2025-07-31 16:52:58 UTC",
+    "processed_at": "2025-07-31 16:52:58 UTC",
+    "google_url": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&oq=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/64d90e4b95f9a844/688b9f6ac986afa02c944396.html",
+    "total_time_taken": 6.68
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Fairfield Inn Beckley Beckley WV 2025-07-31 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Fairfield Inn Beckley Beckley WV 2025-07-31 hotel price",
+    "total_results": 346,
+    "time_taken_displayed": 0.53,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Fairfield Inn & Suites Beckley",
+    "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a7856d05c675749bb506a2d0967a96bff733.jpeg",
+    "entity_type": "hotels",
+    "kgmid": "/g/11y5vm3648",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11y5vm3648&hl=en-US&q=Fairfield+Inn+%26+Suites+Beckley",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11y5vm3648&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+%26+Suites+Beckley",
+    "place_id": "ChIJ37eg9cXzTogR8yUOkDANs6s",
+    "website": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+    "directions": "https://maps.google.com/maps?gl=us&hl=en&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&um=1&ie=UTF-8&fb=1&sa=X&geocode=Kd-3oPXF806IMfMlDpAwDbOr&daddr=248+Harper+Park+Dr,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEGcHJpY2Vz&ictx=111",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785f3501c45f970ae095a99735f17b1e52d.webp",
+      "link": "https://www.google.com/maps/place/Fairfield+Inn+%26+Suites+Beckley/data=!4m2!3m1!1s0x0:0xabb30d30900e25f3?sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q_BJ6BAgqEAA&hl=en&gl=us"
+    },
+    "rating": 4.2,
+    "review_count": 17,
+    "business_recently_opened": true,
+    "address": "248 Harper Park Dr, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=fairfield+inn+%26+suites+beckley+address&ludocid=12372247103543322099&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q6BN6BAg0EAI"
+      }
+    ],
+    "phone": "(681) 222-1153",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=fairfield+inn+%26+suites+beckley+phone&ludocid=12372247103543322099&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q6BN6BAg1EAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Aug 10"
+      },
+      "offers": [
+        {
+          "source": "Fairfield Inn & Suites Beckley",
+          "price": "Get price",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj_rMfMx-eOAxW-MtQBHRNTIXAYACICCAEQBxoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI_6zHzMfnjgMVvjLUAR0TUyFwEAoYASABEgIplPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_2oIoc24-LkKiIp1FNOEaBtqQi1AA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$152",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj_rMfMx-eOAxW-MtQBHRNTIXAYACICCAEQBhoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI_6zHzMfnjgMVvjLUAR0TUyFwEAoYAiABEgIRMPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_07QhaFF1aMf_fkQWxMdTGPzfoCaw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$152",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj_rMfMx-eOAxW-MtQBHRNTIXAYACICCAEQBBoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI_6zHzMfnjgMVvjLUAR0TUyFwEAoYAyABEgLcIPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3IUdAboDvPyeQNIuu49EmO3EQLrg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Hotels.com",
+          "price": "$152",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwj_rMfMx-eOAxW-MtQBHRNTIXAYACICCAEQBRoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMI_6zHzMfnjgMVvjLUAR0TUyFwEAoYBCABEgLqEfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_2cRiRDedpZ5SpAJLNEfePw9u0TJg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Fairfield Inn & Suites Beckley",
+          "price": "Get price",
+          "link": "https://www.google.com/travel/clk?pc=AA80OswtfSX7TldjQk-nOhhVlEH1V_LKFQalllrZv-XvljP-VAZC4g_axzlCrob-7Npb0sNnsmZQdleECwOUSeVeAMW8JdGzrLGF5sZYXStEb24fC5JCRss-PEQyBzW7szhELHKYMcfShgEGoUqFljQAXJBKqWhedY7YX04zd3tnWXkxzw&pcurl=https://marriottclk.koddi.com/clk?destination%3Dhttps%253A%252F%252Fad.doubleclick.net%252Fclk%253B269275299%253B95398642%253Bk%253Bu%253Dkoddi%2526sv2%253Dkoddi_hpa_US_BKWFF_localuniversal_1_desktop_08/10/2025_non-distributable__default___organic%253Fhttps%253A%252F%252Fwww.marriott.com%252Freservation%252FavailabilitySearch.mi%253Fcid%253DOMS_GLB0002Y27_GLE00070C9_GLF000C1AH%2526pId%253D%2526isSearch%253Dfalse%2526propertyCode%253DBKWFF%2526fromDate%253D08%252F10%252F2025%2526toDate%253D08%252F11%252F2025%2526numberOfRooms%253D1%2526numberOfGuests%253D2%2526Currency%253DUSD"
+        },
+        {
+          "source": "My Luxury Hotel",
+          "price": "$151",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxhpW7PlV2hN7kGXxZGjhjR31ePCTOvara-MjeAwg_6pKNv2w-xyZDD9jKhTRBz8sZmT5d0eES_m0MNCH1hEb78BgL4jaz9xduVLoc6dK46_ZOxQGI9n4bpeKjM-u3CFdzp300chEGl1CAt_eSjJ6Y5gavHqIZPI-ThNyMqkJIXReduB3AC8SS96YYWX7n9Qw&pcurl=https://www.myluxuryhotel.com/en-us/hotel/3697132?ppc%3Dtrue%26isHotel%3Dtrue%26checkin%3D2025-08-10%26checkout%3D2025-08-11%26nights%3D1%26rooms%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D,%2522kidsAge%2522:%255B%255D%257D%255D%26utm_source%3DGoogleHC%26utm_medium%3Dpaid%26utm_campaign%3D%26utm_content%3Dlocaluniversal%26utm_term%3D3697132%26ghv%3D1"
+        }
+      ]
+    },
+    "user_reviews": [
+      {
+        "summary": "Excellent location, rooms extremely clean and super comfy.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Marie Walker",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785f57384ea206a253eb18731a986451db03fd9d9312f6c87ad792bc033506146fa.png"
+        }
+      },
+      {
+        "summary": "The room was plenty spacious for our family of four and pet friendly.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Katie Wolbert",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785f57384ea206a253e79168cdfcbd1b5565a721b000e8293df650e9f4b8057d2d2.png"
+        }
+      },
+      {
+        "summary": "Manager Cammie went over the top with customer service & smile.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Debra Kern",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYzYzVmNWEwYjdkZjoweGFiYjMwZDMwOTAwZTI1ZjMSGhIUCgcI6Q8QCBgKEgcI6Q8QCBgLGAEyAhAA&qs=CAEyFENnc0k4OHU0Z0ltbXc5bXJBUkFCOAJCCQnzJQ6QMA2zq0IJCfMlDpAwDbOr&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785f57384ea206a253ed8f0dcd99e329bad244697886dbc7f4b4da8e1d9650bac8d.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "X (Twitter)",
+        "link": "https://twitter.com/FairfieldHotels",
+        "image": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785d584932ae6d039d16a03484a0b4363c4e7516b306077f5e8.png"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "http://www.linkedin.com/company/marriott_hotels_resorts",
+        "image": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785d584932ae6d039d168b66ad94bda70dba30f86254318891f.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/fairfieldbymarriott",
+        "image": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/119b71501703f227be8c4b2d94c7a785d584932ae6d039d1f47471ccf2880076fb4d833777899cdd.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "How much to buy a Fairfield Inn?",
+      "type": "featured_snippet",
+      "snippet": "The cost of opening a Fairfield Inn by Marriott franchise can vary depending on a number of factors. On average, you can expect to invest between $12.02M-$33.83M. This range includes expenses like the initial franchise fee, equipment, signage, seating, and other essential costs.",
+      "title": "Fairfield Inn by Marriott Franchise Cost & Profit Exposed (2025 Update)",
+      "link": "https://www.vettedbiz.com/franchises/fairfield-inn-by-marriott/#:~:text=The%20cost%20of%20opening%20a,seating%2C%20and%20other%20essential%20costs.",
+      "displayed_link": "https://www.vettedbiz.com \u203a franchises \u203a fairfield-inn-by...",
+      "source_logo": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/b32b78f29ab9139917170fb7ca3d51b0a0f4b16bd31e338fb0848310f03af0ae.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIHRvIGJ1eSBhIEZhaXJmaWVsZCBJbm4/IiwibGsiOiJHaDlvYjNjZ2JYVmphQ0IwYnlCaWRYa2dZU0JtWVdseVptbGxiR1FnYVc1dSIsImJzIjoiYzJYUHZRckNNQlFGWUZ6dm9tT01ZR18xRFRJTDJVb0Y5LUlpcEpweUF6V0JOaVgwX1h3R04zY2Z3eF9vbi03ZlBlY2VTQUZURl9EYW5BbTl3N3hwVVdHaVRGVVlYVjV3YjYxa2o3bUllVVJfck9pWnNSWjJ3RE5TSHNsNVhhSUx0aDV5SkhzZXhZb3Z3d19vRXlDQktDTnRNYWpSMmZ1MUQ4MGJVM3JKN2llQmZCMDZOYlRUb09BQW0tOGVaZHZwakJwVnBkR1RyclJrTnhCYkhsTUhKME5HY0RGN0FRIiwiaWQiOiJmY19iNS1MYU5tRE1QZkRwODRQM2F5RjZBVV8yIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIHRvIGJ1eSBhIEZhaXJmaWVsZCBJbm4%2FIiwibGsiOiJHaDlvYjNjZ2JYVmphQ0IwYnlCaWRYa2dZU0JtWVdseVptbGxiR1FnYVc1dSIsImJzIjoiYzJYUHZRckNNQlFGWUZ6dm9tT01ZR18xRFRJTDJVb0Y5LUlpcEpweUF6V0JOaVgwX1h3R04zY2Z3eF9vbi03ZlBlY2VTQUZURl9EYW5BbTl3N3hwVVdHaVRGVVlYVjV3YjYxa2o3bUllVVJfck9pWnNSWjJ3RE5TSHNsNVhhSUx0aDV5SkhzZXhZb3Z3d19vRXlDQktDTnRNYWpSMmZ1MUQ4MGJVM3JKN2llQmZCMDZOYlRUb09BQW0tOGVaZHZwakJwVnBkR1RyclJrTnhCYkhsTUhKME5HY0RGN0FRIiwiaWQiOiJmY19iNS1MYU5tRE1QZkRwODRQM2F5RjZBVV8yIn0%3D"
+    },
+    {
+      "question": "What hotel owns Fairfield?",
+      "type": "featured_snippet",
+      "snippet": "Fairfield by Marriott is a franchised economy to midscale hotel brand of Marriott International. The properties target guests willing to accept fewer amenities for lower prices.",
+      "title": "Fairfield by Marriott",
+      "link": "https://en.wikipedia.org/wiki/Fairfield_by_Marriott#:~:text=Fairfield%20by%20Marriott%20is%20a,fewer%20amenities%20for%20lower%20prices.",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Fairfield_by_Marriott",
+      "source_logo": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/b32b78f29ab9139917170fb7ca3d51b0ec584a116341e6cbc9f066dd5ac4aafd.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IldoYXQgaG90ZWwgb3ducyBGYWlyZmllbGQ/IiwibGsiOiJHaGwzYUdGMElHaHZkR1ZzSUc5M2JuTWdabUZwY21acFpXeGsiLCJicyI6ImMyWFB2UXJDTUJRRllGenZvbU9NWUdfMURUSUwyVW9GOS1JaXBKcHlBeldCTmlYMF9Yd0dOM2Nmd3hfb24tN2ZQZWNlU0FGVEZfRGFuQW05dzd4cFVXR2lURlVZWFY1d2I2MWtqN21JZVVSX3JPaVpzUloyd0ROU0hzbDVYYUlMdGg1eUpIc2V4WW92d3dfb0V5Q0JLQ050TWFqUjJmdTFEODBiVTNySjdpZUJmQjA2TmJUVG9PQUFtLThlWmR2cGpCcFZwZEdUcnJSa054QmJIbE1ISjBOR2NERjdBUSIsImlkIjoiZmNfYjUtTGFObURNUGZEcDg0UDNheUY2QVVfMiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IldoYXQgaG90ZWwgb3ducyBGYWlyZmllbGQ%2FIiwibGsiOiJHaGwzYUdGMElHaHZkR1ZzSUc5M2JuTWdabUZwY21acFpXeGsiLCJicyI6ImMyWFB2UXJDTUJRRllGenZvbU9NWUdfMURUSUwyVW9GOS1JaXBKcHlBeldCTmlYMF9Yd0dOM2Nmd3hfb24tN2ZQZWNlU0FGVEZfRGFuQW05dzd4cFVXR2lURlVZWFY1d2I2MWtqN21JZVVSX3JPaVpzUloyd0ROU0hzbDVYYUlMdGg1eUpIc2V4WW92d3dfb0V5Q0JLQ050TWFqUjJmdTFEODBiVTNySjdpZUJmQjA2TmJUVG9PQUFtLThlWmR2cGpCcFZwZEdUcnJSa054QmJIbE1ISjBOR2NERjdBUSIsImlkIjoiZmNfYjUtTGFObURNUGZEcDg0UDNheUY2QVVfMiJ9"
+    },
+    {
+      "question": "When was Fairfield Hotel built?",
+      "type": "featured_snippet",
+      "snippet": "1987. In 1987, Marriott opens its first Fairfield Inn in Atlanta, Georgia, referencing Fairfield Farm, a Marriott family property in rural northern Virginia. It is the company's first entry into the economy lodging segment.",
+      "title": "Our Story - Marriott",
+      "link": "https://www.marriott.com/about/culture-and-values/history.mi#:~:text=1987-,1987,into%20the%20economy%20lodging%20segment.",
+      "displayed_link": "https://www.marriott.com \u203a culture-and-values \u203a history",
+      "source_logo": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/b32b78f29ab9139917170fb7ca3d51b0223e2d045c5e2fcefd5893861462b5d2.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IldoZW4gd2FzIEZhaXJmaWVsZCBIb3RlbCBidWlsdD8iLCJsayI6IkdoNTNhR1Z1SUhkaGN5Qm1ZV2x5Wm1sbGJHUWdhRzkwWld3Z1luVnBiSFEiLCJicyI6ImMyWFB2UXJDTUJRRllGenZvbU9NWUdfMURUSUwyVW9GOS1JaXBKcHlBeldCTmlYMF9Yd0dOM2Nmd3hfb24tN2ZQZWNlU0FGVEZfRGFuQW05dzd4cFVXR2lURlVZWFY1d2I2MWtqN21JZVVSX3JPaVpzUloyd0ROU0hzbDVYYUlMdGg1eUpIc2V4WW92d3dfb0V5Q0JLQ050TWFqUjJmdTFEODBiVTNySjdpZUJmQjA2TmJUVG9PQUFtLThlWmR2cGpCcFZwZEdUcnJSa054QmJIbE1ISjBOR2NERjdBUSIsImlkIjoiZmNfYjUtTGFObURNUGZEcDg0UDNheUY2QVVfMiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IldoZW4gd2FzIEZhaXJmaWVsZCBIb3RlbCBidWlsdD8iLCJsayI6IkdoNTNhR1Z1SUhkaGN5Qm1ZV2x5Wm1sbGJHUWdhRzkwWld3Z1luVnBiSFEiLCJicyI6ImMyWFB2UXJDTUJRRllGenZvbU9NWUdfMURUSUwyVW9GOS1JaXBKcHlBeldCTmlYMF9Yd0dOM2Nmd3hfb24tN2ZQZWNlU0FGVEZfRGFuQW05dzd4cFVXR2lURlVZWFY1d2I2MWtqN21JZVVSX3JPaVpzUloyd0ROU0hzbDVYYUlMdGg1eUpIc2V4WW92d3dfb0V5Q0JLQ050TWFqUjJmdTFEODBiVTNySjdpZUJmQjA2TmJUVG9PQUFtLThlWmR2cGpCcFZwZEdUcnJSa054QmJIbE1ISjBOR2NERjdBUSIsImlkIjoiZmNfYjUtTGFObURNUGZEcDg0UDNheUY2QVVfMiJ9"
+    },
+    {
+      "question": "How many Fairfield Inns are there?",
+      "type": "featured_snippet",
+      "snippet": "Top 10 States and Territories with the most Fairfield Inn & Suites locations",
+      "table": [
+        [
+          "State / Territory",
+          "Number of locations",
+          "Population per location"
+        ],
+        [
+          "California",
+          "74 (6%)",
+          "533.95K"
+        ],
+        [
+          "North Carolina",
+          "55 (5%)",
+          "190.69K"
+        ],
+        [
+          "Georgia",
+          "54 (5%)",
+          "196.61K"
+        ],
+        [
+          "Pennsylvania",
+          "52 (4%)",
+          "246.19K"
+        ]
+      ],
+      "formatted": [
+        {
+          "state_territory": "California",
+          "number_of_locations": "74 (6%)",
+          "population_per_location": "533.95K"
+        },
+        {
+          "state_territory": "North Carolina",
+          "number_of_locations": "55 (5%)",
+          "population_per_location": "190.69K"
+        },
+        {
+          "state_territory": "Georgia",
+          "number_of_locations": "54 (5%)",
+          "population_per_location": "196.61K"
+        },
+        {
+          "state_territory": "Pennsylvania",
+          "number_of_locations": "52 (4%)",
+          "population_per_location": "246.19K"
+        }
+      ],
+      "title": "Number of Fairfield Inn & Suites locations in the United States in 2025",
+      "link": "https://www.scrapehero.com/location-reports/Fairfield%20Inn%20%26%20Suites-USA/",
+      "displayed_link": "https://www.scrapehero.com \u203a location-reports \u203a Fairfiel...",
+      "source_logo": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/b32b78f29ab9139917170fb7ca3d51b02b7f569b46bf7dce81caf1d2837be3e7.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtYW55IEZhaXJmaWVsZCBJbm5zIGFyZSB0aGVyZT8iLCJsayI6IkdpRm9iM2NnYldGdWVTQm1ZV2x5Wm1sbGJHUWdhVzV1Y3lCaGNtVWdkR2hsY21VIiwiYnMiOiJjMlhQdlFyQ01CUUZZRnp2b21PTVlHXzFEVElMMlVvRjktSWlwSnB5QXpXQk5pWDBfWHdHTjNjZnd4X29uLTdmUGVjZVNBRlRGX0RhbkFtOXc3eHBVV0dpVEZVWVhWNXdiNjFrajdtSWVVUl9yT2lac1JaMndETlNIc2w1WGFJTHRoNXlKSHNleFlvdnd3X29FeUNCS0NOdE1halIyZnUxRDgwYlUzcko3aWVCZkIwNk5iVFRvT0FBbS04ZVpkdnBqQnBWcGRHVHJyUmtOeEJiSGxNSEowTkdjREY3QVEiLCJpZCI6ImZjX2I1LUxhTm1ETVBmRHA4NFAzYXlGNkFVXzIifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSFEwcDZNbnBLU0RSMFZtdHFlSFJMVGtOUGIxZHdPVlJ3YVhwa1VVMTBSbE5tT1ZaV2NsSnRhVTFzU0RkdGNYWnpRVWhwU1ZKb1UwdEZORXRpTmxsT01qSllibmQzU21wWVkzWXdZbEExVTAxMmMxZGhRbU4wZDIxMlFSSVhZalV0VEdGT2JVUk5VR1pFY0RnMFVETmhlVVkyUVZVYUlrRkdUVUZIUjNKamNFZFdhVmhtYTNCc1VXNTBhV0puYlRNdFlWTnRSalJKYVhjIiwiZmN2IjoiMyIsImVpIjoiYjUtTGFObURNUGZEcDg0UDNheUY2QVUiLCJxYyI6ImMtTXlUMHZNTEVyTFRNMUpVY2pNeTFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXJHWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtYW55IEZhaXJmaWVsZCBJbm5zIGFyZSB0aGVyZT8iLCJsayI6IkdpRm9iM2NnYldGdWVTQm1ZV2x5Wm1sbGJHUWdhVzV1Y3lCaGNtVWdkR2hsY21VIiwiYnMiOiJjMlhQdlFyQ01CUUZZRnp2b21PTVlHXzFEVElMMlVvRjktSWlwSnB5QXpXQk5pWDBfWHdHTjNjZnd4X29uLTdmUGVjZVNBRlRGX0RhbkFtOXc3eHBVV0dpVEZVWVhWNXdiNjFrajdtSWVVUl9yT2lac1JaMndETlNIc2w1WGFJTHRoNXlKSHNleFlvdnd3X29FeUNCS0NOdE1halIyZnUxRDgwYlUzcko3aWVCZkIwNk5iVFRvT0FBbS04ZVpkdnBqQnBWcGRHVHJyUmtOeEJiSGxNSEowTkdjREY3QVEiLCJpZCI6ImZjX2I1LUxhTm1ETVBmRHA4NFAzYXlGNkFVXzIifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "wN9ohHicxZTZkrJGFIBv8yLhxlFxm2Gmikp1N6C4N-7eUIDYKJsDOKh3eZc8Vd4ib5BuUEf_cVJ_KhdpS3s5p0-f5fP8_oe3Cdw_f_nLSZJd_FYup2laImFIPLtkhX7ZiI-BVV6HXhxZzm_EE_cx53iiHXD7vWeLaQEBFatI3WJ_ujWqB88eHebLeZ9XleXO8lc70_ecrjLdG3PNWyI4XjUVfjnvcccPscZZschz9kY0G8Wu0fel3nAt7YT6sGYclWcw4bLXRd00YntLnTts47Jepj_urzWJbkpxyQ5KPJi2DWf4sXmWS1W-IpQGZcOnCuA_DvLgTKVfDGSYr_IhP1ZlFjATAuA-srrIbEEEMiV18uM75GwcyUTSX1NLemAD3dsGe3a2IQq9L8t3BtH9ZSaEbKH84PL9rUzXeiS5Hdpt-CGQe2B42dUBaFJAMgfUeti8qrVUYEtHgNOw89Ug8-wdDZawiNWv0twbovW7rRlTLq8IrTZfNiM6VcpRzGqPxq982JqvTtNkMnH6s3aQPA92avxKhi_kVJuQp4wqK75iFd9iZTqHaqvWtwNESt0SrFyZgiyTozwXkGS-IgBVoH2bnTxFtwn9rB--lbcV1MxOEKxjDAjE5JzD3qKBQnqNXJIDPuuu0nRn5VUBQmlnxDQQLRZjCtMFZhICJpBddNnTbfpxs3ISxEJQrzmXyBozKwgQFUOcOdjLHmVMsaRf_gHXEBC5BtQkYA-bMoAKBjMprFN3z9Uj1Dg5r2UwoccCM84qL8sL0CIItUgWBWKO04TmUZ5DBSF1k6Z-ke8WmWcpYLjfMUVD6v1zGXKb-HvhA4hkPlKM2doNnosDJRk1BBN0t_F6UGsQcIYo9M1_0Zys_wczNZPLsK10rphNvsWMaPeti2FGLpjVGWasdU3y1nWHWfuCmdxGLmnR1iVIn5g54BMz_xaz29bl3mHGWtfPYCbfYUZuMJO_xUzLc5uPELo9aXjBrA4xbV0PMPvZ1rX4pkh3rSujzc6n-z6235IvKGI9ULdOY2b6PvB1eNLGiVRTV7WFgJ_0tZ-8GSvvSd-s3mC1nRxX3LuoGJtovbG9VUENggK0Ldezj9d5Ni1U-WqjyL8Ua5WCEya2V9hFG8vmfC8KRd5ozCI4EIq6LyszEFV2oNMRYhXtgGnN4Kni99_3Y3eRVuYbLZwcTnI4qO4DaYmn0XiuINuZ7oevirHd9_RUk-LWKNWqHTLRtVacCP3K7GURtHcJbLjCcup6frNXb5x0-eB1jURWeU0dN6IR7eCDjjdf7hazWpr5FYvOUV_4idB1VzLnG6vYFiucH1kiRaXugj4GmIstQ7fjD_HVsIWq_WKuTV6omUaD80ly3In1-t_hG6CM",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=wN9ohHicxZTZkrJGFIBv8yLhxlFxm2Gmikp1N6C4N-7eUIDYKJsDOKh3eZc8Vd4ib5BuUEf_cVJ_KhdpS3s5p0-f5fP8_oe3Cdw_f_nLSZJd_FYup2laImFIPLtkhX7ZiI-BVV6HXhxZzm_EE_cx53iiHXD7vWeLaQEBFatI3WJ_ujWqB88eHebLeZ9XleXO8lc70_ecrjLdG3PNWyI4XjUVfjnvcccPscZZschz9kY0G8Wu0fel3nAt7YT6sGYclWcw4bLXRd00YntLnTts47Jepj_urzWJbkpxyQ5KPJi2DWf4sXmWS1W-IpQGZcOnCuA_DvLgTKVfDGSYr_IhP1ZlFjATAuA-srrIbEEEMiV18uM75GwcyUTSX1NLemAD3dsGe3a2IQq9L8t3BtH9ZSaEbKH84PL9rUzXeiS5Hdpt-CGQe2B42dUBaFJAMgfUeti8qrVUYEtHgNOw89Ug8-wdDZawiNWv0twbovW7rRlTLq8IrTZfNiM6VcpRzGqPxq982JqvTtNkMnH6s3aQPA92avxKhi_kVJuQp4wqK75iFd9iZTqHaqvWtwNESt0SrFyZgiyTozwXkGS-IgBVoH2bnTxFtwn9rB--lbcV1MxOEKxjDAjE5JzD3qKBQnqNXJIDPuuu0nRn5VUBQmlnxDQQLRZjCtMFZhICJpBddNnTbfpxs3ISxEJQrzmXyBozKwgQFUOcOdjLHmVMsaRf_gHXEBC5BtQkYA-bMoAKBjMprFN3z9Uj1Dg5r2UwoccCM84qL8sL0CIItUgWBWKO04TmUZ5DBSF1k6Z-ke8WmWcpYLjfMUVD6v1zGXKb-HvhA4hkPlKM2doNnosDJRk1BBN0t_F6UGsQcIYo9M1_0Zys_wczNZPLsK10rphNvsWMaPeti2FGLpjVGWasdU3y1nWHWfuCmdxGLmnR1iVIn5g54BMz_xaz29bl3mHGWtfPYCbfYUZuMJO_xUzLc5uPELo9aXjBrA4xbV0PMPvZ1rX4pkh3rSujzc6n-z6235IvKGI9ULdOY2b6PvB1eNLGiVRTV7WFgJ_0tZ-8GSvvSd-s3mC1nRxX3LuoGJtovbG9VUENggK0Ldezj9d5Ni1U-WqjyL8Ua5WCEya2V9hFG8vmfC8KRd5ozCI4EIq6LyszEFV2oNMRYhXtgGnN4Kni99_3Y3eRVuYbLZwcTnI4qO4DaYmn0XiuINuZ7oevirHd9_RUk-LWKNWqHTLRtVacCP3K7GURtHcJbLjCcup6frNXb5x0-eB1jURWeU0dN6IR7eCDjjdf7hazWpr5FYvOUV_4idB1VzLnG6vYFiucH1kiRaXugj4GmIstQ7fjD_HVsIWq_WKuTV6omUaD80ly3In1-t_hG6CM"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Fairfield Inn & Suites Beckley",
+      "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/overview/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/overview/&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECBkQAQ",
+      "displayed_link": "https://www.marriott.com \u203a en-us \u203a hotels \u203a overview",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd013134be7f79eb1718f3846dca9f08e2ddc9.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd013129f705dd73c9248a05833c1a647aaf4f.webp",
+      "snippet": "Book your stay at Fairfield Inn & Suites Beckley. Our convenient business hotel near Beckley offers breakfast, free Wi-Fi, comfortable rooms & more.",
+      "snippet_highlighted_words": [
+        "Fairfield Inn & Suites Beckley"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Rooms & Suites",
+            "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/rooms/"
+          },
+          {
+            "title": "Restaurant On-Site",
+            "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/dining/"
+          },
+          {
+            "title": "Gallery",
+            "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/photos/"
+          },
+          {
+            "title": "Experiences",
+            "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/experiences/"
+          }
+        ]
+      },
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.5,
+            "reviews": 19,
+            "price_range": "$"
+          },
+          "extensions": [
+            "3.5(19)",
+            "Price range: $ Rates Vary (Book Directly with Marriott Bonvoy to Get the Best Rates)"
+          ]
+        }
+      },
+      "source": "Marriott"
+    },
+    {
+      "position": 2,
+      "title": "Fairfield by Marriott Inn & Suites Beckley",
+      "link": "https://www.booking.com/hotel/us/fairfield-by-marriott-inn-suites-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/fairfield-by-marriott-inn-suites-beckley.html&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECBcQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd01310e54539c74bee5b1edb4f5e2d0f91d63.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd013187ef52867231e16ddd5c0f2dfd64a3a3.png",
+      "snippet": "Fairfield by Marriott Inn & Suites Beckley in Beckley offers family rooms with modern amenities. Each room includes air-conditioning, a flat-screen TV, and ...",
+      "snippet_highlighted_words": [
+        "Fairfield",
+        "Inn",
+        "Beckley",
+        "Beckley"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 3,
+      "title": "Rooms at Fairfield Inn & Suites Beckley",
+      "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/rooms/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/rooms/&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEgQAQ",
+      "displayed_link": "https://www.marriott.com \u203a en-us \u203a hotels \u203a rooms",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd013198bee537cb1d4b7517724a8119d48c48.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd01315d301c8faae619c36ea6a944ea15e12e.webp",
+      "snippet": "View the accommodations at Fairfield Inn & Suites Beckley. Choose & book your room directly to get exclusive rates.",
+      "snippet_highlighted_words": [
+        "Choose & book your room directly to get exclusive rates"
+      ],
+      "source": "Marriott"
+    },
+    {
+      "position": 4,
+      "title": "FAIRFIELD INN & SUITES BECKLEY - Updated 2025 ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d32731972-Reviews-Fairfield_Inn_Suites_Beckley-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d32731972-Reviews-Fairfield_Inn_Suites_Beckley-Beckley_West_Virginia.html&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoFCIEBEAE",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131ee2b27e436da0b6453de908d8c51a5f8.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131eb774e9de0f8c2bcfde501ad421b1dcd.png",
+      "snippet": "There are more places to choose from in the Beckley area. See all properties. PRICE RANGE. $170 - $281 (Based on Average Rates for a Standard Room).",
+      "snippet_highlighted_words": [
+        "PRICE RANGE. $170 - $281"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 5.0,
+            "reviews": 1,
+            "price_range": "$$"
+          },
+          "extensions": [
+            "5.0(1)",
+            "Price range: $$ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 5,
+      "title": "Fairfield By Marriott\u00ae Inn & Suites Beckley",
+      "link": "https://www.hotels.com/ho3432185344/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotels.com/ho3432185344/&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEYQAQ",
+      "displayed_link": "https://www.hotels.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd01310cf465a530cbf48d299e7c670192440b.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131c1cd61b583e1594bbf6eb105ba25d251.webp",
+      "snippet": "The price is $162. $162. $143 nightly. $162 total. Total includes taxes and fees. Jul 30 - Jul 31. Country Inn & Suites by Radisson, Beckley, WV. Suite, 1 King ...",
+      "snippet_highlighted_words": [
+        "162 total"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.8,
+            "reviews": 19,
+            "price": 170,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.8/10(19)",
+            "Price range: from $170"
+          ]
+        }
+      },
+      "source": "Hotels.com"
+    },
+    {
+      "position": 6,
+      "title": "All Fairfield Inn By Marriott Hotels in Beckley, WV ($44+)",
+      "link": "https://www.hotelplanner.com/5870-Brand/Fairfield-Inn-by-Marriott-Hotels-in-Beckley-WV",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotelplanner.com/5870-Brand/Fairfield-Inn-by-Marriott-Hotels-in-Beckley-WV&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEcQAQ",
+      "displayed_link": "https://www.hotelplanner.com \u203a ... \u203a Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd01312fb4f26d71ba9e1ec1ec868ffdaecbee.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd013149f12733a5d79b5410c435ac73fd7b3b.webp",
+      "snippet": "Graph of Beckley, WV Hotel Prices for Next 20 Days. Rates shown are nightly rates before taxes and do not necessarily reflect all Beckley, WV discounts ...",
+      "snippet_highlighted_words": [
+        "Graph of Beckley, WV Hotel Prices for Next 20 Days"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "HotelPlanner.com"
+    },
+    {
+      "position": 7,
+      "title": "Search hotels in Beckley, WV",
+      "link": "https://www.booking.com/city/us/beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/city/us/beckley.html&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEsQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a West Virginia (WV)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpwGqEVk6-Yq0FbYxdAfAJTFTN44vwq_LUORLZZqtMu8t9hb_cVtAJbE&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd01312cbeeeb752e10ec3b519e6a12ab9a9df.png",
+      "snippet": "Search hotels in Beckley, WV. Enter your dates to see the latest prices and deals for Beckley hotels.",
+      "snippet_highlighted_words": [
+        "Enter your dates to see the latest prices"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 8,
+      "title": "Fairfield By Marriott\u00ae Inn & Suites Beckley",
+      "link": "https://www.expedia.co.in/Beckley-Hotels-Fairfield-By-Marriott-Inn-Suites-Beckley.h107224542.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.co.in/Beckley-Hotels-Fairfield-By-Marriott-Inn-Suites-Beckley.h107224542.Hotel-Information&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEoQAQ",
+      "displayed_link": "https://www.expedia.co.in \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZKAfM95W6USxS_5zIRDXC3ZSPTKu1Pq9PSXnoXrILbEk2smFCrSieQ0&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131eeedc8c549c3f53c08b0ec54c6e22173.webp",
+      "snippet": "Stay at this hotel in Beckley. Enjoy free breakfast, free Wi-Fi and free parking. Popular attractions Harper Park Retail and Beckley Travel Plaza are ...",
+      "snippet_highlighted_words": [
+        "Stay at this hotel in Beckley"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 9,
+      "title": "Fairfield Inn & Suites Beckley Photos",
+      "link": "https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/photos/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.marriott.com/en-us/hotels/bkwff-fairfield-inn-and-suites-beckley/photos/&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEkQAQ",
+      "displayed_link": "https://www.marriott.com \u203a en-us \u203a hotels \u203a photos",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2gpkXDJQLvmKw4gUqTwWbEsOM4jiHjoHx7kqIi4gZIWYMP2zJ07H74s8&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131fc76214ff55c218b1e3f83c643c7c422.webp",
+      "snippet": "Take a photo tour of Fairfield Inn & Suites Beckley. View photos of our rooms, lobby, dining areas, fitness center, & more.",
+      "snippet_highlighted_words": [
+        "Fairfield Inn & Suites Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.5,
+            "reviews": 19
+          },
+          "extensions": [
+            "3.5(19)"
+          ]
+        }
+      },
+      "missing": [
+        "price"
+      ],
+      "must_include": {
+        "word": "price",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+%22price%22&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q5t4CegQIZBAB"
+      },
+      "source": "Marriott"
+    },
+    {
+      "position": 10,
+      "title": "Hotel Hampton Inn Beckley, USA - www.trivago.com",
+      "link": "https://www.trivago.com/en-US/oar/hotel-hampton-inn-beckley?search=100-75581",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.trivago.com/en-US/oar/hotel-hampton-inn-beckley%3Fsearch%3D100-75581&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0QFnoECEUQAQ",
+      "displayed_link": "https://www.trivago.com \u203a ... \u203a West Virginia \u203a Beckley",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTstZivh4IvrePEXMEjF7DeaRTNOvVoCQshugPVT7TLAssLvznuOSRf4I&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6ac986afa02c944396/images/984fa325cb4546a0aaf2d9b90bbd0131c5023ba0affa2baa0f94be9eb27e7fe7.png",
+      "snippet": "Among Top Rated Hotels in Beckley ; Fairfield by Marriott Inn & Suites Beckley. 8.9 - Excellent (14) 1.9 miles to City center. $140 ; Courtyard Beckley. 8.4 - ...",
+      "snippet_highlighted_words": [
+        "Fairfield by Marriott Inn & Suites Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.5,
+            "reviews": 3217
+          },
+          "extensions": [
+            "8.5/10(3,217)"
+          ]
+        }
+      },
+      "source": "Trivago"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "hotels in beckley wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=hotels+in+beckley+wv+near+i-77&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh-EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=hotels+in+beckley+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels in Beckley, WV with indoor pool",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hotels+in+Beckley,+WV+with+indoor+pool&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh_EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+in+Beckley%2C+WV+with+indoor+pool"
+    },
+    {
+      "block_position": 1,
+      "query": "best hotels in beckley, wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=best+hotels+in+beckley,+wv+near+i-77&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh9EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=best+hotels+in+beckley%2C+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "Fairfield Inn Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Fairfield+Inn+Beckley,+WV&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh7EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Best hotels in Beckley West Virginia",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Best+hotels+in+Beckley+West+Virginia&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh5EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+hotels+in+Beckley+West+Virginia"
+    },
+    {
+      "block_position": 1,
+      "query": "Choice hotels Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Choice+hotels+Beckley,+WV&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh6EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Choice+hotels+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Microtel Inn Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Microtel+Inn+Beckley,+WV&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh2EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Microtel+Inn+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Beckley, WV hotels pet friendly",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Beckley,+WV+hotels+pet+friendly&sa=X&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q1QJ6BAh3EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Beckley%2C+WV+hotels+pet+friendly"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=10&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8NMDegQICRAQ",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=10&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAE",
+      "3": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=20&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAG",
+      "4": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=30&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAI",
+      "5": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=40&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAK",
+      "6": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=50&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAM",
+      "7": "https://www.google.com/search?q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=b5-LaNmDMPfDp84P3ayF6AU&start=60&sa=N&sstk=Ac65TH4WM33beJXuPtzlO0U-X_gbtIKkHSsXO0mCpl5GajPOYn6mU4zE6Ld9kBLPoiPC995O43b3aSCMT-e2vmR9M8spvWjtXIbhRA&ved=2ahUKEwiZ973Mx-eOAxX34ckDHV1WAV0Q8tMDegQICRAO"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+Beckley+Beckley+WV+2025-07-31+hotel+price&start=60"
+    }
+  }
 }

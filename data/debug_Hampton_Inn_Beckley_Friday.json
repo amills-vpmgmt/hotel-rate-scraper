@@ -1,3 +1,604 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9f95cbcccf22dda575b4",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/b97109c3124db4d2/688b9f95cbcccf22dda575b4.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/b97109c3124db4d2/688b9f95cbcccf22dda575b4.json_with_pixel_position",
+    "created_at": "2025-07-31 16:53:41 UTC",
+    "processed_at": "2025-07-31 16:53:41 UTC",
+    "google_url": "https://www.google.com/search?q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&oq=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/b97109c3124db4d2/688b9f95cbcccf22dda575b4.html",
+    "total_time_taken": 1.51
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Hampton Inn Beckley Beckley WV 2025-08-01 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Hampton Inn Beckley Beckley WV 2025-08-01 hotel price",
+    "total_results": 291,
+    "time_taken_displayed": 0.6,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Hampton Inn Beckley",
+    "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/159b096c677ed15caa3726169e83d8799a4b40927a0df8c02f4ed2cf9c913d44.jpeg",
+    "type": "3-star hotel",
+    "entity_type": "hotels",
+    "kgmid": "/g/1tfnz8pw",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/1tfnz8pw&hl=en-US&q=Hampton+Inn+Beckley",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F1tfnz8pw&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley",
+    "place_id": "ChIJIXt9NUPyTogRZUCdMY380zk",
+    "website": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/?SEO_id=GMB-AMER-HX-BEKWVHX&y_source=1_MjA4MTk3My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "directions": "https://maps.google.com/maps?gl=us&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KSF7fTVD8k6IMWVAnTGN_NM5&daddr=110+Harper+Park+Dr,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEGcHJpY2Vz&ictx=111",
+    "description": "The low-key rooms have free Wi-Fi, flat-screen TVs, desks and coffeemakers. Upgraded rooms add sofabeds. Room service is available.Complimentary amenities include parking, and hot breakfast or weekday breakfast bags to go. There's a gym and an outdoor pool, plus a patio and a courtyard.",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/159b096c677ed15caa3726169e83d879f06f6550d841edff8c9eae9f75619236.webp",
+      "link": "https://www.google.com/maps/place/Hampton+Inn+Beckley/data=!4m2!3m1!1s0x0:0x39d3fc8d319d4065?sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ_BJ6BAgyEAA&hl=en&gl=us"
+    },
+    "rating": 4.3,
+    "review_count": 1125,
+    "address": "110 Harper Park Dr, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=hampton+inn+beckley+address&ludocid=4166951763600818277&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ6BN6BAhBEAI"
+      }
+    ],
+    "phone": "(304) 252-2121",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=hampton+inn+beckley+phone&ludocid=4166951763600818277&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ6BN6BAhCEAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Nov 2"
+      },
+      "offers": [
+        {
+          "source": "Hampton Inn Beckley",
+          "price": "$114",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjOkN3ex-eOAxWl1BYFHfmYM_sYACICCAEQBxoCdGw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIzpDd3sfnjgMVpdQWBR35mDP7EAoYASABEgIjBvD_BwE%26category%3Dacrcp_v1_53%26sig%3DAOD64_2K3qJ1b2iFetm9IxOQiQT9IsHKyw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$114",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjOkN3ex-eOAxWl1BYFHfmYM_sYACICCAEQBhoCdGw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIzpDd3sfnjgMVpdQWBR35mDP7EAoYAiABEgKJSPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1Sf62aLtfinR2uAPwdiW8Lg4uhCA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$114",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjOkN3ex-eOAxWl1BYFHfmYM_sYACICCAEQBRoCdGw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIzpDd3sfnjgMVpdQWBR35mDP7EAoYAyABEgJWtvD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1FRAhqXk23yxMV9LWDrJfEJhfeUg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Hotels.com",
+          "price": "$114",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjOkN3ex-eOAxWl1BYFHfmYM_sYACICCAEQBBoCdGw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIzpDd3sfnjgMVpdQWBR35mDP7EAoYBCABEgJpcfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_25by-Ct1-AYc_wYKE9YuE006xD7A%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Hampton Inn Beckley",
+          "price": "$114",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxOFwNrjv38P_Yq9rzlsRZebqonmCpdFlJMdKlWuzFfBQowGqlkbSPqKaGCRORI9Tc1uZ-E2l3fS-7VX39eJ0FwlO6KPqg56444X4xvPZvVteJHc3GZXQZtVZKX8B7J5B6daShWz6TwCHOr1-xC8PQGAnO3MNY_5YrSaxc&pcurl=https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode%3DHILTON-BEKWV%26providerHotelCode%3DBEKWV%26checkInDate%3D2025-11-02%26checkOutDate%3D2025-11-03%26identifier%3Dgoogle-hilton%26price%3D128.79%26roomTypeCode%3DKXTD%26ratePlanCode%3DSHHQO1%26currency%3DUSD%26language%3Den%26userCountry%3DUS%26dateType%3Ddefault%26testClick%3Dfalse%26sitetype%3Dlocaluniversal%26occupancy%3D2%26partnerId%3Dhilton%26campaignid%3D%26rateRuleId%3D%26userlistid%3D%26ifDefaultDate%3Ddefault%26isPromoted%3Dfalse%26isRuleIdsClosed%3Dfalse%26s_is_ad%3Dfalse%26adType%3D0%26adults%3D2%26children%3D0%26clk_src%3D%26is_ds_account%3Dtrue"
+        },
+        {
+          "source": "Super.com",
+          "price": "$106",
+          "link": "https://www.google.com/travel/clk?pc=AA80OszE5uvjCTktfTXtLv6XYpHP_R9MC0Q3IQTRGrZI9ovdfOZDj9DgKCDPkTHg0kSZa3R7ybvWXEuCCrGV-qM1br6CDV8qeqwGA4gHo5UvQWoqPYLKlYtpTI2-bSG5W_IP35t7a9HqELXuaoJ9OSrSYKVeJKzHhJ3FZy8weLDJV5l9&pcurl=https://www.super.com/travel/transition/?data%3Dprice%3D105.78%2526total_price%3D119.52%2526request_id%3Dd15fe9c6-799f-49c3-8890-a394b9c0f632%2526ps%3D1642295693%2526pp%3D4FxrLuhm9I1JV2fGdOuj_Q%2526pb%3DLE_zLHKfiyBqy4bpXTPdGsZGnwLyWarC3sPoiV9rZNEr8jRfBoMNeElpQLMmhTujmbFJoCe70qBtQea1pVC77cw8C6yhqn_Q60YMN1zakXOnVHVYWwLMK58b13m11Xi4i1a4S-2ohuQpwi9cPQDGE94DdowJd36TmTd-XA-0QXFycHOqUGi5CLk9LXq2B0NjppSCFSgN5wONe3R_K57cw3Khlv30IDMZBvNsPa7dftGXxibBBtE9JJizBWWyYJwmpFA8Az0nazi7l6WdjzlIPabRJcd2FDtH8eq1X7D5xTrZJUtRABhuxl-w3N_7pqJ_oqbYv9phQisBkgrE_AUvaohSDEHYTtFEdK9R3c7XeMw%25253D%2526gha_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dtrue%2526alwd_risk%3Dfalse%2526alwd_rand%3Dtrue%2526gt%3D1753976955%2526sg%3DNoGja%2526sid%3DGHA_MD3%2526cmab_id%3D8%2526ttl_bkt%3Dnone%26utm_source%3Dgha%26utm_content%3Dlocaluniversal%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26display_currency%3DUSD%26display_all_inclusive_price%3D119.53%26checkin_at%3D2025-11-02%26checkout_at%3D2025-11-03%26provider_hotel_id%3D10004214430%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26hotel_campaign%3D%26utm_campaign%3D%26user_locale%3Den-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_organic"
+        }
+      ]
+    },
+    "user_reviews": [
+      {
+        "summary": "Friendly staff, clean rooms and a great location for food or shopping.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Bob Johnston",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/159b096c677ed15caa3726169e83d879beeec5ffda9318130634f2b63baa3c1bb9a94a5007b86276e2e03ea9a8365f1b.png"
+        }
+      },
+      {
+        "summary": "Yummy breakfast, well stocked, clean, great service there as well.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Misty E",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/159b096c677ed15caa3726169e83d879beeec5ffda9318137face49d8d7fbf3a91e2ff09f0565eb592f1288231f91745.png"
+        }
+      },
+      {
+        "summary": "The rooms were clean, sheets soft, bed comfy and rooms were clean.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Brecquelyn Burkhammer",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341,73046653&hl=en-US&gl=us&ssta=1&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDMzNTdkN2IyMToweDM5ZDNmYzhkMzE5ZDQwNjUSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyE0Nnb0k1WUQxak5PUl8tazVFQUU4AkIJCWVAnTGN_NM5QgkJZUCdMY380zk&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/159b096c677ed15caa3726169e83d879beeec5ffda9318130304e094c3249742a600bef6de16ff198cd37eb3c59d0683.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/hamptonbyhilton/",
+        "image": "https://ssl.gstatic.com/kpui/social/instagram_32x32.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/hamptoninnbeckley",
+        "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "Why is Hampton Inn so popular?",
+      "type": "ai_overview",
+      "text_blocks": [
+        {
+          "type": "paragraph",
+          "snippet": "Hampton Inn's popularity stems from its consistent quality, reliable service, and strong value proposition, particularly its free hot breakfast and the \"Sleep Happy\" experience. It's a midscale brand that offers a dependable and comfortable stay at a reasonable price, making it a popular choice for both business and leisure travelers.",
+          "snippet_highlighted_words": [
+            "consistent quality, reliable service, and strong value proposition"
+          ],
+          "reference_indexes": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "type": "heading",
+          "snippet": "Here's a more detailed breakdown:"
+        },
+        {
+          "type": "list",
+          "list": [
+            {
+              "title": "Consistent Quality and Reliability:",
+              "snippet": "Hampton Inn has built a reputation for providing a consistently good experience across its numerous locations. This reliability is a key factor for travelers who value predictability and a comfortable stay wherever they go.",
+              "reference_indexes": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "title": "Free Hot Breakfast:",
+              "snippet": "The complimentary hot breakfast, featuring the signature Hampton Waffle, is a major draw for guests. It's a convenient and cost-effective way to start the day.",
+              "reference_indexes": [
+                2,
+                3
+              ]
+            },
+            {
+              "title": "The \"Sleep Happy\" Experience:",
+              "snippet": "Hampton Inn emphasizes a good night's sleep, with features like comfortable beds, premium bedding, and multiple pillow options. This focus on sleep quality contributes to a positive guest experience.",
+              "reference_indexes": [
+                2
+              ]
+            },
+            {
+              "title": "Value and Affordability:",
+              "snippet": "Hampton Inn occupies the midscale segment, offering a balance between price and amenities. This positions it as a more affordable option than upscale hotels, while still providing a comfortable and reliable stay.",
+              "reference_indexes": [
+                0,
+                4
+              ]
+            },
+            {
+              "title": "Global Presence and Brand Recognition:",
+              "snippet": "Hampton Inn has a large and growing global footprint, making it a familiar and trusted brand for travelers worldwide. This widespread presence makes it a convenient choice for many.",
+              "reference_indexes": [
+                1,
+                3
+              ]
+            },
+            {
+              "title": "100% Satisfaction Guarantee:",
+              "snippet": "Hampton Inn offers a 100% satisfaction guarantee, demonstrating their commitment to guest satisfaction.",
+              "reference_indexes": [
+                1
+              ]
+            },
+            {
+              "title": "\"Hamptonality\":",
+              "snippet": "This concept, which emphasizes friendly and reliable service, is a core part of the brand's culture and contributes to the positive guest experience.",
+              "reference_indexes": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5UJLGFsZhLD6oA1xJwbITaabQ_j5SXUHbx_wq1ZKd-iom2wlobU2wje9&s",
+      "references": [
+        {
+          "title": "Why Hampton Inn Is the Hotel Brand to Beat - Bloomberg",
+          "link": "https://www.bloomberg.com/news/features/2025-06-10/why-hampton-inn-is-the-hotel-brand-to-beat#:~:text=At%20the%20average%20Hampton%20Inn,amount%20of%20work%20to%20defend.",
+          "snippet": "Jun 10, 2025 \u2014 At the average Hampton Inn, on the other hand, you can get a comfortable bed on a typical night for about $125 (though...",
+          "source": "Bloomberg",
+          "index": 0
+        },
+        {
+          "title": "Global Powerhouse Hampton by Hilton Reaches 3000th Hotel ...",
+          "link": "https://stories.hilton.com/growth-development/a-beacon-of-hospitality-global-powerhouse-hampton-by-hilton-reaches-3000th-hotel-milestone#:~:text=The%20best%20is%20yet%20to,one%20of%20its%203%2C000%20hotels.",
+          "snippet": "Mar 26, 2024 \u2014 The best is yet to come, and Hampton is ready to embark on its next exciting chapter. Since its inception, Hampton by ...",
+          "source": "Stories From Hilton",
+          "index": 1
+        },
+        {
+          "title": "Hampton by Hilton Fact Sheet",
+          "link": "https://stories.hilton.com/hampton-by-hilton-fact-sheet",
+          "snippet": "Hampton by Hilton Highlights * A Category Pioneer. Hampton by Hilton has a long legacy of innovation, brand best-in-class service...",
+          "source": "Stories From Hilton",
+          "index": 2
+        },
+        {
+          "title": "Hampton Inn's secret to success - LinkedIn",
+          "link": "https://www.linkedin.com/news/story/hampton-inns-secret-to-success-7407466/#:~:text=Hampton%20Inn's%20midscale%20model%20is,add%20a%20comment%2C%20sign%20in",
+          "snippet": "Jun 12, 2025 \u2014 Hampton Inn's midscale model is winning big, combining value, predictability, and global growth to dominate the hotel ...",
+          "source": "LinkedIn",
+          "index": 3
+        },
+        {
+          "title": "Hampton by Hilton - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Hampton_by_Hilton#:~:text=Development%20since%202000,-A%20modern%20Hampton&text=In%202004%2C%20as%20part%20of,Security%20prior%20to%20their%20expulsion.",
+          "snippet": "Development since 2000. ... In 2004, as part of the $100 million \"Make it Hampton\" initiative, Hampton began upgrading its hotels ...",
+          "source": "Wikipedia",
+          "index": 4
+        }
+      ],
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaRlZDMUViRkpTUlRoMFpVbFNkbmRMTkVKUk1XNDRUMlZsWVMxalZHUkdPV2cxTjBKUWQxVm9NRjlTTlVwNGFVeG1Rak5YZVZwbk4xZEZjV2wzZGpkQ05YTklOREJMWkZobVZUSktNazlvWjFaMFJUUjRNelI0WkdwdVFSSVhiRm90VEdGUWNuaE9kRkJ1TVdVNFVHbE5lVVZ2UVVrYUlrRkdUVUZIUjNGVVNFcDRTRmxuVlVGTmFqbEdlRGxsVEZOSlgwbERTVjlyZDNjIiwiZmN2IjoiMyIsImVpIjoibFotTGFQcnhOdFBuMWU4UGlNeUVvQUkiLCJxYyI6ImMtTXl6VWpNTFNqSnoxUEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HRmdvR2hnb1otU1dwT1FvRlJabkpxUUlNdFotQzVPMEIiLCJxdWVzdGlvbiI6IldoeSBpcyBIYW1wdG9uIElubiBzbyBwb3B1bGFyPyIsImxrIjoiR2gxM2FIa2dhWE1nYUdGdGNIUnZiaUJwYm00Z2MyOGdjRzl3ZFd4aGNnIiwiYnMiOiJjLU55NFpJTHo2aFV5Q3hXOEVqTUxTakp6MVB3ek10VEtNNVhLTWd2S00xSkxMS1hhSXMwa3BlU0xZY295b0FxeWtSUnhHWEJKUkdla1ZpaWtKRmZrcHFqa0YtZUJ6Zk9YbUlybDVHa2xIZzVtalRVSUFGR0FBIiwiaWQiOiJmY19sWi1MYVByeE50UG4xZThQaU15RW9BSV80In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaRlZDMUViRkpTUlRoMFpVbFNkbmRMTkVKUk1XNDRUMlZsWVMxalZHUkdPV2cxTjBKUWQxVm9NRjlTTlVwNGFVeG1Rak5YZVZwbk4xZEZjV2wzZGpkQ05YTklOREJMWkZobVZUSktNazlvWjFaMFJUUjRNelI0WkdwdVFSSVhiRm90VEdGUWNuaE9kRkJ1TVdVNFVHbE5lVVZ2UVVrYUlrRkdUVUZIUjNGVVNFcDRTRmxuVlVGTmFqbEdlRGxsVEZOSlgwbERTVjlyZDNjIiwiZmN2IjoiMyIsImVpIjoibFotTGFQcnhOdFBuMWU4UGlNeUVvQUkiLCJxYyI6ImMtTXl6VWpNTFNqSnoxUEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HRmdvR2hnb1otU1dwT1FvRlJabkpxUUlNdFotQzVPMEIiLCJxdWVzdGlvbiI6IldoeSBpcyBIYW1wdG9uIElubiBzbyBwb3B1bGFyPyIsImxrIjoiR2gxM2FIa2dhWE1nYUdGdGNIUnZiaUJwYm00Z2MyOGdjRzl3ZFd4aGNnIiwiYnMiOiJjLU55NFpJTHo2aFV5Q3hXOEVqTUxTakp6MVB3ek10VEtNNVhLTWd2S00xSkxMS1hhSXMwa3BlU0xZY295b0FxeWtSUnhHWEJKUkdla1ZpaWtKRmZrcHFqa0YtZUJ6Zk9YbUlybDVHa2xIZzVtalRVSUFGR0FBIiwiaWQiOiJmY19sWi1MYVByeE50UG4xZThQaU15RW9BSV80In0%3D"
+    },
+    {
+      "question": "What hotel owns Hampton?",
+      "type": "featured_snippet",
+      "snippet": "Hampton by Hilton is one of the largest hotel franchises in the U.S. As of March 2024, the Hampton franchise includes 3,000 hotels in 40 countries and territories.",
+      "title": "Hampton by Hilton",
+      "link": "https://en.wikipedia.org/wiki/Hampton_by_Hilton#:~:text=Hampton%20by%20Hilton%20is%20one,in%2040%20countries%20and%20territories.",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Hampton_by_Hilton",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDljaur1VrePKJoRk-ZaofYuqundLGu-_CLDD_Woa1Bw&s",
+      "source_logo": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/cda74af995944c1010c66aed750a74094d79c500a5c16d18db98501d98ffd3f3.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaRlZDMUViRkpTUlRoMFpVbFNkbmRMTkVKUk1XNDRUMlZsWVMxalZHUkdPV2cxTjBKUWQxVm9NRjlTTlVwNGFVeG1Rak5YZVZwbk4xZEZjV2wzZGpkQ05YTklOREJMWkZobVZUSktNazlvWjFaMFJUUjRNelI0WkdwdVFSSVhiRm90VEdGUWNuaE9kRkJ1TVdVNFVHbE5lVVZ2UVVrYUlrRkdUVUZIUjNGVVNFcDRTRmxuVlVGTmFqbEdlRGxsVEZOSlgwbERTVjlyZDNjIiwiZmN2IjoiMyIsImVpIjoibFotTGFQcnhOdFBuMWU4UGlNeUVvQUkiLCJxYyI6ImMtTXl6VWpNTFNqSnoxUEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HRmdvR2hnb1otU1dwT1FvRlJabkpxUUlNdFotQzVPMEIiLCJxdWVzdGlvbiI6IldoYXQgaG90ZWwgb3ducyBIYW1wdG9uPyIsImxrIjoiR2hkM2FHRjBJR2h2ZEdWc0lHOTNibk1nYUdGdGNIUnZiZyIsImJzIjoiYy1OeTRaSUx6NmhVeUN4VzhFak1MU2pKejFQd3pNdFRLTTVYS01ndktNMUpMTEtYYUlzMGtwZVNMWWNveW9BcXlrUlJ4R1hCSlJHZWtWaWlrSkZma3BxamtGLWVCemZPWG1Jcmw1R2tsSGc1bWpUVUlBRkdBQSIsImlkIjoiZmNfbFotTGFQcnhOdFBuMWU4UGlNeUVvQUlfNCJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaRlZDMUViRkpTUlRoMFpVbFNkbmRMTkVKUk1XNDRUMlZsWVMxalZHUkdPV2cxTjBKUWQxVm9NRjlTTlVwNGFVeG1Rak5YZVZwbk4xZEZjV2wzZGpkQ05YTklOREJMWkZobVZUSktNazlvWjFaMFJUUjRNelI0WkdwdVFSSVhiRm90VEdGUWNuaE9kRkJ1TVdVNFVHbE5lVVZ2UVVrYUlrRkdUVUZIUjNGVVNFcDRTRmxuVlVGTmFqbEdlRGxsVEZOSlgwbERTVjlyZDNjIiwiZmN2IjoiMyIsImVpIjoibFotTGFQcnhOdFBuMWU4UGlNeUVvQUkiLCJxYyI6ImMtTXl6VWpNTFNqSnoxUEl6TXRUU0VwTnpzNUpyWVRUNVdVS1JnWkdwZ29HRmdvR2hnb1otU1dwT1FvRlJabkpxUUlNdFotQzVPMEIiLCJxdWVzdGlvbiI6IldoYXQgaG90ZWwgb3ducyBIYW1wdG9uPyIsImxrIjoiR2hkM2FHRjBJR2h2ZEdWc0lHOTNibk1nYUdGdGNIUnZiZyIsImJzIjoiYy1OeTRaSUx6NmhVeUN4VzhFak1MU2pKejFQd3pNdFRLTTVYS01ndktNMUpMTEtYYUlzMGtwZVNMWWNveW9BcXlrUlJ4R1hCSlJHZWtWaWlrSkZma3BxamtGLWVCemZPWG1Jcmw1R2tsSGc1bWpUVUlBRkdBQSIsImlkIjoiZmNfbFotTGFQcnhOdFBuMWU4UGlNeUVvQUlfNCJ9"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "iTAOj3icxZTdsqo2FMdv-yLlxqrIVqt7humEgIqKim4_8MZBiJEvgwIb3Hd9lz5VH6LP0ATUree4O6fTi2ZGE7KSlf9a6zfr9z985-D9-dNf-zgOo9dqNU3TCiYE-6hikaBqRueDVd0RPzpZ-9-wLyYRlyQ-EtMSBKquQtXVg4VrCpmPZtlqvRrxamcdWoEdbgN_P-wsEnM19ddQerO7HX690ri9L6IDd34XXzgrEnkOOaK_Lg_NySkbxZNDDbUmjnZWCFC5_HVxszUj5FJxmRtVN1X65_38ItOPSlRBhwoPFn1zP3l3mkpF4GutyrhqBvQA-I8DP9lT6U8HilSsiqE8P8o86MwIgPfMq5H7kiDID6nzb9_BF-dQwfKmnVryEx_w0TdI2J6DO_S-ojw4hI-XmVFii843kh9v5WetZ5b7Mb0PnwBFA5PrVz0PRs8FqHXSvR3rqQDJZ6CnZPC9Q6bsCMdrqayr31sLNXg6GvaW7HDVxrTafHV7olOteopY7eFbmye9AZT2EZrPhObOcL2N4p_2U2Mbzj_c9JecKiu6YRXdY7XdZ0LvZYQOEFeGFal2Y0pimZwVuZBwrhUCSQXTL7NTpOgy47t_wFC6sw87sJvvQKmu6wBLOr7kUDMakNBr-Joc8Fl3laY7L68KIEwHrM6UKSVnSqcLvUB1LrGLHn1a74M-XbAQMGQhqLecy3inMy8QYBVIei5Qyx9lTNGn8E32NQSIbwHR4iZSVwFSRwdLmdSp3Ev1MHWOL2sFzOl2iznPK68YoIch7OE8CsiE04QWUV5CBYTKpKk3ii8jV5YChvsDUzQk7Z_LUPjUvzY-g2gVGedWovNlH_lNiB2tbbfrc8OxV_gCEQm2_6I5Wf8PZmpuV6RhZ3DDbP4lZnj62LoYZviKWZ1hxlrXvGhdD5j1r5gpfejhHm1dLfkTsz34xCy4x-yzdamKd5NdUPFjmCkPmOE7zJQvMZsWuS0GkTxNnlwxqzNl6hPMfrR1GV8U6aF15bShYnrsY4mLv0VRaWyaI6_BD7TwtFx5hhIfY2lFuom3pijugvg1PBG6cuxXSejHZ5s7ij0zCGNyKKmHQ0lCluej821eLkoCLzTKfKvM10p7EiO_FJ4cC3GBfyIibzbBMR7MhHenu5u4rW1fb8paHbfdfiQcj0lZ7m_m_tBWD82tueu2z2_2eHgmnZZWHxOoD-ONEwB7EPY2PWT4MRqZieH335aGvRkL4w_lvIjdeYgbWeDx2ewlcVPaASflQ1YfBdnJUe31yF1ka-_9A2izaA1yVZE4zj6IKctLLSVcYNoREmtccLJEykndAyMd6FxkmRsUvYttE7UE9Ot2t-VbL1uzwQU4PoeiUPsblB6h4g",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=iTAOj3icxZTdsqo2FMdv-yLlxqrIVqt7humEgIqKim4_8MZBiJEvgwIb3Hd9lz5VH6LP0ATUree4O6fTi2ZGE7KSlf9a6zfr9z985-D9-dNf-zgOo9dqNU3TCiYE-6hikaBqRueDVd0RPzpZ-9-wLyYRlyQ-EtMSBKquQtXVg4VrCpmPZtlqvRrxamcdWoEdbgN_P-wsEnM19ddQerO7HX690ri9L6IDd34XXzgrEnkOOaK_Lg_NySkbxZNDDbUmjnZWCFC5_HVxszUj5FJxmRtVN1X65_38ItOPSlRBhwoPFn1zP3l3mkpF4GutyrhqBvQA-I8DP9lT6U8HilSsiqE8P8o86MwIgPfMq5H7kiDID6nzb9_BF-dQwfKmnVryEx_w0TdI2J6DO_S-ojw4hI-XmVFii843kh9v5WetZ5b7Mb0PnwBFA5PrVz0PRs8FqHXSvR3rqQDJZ6CnZPC9Q6bsCMdrqayr31sLNXg6GvaW7HDVxrTafHV7olOteopY7eFbmye9AZT2EZrPhObOcL2N4p_2U2Mbzj_c9JecKiu6YRXdY7XdZ0LvZYQOEFeGFal2Y0pimZwVuZBwrhUCSQXTL7NTpOgy47t_wFC6sw87sJvvQKmu6wBLOr7kUDMakNBr-Joc8Fl3laY7L68KIEwHrM6UKSVnSqcLvUB1LrGLHn1a74M-XbAQMGQhqLecy3inMy8QYBVIei5Qyx9lTNGn8E32NQSIbwHR4iZSVwFSRwdLmdSp3Ev1MHWOL2sFzOl2iznPK68YoIch7OE8CsiE04QWUV5CBYTKpKk3ii8jV5YChvsDUzQk7Z_LUPjUvzY-g2gVGedWovNlH_lNiB2tbbfrc8OxV_gCEQm2_6I5Wf8PZmpuV6RhZ3DDbP4lZnj62LoYZviKWZ1hxlrXvGhdD5j1r5gpfejhHm1dLfkTsz34xCy4x-yzdamKd5NdUPFjmCkPmOE7zJQvMZsWuS0GkTxNnlwxqzNl6hPMfrR1GV8U6aF15bShYnrsY4mLv0VRaWyaI6_BD7TwtFx5hhIfY2lFuom3pijugvg1PBG6cuxXSejHZ5s7ij0zCGNyKKmHQ0lCluej821eLkoCLzTKfKvM10p7EiO_FJ4cC3GBfyIibzbBMR7MhHenu5u4rW1fb8paHbfdfiQcj0lZ7m_m_tBWD82tueu2z2_2eHgmnZZWHxOoD-ONEwB7EPY2PWT4MRqZieH335aGvRkL4w_lvIjdeYgbWeDx2ewlcVPaASflQ1YfBdnJUe31yF1ka-_9A2izaA1yVZE4zj6IKctLLSVcYNoREmtccLJEykndAyMd6FxkmRsUvYttE7UE9Ot2t-VbL1uzwQU4PoeiUPsblB6h4g"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Hampton Inn Beckley",
+      "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECAsQAQ",
+      "displayed_link": "https://www.hilton.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54430273abfc83ac31083ed713cc89985f75.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443b324f755b6e26c907cb04a5727aa795f.png",
+      "snippet": "Hampton Inn Beckley, WV looks across the valley from the Alleghenies. Our hotel features fresh beds, free hot breakfast, free WiFi, and other amenities.",
+      "snippet_highlighted_words": [
+        "fresh beds, free hot breakfast, free WiFi, and other amenities"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Offers",
+            "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/offers/"
+          },
+          {
+            "title": "Rooms",
+            "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/rooms/"
+          },
+          {
+            "title": "Hotel Info",
+            "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/hotel-info/"
+          },
+          {
+            "title": "Gallery",
+            "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/gallery/"
+          }
+        ]
+      },
+      "source": "Hilton"
+    },
+    {
+      "position": 2,
+      "title": "Hampton Inn Beckley",
+      "link": "https://www.booking.com/hotel/us/hampton-inn-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/hampton-inn-beckley.html&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECA8QAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443e7ef983e2a20f421a1215613f8549c7d.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54434303f6033978c5d9587ed2db478352fd.png",
+      "snippet": "Located 4.5 miles from Beckley-Raleigh County Convention Center, Hampton Inn Beckley offers 3-star accommodations in Beckley and features a seasonal...",
+      "snippet_highlighted_words": [
+        "Hampton Inn Beckley"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 3,
+      "title": "Hampton Inn Beckley Reviews, Deals & Photos 2025",
+      "link": "https://www.expedia.com/Beckley-Hotels-Hampton-Inn-Beckley.h12711.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Hampton-Inn-Beckley.h12711.Hotel-Information&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECAwQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54435b0886bfe46e8e180c95c19e271cf679.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e544382878232e04a191449a6b03199f61848.png",
+      "snippet": "Tru by Hilton Beckley \u00b7 8.8 out of 10, Excellent, 604 reviews. 8.8 \u00b7 604 reviews. $138 nightly ; Comfort Inn \u00b7 9.2 out of 10, Wonderful, 684 reviews. 9.2 \u00b7 684 ...",
+      "snippet_highlighted_words": [
+        "138 nightly"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.8,
+            "reviews": 1006
+          },
+          "extensions": [
+            "8.8/10(1,006)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 4,
+      "title": "HAMPTON INN BECKLEY - Updated 2025 Prices & Hotel ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d224480-Reviews-Hampton_Inn_Beckley-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d224480-Reviews-Hampton_Inn_Beckley-Beckley_West_Virginia.html&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFQQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443ae52fe300d2cadcdff3bc6f8ab05d546.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443d7983192440e5d18a889051943b8274d.png",
+      "snippet": "The Hampton Inn Beckley hotel in West Virginia is located off I-77 Exit 44 (Harper Road) in the beautiful hills of West Virginia.",
+      "snippet_highlighted_words": [
+        "is located off I-77 Exit 44 (Harper Road"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.1,
+            "reviews": 846,
+            "price_range": "$$"
+          },
+          "extensions": [
+            "4.1(846)",
+            "Price range: $$ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 5,
+      "title": "Hampton Inn Beckley - I-64 & I-77, Exit 44 - Hotel Guides",
+      "link": "https://hotelguides.com/hotels/west-virginia/beckley/110262.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hotelguides.com/hotels/west-virginia/beckley/110262.html&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECE8QAQ",
+      "displayed_link": "https://hotelguides.com \u203a hotels \u203a west-virginia \u203a beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54437a0e80009921de7820c11820ef0fb93c.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54439fc12abec19298322c8f8570f3aa3d9b.png",
+      "snippet": "110 Harper Park Drive, I-64 & I-77, Exit 44, Beckley, WV 25801. Upper-midscale, smoke-free hotel near Tamarack. Rated High. $$",
+      "snippet_highlighted_words": [
+        "Beckley",
+        "WV",
+        "hotel"
+      ],
+      "source": "Hotel Guides"
+    },
+    {
+      "position": 6,
+      "title": "Hampton Inn Beckley - Hotel Planner",
+      "link": "https://www.hotelplanner.com/Hotels/246351/Reservations-Hampton-Inn-Beckley-Beckley-110-Harper-Park-Dr-25801",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotelplanner.com/Hotels/246351/Reservations-Hampton-Inn-Beckley-Beckley-110-Harper-Park-Dr-25801&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFIQAQ",
+      "displayed_link": "https://www.hotelplanner.com \u203a Hotels \u203a Reservations-...",
+      "thumbnail": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e544333ead25e24e496bd74ee4185a0518d38.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54434da81766d8989231e2cdb25b1c12fae7.png",
+      "snippet": "05-May-2025 Verified Review, stayed from Fri May 02 to Sat May 03 2025 at a $323.99 average nightly rate. Response from Management on 07-May-2025: Dear Jeff B., ...",
+      "snippet_highlighted_words": [
+        "323.99 average nightly rate"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.0,
+            "reviews": 729
+          },
+          "extensions": [
+            "4.0(729)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "HotelPlanner.com"
+    },
+    {
+      "position": 7,
+      "title": "Hampton Inn Beckley Hotel",
+      "link": "https://www.agoda.com/hampton-inn-beckley/hotel/beckley-wv-us.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.agoda.com/hampton-inn-beckley/hotel/beckley-wv-us.html&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFUQAQ",
+      "displayed_link": "https://www.agoda.com \u203a hotel \u203a beckley-wv-us",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3h7Dms_I9pzr86Wsh1vkmsYZjVq4rwQsfEVKwZnAnkQwtNGq_bVCq&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443587ec38b5a728ebcd59888091cd734ae.png",
+      "snippet": "With an average room price of just $213, this upscale hotel offers exceptional value for money. Compared to the average price of a hotel room in Beckley (WV) ...",
+      "snippet_highlighted_words": [
+        "average room price of just $213"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 9.4,
+            "reviews": 2,
+            "price": 148,
+            "currency": "$"
+          },
+          "extensions": [
+            "9.4/10(2)",
+            "Price range: room rates from $148 per night (USD)",
+            "We Price Match!"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Agoda.com"
+    },
+    {
+      "position": 8,
+      "title": "Best hotels in Beckley, WV on cozycozy.com",
+      "link": "https://www.cozycozy.com/us/beckley-wv-hotels",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cozycozy.com/us/beckley-wv-hotels&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFAQAQ",
+      "displayed_link": "https://www.cozycozy.com \u203a ... \u203a West Virginia hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLOk_8_y5JQp1szjaqYOZ8e74RbtAVLi8u-snOJMg1RGomuwuzT9d&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443bc803ea363d57aa6db41c60ae68e687b.png",
+      "snippet": "The Hampton Inn Beckley is located in Mabscott, West Virginia, approximately 2 miles from Beckley's city center, offering convenient access to local attractions ...",
+      "snippet_highlighted_words": [
+        "Hampton Inn Beckley",
+        "West Virginia",
+        "Beckley's"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.4,
+            "reviews": 7714
+          },
+          "extensions": [
+            "8.4/10(7,714)"
+          ]
+        }
+      },
+      "source": "Cozycozy"
+    },
+    {
+      "position": 9,
+      "title": "Hampton Inn Beckley - Hotels",
+      "link": "https://www.kayak.com/Beckley-Hotels-Hampton-Inn-Beckley.66952.ksp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.kayak.com/Beckley-Hotels-Hampton-Inn-Beckley.66952.ksp&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFMQAQ",
+      "displayed_link": "https://www.kayak.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSwCMd7YW58pAECwCGqh5DB6gtPmGdzP0gDFjc99tDgOwJ6hk4jc2&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e54439431f26f1f4a6a06bf954c27c840444a.jpeg",
+      "snippet": "The cheapest price a room at Hampton Inn Beckley was booked for on KAYAK in the last 2 weeks was $202, while the most expensive was $281.",
+      "snippet_highlighted_words": [
+        "202"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.2,
+            "reviews": 409,
+            "price": 153,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.2/10(409)",
+            "Price range: $153 per night (Latest starting price for this hotel)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "KAYAK"
+    },
+    {
+      "position": 10,
+      "title": "Hampton Inn - Hotels Beckley WV - Guest Rooms",
+      "link": "https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/rooms/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hilton.com/en/hotels/bekwvhx-hampton-beckley/rooms/&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQFnoECFEQAQ",
+      "displayed_link": "https://www.hilton.com \u203a ... \u203a Hampton Inn Beckley",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNNImCindzvpgC0fVvI5vp_Pn4rhKKKSdMsz94_JotPvfNCoUbGfK&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f95cbcccf22dda575b4/images/44df6787bd9fe1f2b8b628cb303e5443ad064a1bf6ff380be7ba5d08dd8d27f6.png",
+      "snippet": "Hampton Inn Beckley. 110 Harper Park Drive, Beckley, West Virginia, 25801 ... Special rates. Check Rooms & RatesOpens new tab. Rooms and suites. Your stay ...",
+      "snippet_highlighted_words": [
+        "110 Harper Park Drive, Beckley, West Virginia, 25801"
+      ],
+      "source": "Hilton"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Hampton Inn 110 Harper Park Drive Beckley wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hampton+Inn+110+Harper+Park+Drive+Beckley+wv&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiGARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+110+Harper+Park+Drive+Beckley+wv"
+    },
+    {
+      "block_position": 1,
+      "query": "HAMPTON Inn Beckley about",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=HAMPTON+Inn+Beckley+about&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiFARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=HAMPTON+Inn+Beckley+about"
+    },
+    {
+      "block_position": 1,
+      "query": "Newest hotel in Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Newest+hotel+in+Beckley,+WV&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiEARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Newest+hotel+in+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Best Western Plus Beckley Inn prices",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Best+Western+Plus+Beckley+Inn+prices&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiIARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Best+Western+Plus+Beckley+Inn+prices"
+    },
+    {
+      "block_position": 1,
+      "query": "Tru by Hilton Beckley, wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Tru+by+Hilton+Beckley,+wv&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiJARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley%2C+wv"
+    },
+    {
+      "block_position": 1,
+      "query": "Microtel Inn Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Microtel+Inn+Beckley,+WV&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiHARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Microtel+Inn+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "2120 Harper Rd Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=2120+Harper+Rd+Beckley+WV&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BQiDARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=2120+Harper+Rd+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hampton Inn West Virginia",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hampton+Inn+West+Virginia&sa=X&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ1QJ6BAh-EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+West+Virginia"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=lZ-LaPrxNtPn1e8PiMyEoAI&start=10&sa=N&sstk=Ac65TH5oNFT8_tZWni8lmwtA0P0GBXjHccARsr9Q401KvdphttAQCfQWFX6URX4d28QmUuGBrGAS_YWq4jRgx4UcDlNDu8lrFOldvA&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ8NMDegQICRAK",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=lZ-LaPrxNtPn1e8PiMyEoAI&start=10&sa=N&sstk=Ac65TH5oNFT8_tZWni8lmwtA0P0GBXjHccARsr9Q401KvdphttAQCfQWFX6URX4d28QmUuGBrGAS_YWq4jRgx4UcDlNDu8lrFOldvA&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ8tMDegQICRAE",
+      "3": "https://www.google.com/search?q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=lZ-LaPrxNtPn1e8PiMyEoAI&start=20&sa=N&sstk=Ac65TH5oNFT8_tZWni8lmwtA0P0GBXjHccARsr9Q401KvdphttAQCfQWFX6URX4d28QmUuGBrGAS_YWq4jRgx4UcDlNDu8lrFOldvA&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ8tMDegQICRAG",
+      "4": "https://www.google.com/search?q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=lZ-LaPrxNtPn1e8PiMyEoAI&start=30&sa=N&sstk=Ac65TH5oNFT8_tZWni8lmwtA0P0GBXjHccARsr9Q401KvdphttAQCfQWFX6URX4d28QmUuGBrGAS_YWq4jRgx4UcDlNDu8lrFOldvA&ved=2ahUKEwi6kNTex-eOAxXTc_UHHQgmASQQ8tMDegQICRAI"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=30"
+    }
+  }
 }

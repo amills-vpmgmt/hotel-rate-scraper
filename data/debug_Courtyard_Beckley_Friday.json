@@ -1,3 +1,507 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9f8e7d6e702e2f5cbc99",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/06715d391a2559cd/688b9f8e7d6e702e2f5cbc99.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/06715d391a2559cd/688b9f8e7d6e702e2f5cbc99.json_with_pixel_position",
+    "created_at": "2025-07-31 16:53:34 UTC",
+    "processed_at": "2025-07-31 16:53:34 UTC",
+    "google_url": "https://www.google.com/search?q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&oq=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/06715d391a2559cd/688b9f8e7d6e702e2f5cbc99.html",
+    "total_time_taken": 5.05
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Courtyard Beckley Beckley WV 2025-08-01 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Courtyard Beckley Beckley WV 2025-08-01 hotel price",
+    "total_results": 251,
+    "time_taken_displayed": 0.68,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Courtyard Beckley",
+    "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/1d82fbc657fe37b02a06969b9a321ef104ed33e7833b4f97bef41365bafb889a.jpeg",
+    "type": "3-star hotel",
+    "entity_type": "hotels",
+    "kgmid": "/g/1ty74z79",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/1ty74z79&hl=en-US&q=Courtyard+Beckley",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F1ty74z79&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+Beckley",
+    "place_id": "ChIJ76qrR1nyTogRqkNGzvsP0M0",
+    "website": "https://www.marriott.com/en-us/hotels/bkwcy-courtyard-beckley/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+    "directions": "https://maps.google.com/maps?hl=en&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&gl=us&um=1&ie=UTF-8&fb=1&sa=X&geocode=Ke-qq0dZ8k6IMapDRs77D9DN&daddr=124+Hylton+Ln,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEGcHJpY2Vz&ictx=111",
+    "description": "Contemporary-styled rooms offer free WiFi, desks, TVs with cable channels and coffeemakers. Suites add separate living areas and sofabeds.Social spaces include a living room-style lobby and an outdoor courtyard with a fire pit. The American restaurant serves breakfast and dinner, as well as Starbucks coffee. There's also a business center with workstations and printers, and 1 meeting room. Other amenities include an indoor pool, an exercise room and on-site free parking.",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/1d82fbc657fe37b02a06969b9a321ef12e236042374f341ed481b688b023c90f.webp",
+      "link": "https://www.google.com/maps/place/Courtyard+Beckley/data=!4m2!3m1!1s0x0:0xcdd00ffbce4643aa?sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ_BJ6BAg6EAA&hl=en&gl=us"
+    },
+    "rating": 4.1,
+    "review_count": 759,
+    "address": "124 Hylton Ln, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=courtyard+beckley+address&ludocid=14830371147102962602&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ6BN6BAhGEAI"
+      }
+    ],
+    "phone": "(304) 252-9800",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=courtyard+beckley+phone&ludocid=14830371147102962602&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ6BN6BAhBEAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Oct 26"
+      },
+      "offers": [
+        {
+          "source": "Courtyard Beckley",
+          "price": "Get price",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjC4Pfcx-eOAxVTWkgAHWufLOEYACICCAEQBRoCY2U%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIwuD33MfnjgMVU1pIAB1rnyzhEAoYASABEgLaovD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_2pfjKRBB5HGlsif3bn5_yVwnsUDA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$149",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjC4Pfcx-eOAxVTWkgAHWufLOEYACICCAEQBhoCY2U%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIwuD33MfnjgMVU1pIAB1rnyzhEAoYAiABEgKZEvD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1taKY7jUYoVfohOKFNztg0HjYJAw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$149",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjC4Pfcx-eOAxVTWkgAHWufLOEYACICCAEQBBoCY2U%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIwuD33MfnjgMVU1pIAB1rnyzhEAoYAyABEgJPxfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_0VoGStUPPdOaUSSadPCxTRk4sMfw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Hotels.com",
+          "price": "$149",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwjC4Pfcx-eOAxVTWkgAHWufLOEYACICCAEQBxoCY2U%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIwuD33MfnjgMVU1pIAB1rnyzhEAoYBCABEgI4vPD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_0zh750D6KVCElLX7YOOWvRVjMHjQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Courtyard Beckley",
+          "price": "Get price",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxC5CTnS3Z6-whc1UKJ-LvnLP6n7uLt7WUimoBjN4876q72kIgBQ_t4p89djF96B6YxDLO6PHPm0Ykq_NdiT9WmJtoiaNCFAAjEOkzhZ4IxvqM7jWdClQSNqA0EW_ylKQRfqNONszIeN0Zh6LevgKIX0VGvADWDS61qKY2Mg6QkYw&pcurl=https://marriottclk.koddi.com/clk?destination%3Dhttps%253A%252F%252Fad.doubleclick.net%252Fclk%253B269275299%253B95398642%253Bk%253Bu%253Dkoddi%2526sv2%253Dkoddi_hpa_US_BKWCY_localuniversal_1_desktop_10/26/2025_non-distributable__default___organic%253Fhttps%253A%252F%252Fwww.marriott.com%252Freservation%252FavailabilitySearch.mi%253Fcid%253DOMS_GLB0002Y27_GLE00070C9_GLF000C1AH%2526pId%253D%2526isSearch%253Dfalse%2526propertyCode%253DBKWCY%2526fromDate%253D10%252F26%252F2025%2526toDate%253D10%252F27%252F2025%2526numberOfRooms%253D1%2526numberOfGuests%253D2%2526Currency%253DUSD"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$149",
+          "link": "https://www.google.com/travel/clk?pc=AA80Osycb3l_If37s59pSe-S8z5QFsd5CSBCJLniMCNQxqrzbTPHaTKcTztWagWEevmAYqF23VM1jI5QXVH7y5asdsimCIymuDTe5bLPehwNzhNAncoCztXfGHw2R7EulKJN--U0UDFzldJYac-Uv7F4PT4rOkNr2rKp_VwSOb9XbfDM0XneWTY&pcurl=https://www.expedia.com/Hotel-Search?selected%3D67631%26startDate%3D2025-10-26%26endDate%3D2025-10-27%26MDPCID%3DUS.META.HPA.HOTEL-ORGANIC-desktop.HOTEL%26MDPDTL%3DHTL.67631.20251026.20251027.DDT.87.CID..AUDID..RRID.bex_us_desktop%26mctc%3D10%26ct%3Dhotel%26mpg%3DUSD%26mpf%3D168.37%26mpj%3D19.37%26mpl%3DUSD%26exp_pg%3Dgoogle%26langid%3Den%26ad%3D2%26tp%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_term%3D67631%26utm_content%3Dlocaluniversal%26utm_campaign%3DHotelAds%26langid%3D1033%26adults%3D2%26children%3D%26rateplanid%3D1055434%26mpm%3D24%26mpn%3D338770%26mpo%3DEC%26mpp%3D1"
+        }
+      ]
+    },
+    "user_reviews": [
+      {
+        "summary": "Clean rooms, comfy beds, decent price, and friendly staff!",
+        "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Crystal Frame",
+          "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/1d82fbc657fe37b02a06969b9a321ef139f3852b592aad9704e8783e83f0fd492a75f3bca9f0305888b70796ee08768b.png"
+        }
+      },
+      {
+        "summary": "The Bistro offers a limited but tasty selection for breakfast.",
+        "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Gregory Wolff",
+          "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/1d82fbc657fe37b02a06969b9a321ef139f3852b592aad975dca4dddec88943586dfaa44eae76212bc5ada264f6ac7cb.png"
+        }
+      },
+      {
+        "summary": "Stayed there with my Service Dog, THIS PLACE OVERCHARGED AT ALL ENDS!",
+        "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "craig johnson",
+          "link": "https://www.google.com/travel/search?g2lb=4899568,4899569,4965990,4969803,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342&hl=en-US&gl=us&ssta=1&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNTk0N2FiYWFlZjoweGNkZDAwZmZiY2U0NjQzYWESGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lxb2VaOHJ6X2ctak5BUkFCOAJCCQmqQ0bO-w_QzUIJCapDRs77D9DN&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/1d82fbc657fe37b02a06969b9a321ef139f3852b592aad971c65a10a204b2b8b2b888aa3dfaf4e7966f92831e8aa7e8e.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/marriottbonvoy/",
+        "image": "https://ssl.gstatic.com/kpui/social/instagram_32x32.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "http://www.facebook.com/660696180686185",
+        "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "What hotel owns Courtyard?",
+      "type": "featured_snippet",
+      "snippet": "Courtyard by Marriott is an American brand of hotels owned by Marriott International. The hotels are primarily targeted to business travelers (but also accommodate traveling families).",
+      "title": "Marriott International",
+      "link": "https://en.wikipedia.org/wiki/Courtyard_by_Marriott#:~:text=Courtyard%20by%20Marriott%20is%20an,but%20also%20accommodate%20traveling%20families).",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Courtyard_by_Marriott",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzKUprPNZEFwVWpXnpvaBVnqi4GK1XnbFBZnlEZoA&s",
+      "source_logo": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/50f31eec72e3794772cf28d2a205091b171e56af331df2019c0d10305b1a1df0.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSE4xQnVkblYzWkVjeFYyRk5NVXBUTTBwWWFIUkpVVzQ1WjJwV1dHNVlUMEZMV1ZsMVlVSXlWRU13YUdablozQlVkVFpzVFVGamNVOXlXREUxVVU5WmIwUk1SM0JKU1U1UFdHVXpjSGR5VTBkUFFtbDFXbTEwYVhCTFp4SVhhM0F0VEdGUU4zaENObUpTTlU5VlVHeE5Za2R4VVdjYUlrRkdUVUZIUjNKcGJrdEJTMlF4VUdOV01XdDJiVGczYURkS1lrWlNkREZ4WlZFIiwiZmN2IjoiMyIsImVpIjoia3AtTGFQN3hCNmJSNU9VUGxNYkdxUWciLCJxYyI6ImMtTXlUczR2TFNxcFRDeEtVVWhLVGM3T1NhMkUwLVZsQ2tZR1JxWUtCaFlLQm9ZS0dma2xxVGtLQlVXWnlha0NETFdmZ3VUdEFRIiwicXVlc3Rpb24iOiJXaGF0IGhvdGVsIG93bnMgQ291cnR5YXJkPyIsImxrIjoiR2hsM2FHRjBJR2h2ZEdWc0lHOTNibk1nWTI5MWNuUjVZWEprIiwiYnMiOiJjLU95NFpJS3owZ3NVY2pJTDBuTlVjZ3Z6eXRXY000dkxTcXBUQ3hLc1plWWwyWWtMU1ZaanFZZ0dhYUFLNGhMMVNPX1hDRXRzVWdoT1RGUG9US19WQ0VwUHo5YndUZXhxQ2d6dndTcXE5aGVZcTZOa1pxVVNnWTJ0Ym1vYWdVWUFRIiwiaWQiOiJmY19rcC1MYVA3eEI2YlI1T1VQbE1iR3FRZ180In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSE4xQnVkblYzWkVjeFYyRk5NVXBUTTBwWWFIUkpVVzQ1WjJwV1dHNVlUMEZMV1ZsMVlVSXlWRU13YUdablozQlVkVFpzVFVGamNVOXlXREUxVVU5WmIwUk1SM0JKU1U1UFdHVXpjSGR5VTBkUFFtbDFXbTEwYVhCTFp4SVhhM0F0VEdGUU4zaENObUpTTlU5VlVHeE5Za2R4VVdjYUlrRkdUVUZIUjNKcGJrdEJTMlF4VUdOV01XdDJiVGczYURkS1lrWlNkREZ4WlZFIiwiZmN2IjoiMyIsImVpIjoia3AtTGFQN3hCNmJSNU9VUGxNYkdxUWciLCJxYyI6ImMtTXlUczR2TFNxcFRDeEtVVWhLVGM3T1NhMkUwLVZsQ2tZR1JxWUtCaFlLQm9ZS0dma2xxVGtLQlVXWnlha0NETFdmZ3VUdEFRIiwicXVlc3Rpb24iOiJXaGF0IGhvdGVsIG93bnMgQ291cnR5YXJkPyIsImxrIjoiR2hsM2FHRjBJR2h2ZEdWc0lHOTNibk1nWTI5MWNuUjVZWEprIiwiYnMiOiJjLU95NFpJS3owZ3NVY2pJTDBuTlVjZ3Z6eXRXY000dkxTcXBUQ3hLc1plWWwyWWtMU1ZaanFZZ0dhYUFLNGhMMVNPX1hDRXRzVWdoT1RGUG9US19WQ0VwUHo5YndUZXhxQ2d6dndTcXE5aGVZcTZOa1pxVVNnWTJ0Ym1vYWdVWUFRIiwiaWQiOiJmY19rcC1MYVA3eEI2YlI1T1VQbE1iR3FRZ180In0%3D"
+    },
+    {
+      "question": "How far can you book Marriott hotels?",
+      "type": "featured_snippet",
+      "snippet": "You can redeem your Marriott Bonvoy\u00ae Points to make an Award Reservation or book a paid Reservation as early as 50-Weeks prior to arrival. See this article for instructions on making a Reservation using Marriott Bonvoy\u00ae Points or Free Night Certificates. See this article for instructions on making a paid Reservation.",
+      "title": "How Far in Advance Can I Make a Hotel Reservation?",
+      "link": "https://help.marriott.com/s/article/Article-22038#:~:text=You%20can%20redeem%20your%20Marriott,on%20making%20a%20paid%20Reservation.",
+      "displayed_link": "https://help.marriott.com \u203a article \u203a Article-22038",
+      "source_logo": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/50f31eec72e3794772cf28d2a205091b8563d3091ef8f1809d9f59ac3b18b14c.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSE4xQnVkblYzWkVjeFYyRk5NVXBUTTBwWWFIUkpVVzQ1WjJwV1dHNVlUMEZMV1ZsMVlVSXlWRU13YUdablozQlVkVFpzVFVGamNVOXlXREUxVVU5WmIwUk1SM0JKU1U1UFdHVXpjSGR5VTBkUFFtbDFXbTEwYVhCTFp4SVhhM0F0VEdGUU4zaENObUpTTlU5VlVHeE5Za2R4VVdjYUlrRkdUVUZIUjNKcGJrdEJTMlF4VUdOV01XdDJiVGczYURkS1lrWlNkREZ4WlZFIiwiZmN2IjoiMyIsImVpIjoia3AtTGFQN3hCNmJSNU9VUGxNYkdxUWciLCJxYyI6ImMtTXlUczR2TFNxcFRDeEtVVWhLVGM3T1NhMkUwLVZsQ2tZR1JxWUtCaFlLQm9ZS0dma2xxVGtLQlVXWnlha0NETFdmZ3VUdEFRIiwicXVlc3Rpb24iOiJIb3cgZmFyIGNhbiB5b3UgYm9vayBNYXJyaW90dCBob3RlbHM/IiwibGsiOiJHaVJvYjNjZ1ptRnlJR05oYmlCNWIzVWdZbTl2YXlCdFlYSnlhVzkwZENCb2IzUmxiSE0iLCJicyI6ImMtT3k0WklLejBnc1VjaklMMG5OVWNndnp5dFdjTTR2TFNxcFRDeEtzWmVZbDJZa0xTVlpqcVlnR2FhQUs0aEwxU09fWENFdHNVZ2hPVEZQb1RLX1ZDRXBQejlid1RleHFDZ3p2d1NxcTloZVlxNk5rWnFVU2dZMnRibW9hZ1VZQVEiLCJpZCI6ImZjX2twLUxhUDd4QjZiUjVPVVBsTWJHcVFnXzQifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSE4xQnVkblYzWkVjeFYyRk5NVXBUTTBwWWFIUkpVVzQ1WjJwV1dHNVlUMEZMV1ZsMVlVSXlWRU13YUdablozQlVkVFpzVFVGamNVOXlXREUxVVU5WmIwUk1SM0JKU1U1UFdHVXpjSGR5VTBkUFFtbDFXbTEwYVhCTFp4SVhhM0F0VEdGUU4zaENObUpTTlU5VlVHeE5Za2R4VVdjYUlrRkdUVUZIUjNKcGJrdEJTMlF4VUdOV01XdDJiVGczYURkS1lrWlNkREZ4WlZFIiwiZmN2IjoiMyIsImVpIjoia3AtTGFQN3hCNmJSNU9VUGxNYkdxUWciLCJxYyI6ImMtTXlUczR2TFNxcFRDeEtVVWhLVGM3T1NhMkUwLVZsQ2tZR1JxWUtCaFlLQm9ZS0dma2xxVGtLQlVXWnlha0NETFdmZ3VUdEFRIiwicXVlc3Rpb24iOiJIb3cgZmFyIGNhbiB5b3UgYm9vayBNYXJyaW90dCBob3RlbHM%2FIiwibGsiOiJHaVJvYjNjZ1ptRnlJR05oYmlCNWIzVWdZbTl2YXlCdFlYSnlhVzkwZENCb2IzUmxiSE0iLCJicyI6ImMtT3k0WklLejBnc1VjaklMMG5OVWNndnp5dFdjTTR2TFNxcFRDeEtzWmVZbDJZa0xTVlpqcVlnR2FhQUs0aEwxU09fWENFdHNVZ2hPVEZQb1RLX1ZDRXBQejlid1RleHFDZ3p2d1NxcTloZVlxNk5rWnFVU2dZMnRibW9hZ1VZQVEiLCJpZCI6ImZjX2twLUxhUDd4QjZiUjVPVVBsTWJHcVFnXzQifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "error": "An AI Overview is not available for this search"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Courtyard Beckley - Hotel With Bistro, Pool & Fitness Center",
+      "link": "https://www.marriott.com/en-us/hotels/bkwcy-courtyard-beckley/overview/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.marriott.com/en-us/hotels/bkwcy-courtyard-beckley/overview/&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECBQQAQ",
+      "displayed_link": "https://www.marriott.com \u203a USA \u203a West Virginia",
+      "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe50573cf8efe6c6242f2a70a16fea2e893c4.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe505eddbe909daf266900adf877224777601.webp",
+      "snippet": "Book directly at Courtyard Beckley for exclusive rates & deals. Our hotel offers an indoor pool, convenience store, 24/7 fitness center and more.",
+      "snippet_highlighted_words": [
+        "Courtyard Beckley"
+      ],
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Marriott"
+    },
+    {
+      "position": 2,
+      "title": "Courtyard by Marriott Beckley Reviews, Deals & ... - Expedia",
+      "link": "https://www.expedia.com/Beckley-Hotels-Courtyard-By-Marriott-Beckley.h67631.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Courtyard-By-Marriott-Beckley.h67631.Hotel-Information&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECBMQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe5050885f16eb06643ccdcd80f31e01dc732.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe50598ac46344daf33a7aa9252815d1f7323.webp",
+      "snippet": "Hotel in Beckley with a 24-hour fitness center and a 24-hour business center. Choose dates to view prices.",
+      "snippet_highlighted_words": [
+        "Choose dates to view prices"
+      ],
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 3,
+      "title": "Courtyard Beckley",
+      "link": "https://www.booking.com/hotel/us/courtyard-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/courtyard-beckley.html&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECBIQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe505522f993e709eb38682ba01560f9a88f3.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe505b652bf581c2c4c278c8c38b150781825.png",
+      "snippet": "Located 4.2 miles from Beckley-Raleigh County Convention Center, Courtyard Beckley offers 3-star accommodations in Beckley and has a shared lounge, a...",
+      "snippet_highlighted_words": [
+        "Courtyard Beckley offers 3-star accommodations"
+      ],
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 4,
+      "title": "Courtyard by Marriott Beckley - Hotels",
+      "link": "https://www.kayak.com/Beckley-Hotels-Courtyard-by-Marriott-Beckley.41208.ksp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.kayak.com/Beckley-Hotels-Courtyard-by-Marriott-Beckley.41208.ksp&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECBUQAQ",
+      "displayed_link": "https://www.kayak.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe505237addb929247a7bfd79f7f9c28b85dc.png",
+      "snippet": "Compare prices and find the best deal for the Courtyard by Marriott Beckley in Beckley (West Virginia) on KAYAK. Rates from $150.",
+      "snippet_highlighted_words": [
+        "Courtyard by Marriott Beckley in Beckley (West Virginia"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7.4,
+            "reviews": 257,
+            "price": 150,
+            "currency": "$"
+          },
+          "extensions": [
+            "7.4/10(257)",
+            "Price range: $150 per night (Latest starting price for this hotel)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "KAYAK"
+    },
+    {
+      "position": 5,
+      "title": "COURTYARD BECKLEY - Updated 2025 Prices & Hotel ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d224145-Reviews-Courtyard_Beckley-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d224145-Reviews-Courtyard_Beckley-Beckley_West_Virginia.html&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECFIQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe505043c90f7e3fff9b0c5b41c00ffe48b86.png",
+      "snippet": "The Courtyard by Marriott Beckley offers an indoor pool, 24 hour fitness room, free high speed internet, complimentary business center computers and printers.",
+      "snippet_highlighted_words": [
+        "Courtyard",
+        "Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.9,
+            "reviews": 402,
+            "price_range": "$$"
+          },
+          "extensions": [
+            "3.9(402)",
+            "Price range: $$ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 6,
+      "title": "Courtyard by Marriott Beckley",
+      "link": "https://www.travelocity.com/Beckley-Hotels-Courtyard-By-Marriott-Beckley.h67631.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.travelocity.com/Beckley-Hotels-Courtyard-By-Marriott-Beckley.h67631.Hotel-Information&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoFCIEBEAE",
+      "displayed_link": "https://www.travelocity.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe5058a9a7713475dc12bf2a9813efac9db7f.webp",
+      "snippet": "Courtyard by Marriott Beckley offers its guests an indoor pool and a 24-hour fitness center. There's a restaurant on site, as well as a coffee shop/cafe and ...",
+      "snippet_highlighted_words": [
+        "Courtyard by Marriott Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.4,
+            "reviews": 828
+          },
+          "extensions": [
+            "8.4/10(828)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Travelocity"
+    },
+    {
+      "position": 7,
+      "title": "Reserve Your Room at Courtyard Beckley - Best Prices Online",
+      "link": "https://trippboplus.com/hotels/hotel/1091643/Courtyard-Beckley",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://trippboplus.com/hotels/hotel/1091643/Courtyard-Beckley&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECFMQAQ",
+      "displayed_link": "https://trippboplus.com \u203a hotels \u203a hotel \u203a Courtyard-Be...",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe50583a6e228fdf2738b0e2d82802a8e997f.png",
+      "snippet": "2025-08-01 \u00b7 2025-08-02 (1 nights) ... Location 124 Hylton Ln Beckley Wv 25801, BeckleyWest Virginia 25801, Beckley, 25801, USA ... This hotel is 18.8 mi (30.3 km) ...",
+      "snippet_highlighted_words": [
+        "2025-08-01",
+        "Beckley Wv",
+        "BeckleyWest",
+        "Beckley",
+        "hotel"
+      ],
+      "missing": [
+        "price"
+      ],
+      "must_include": {
+        "word": "price",
+        "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+%22price%22&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ5t4CegQIXxAB"
+      },
+      "source": "trippboplus.com"
+    },
+    {
+      "position": 8,
+      "title": "Courtyard by Marriott Beckley",
+      "link": "https://www.hotels.com/ho135664/courtyard-by-marriott-beckley-beckley-united-states-of-america/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotels.com/ho135664/courtyard-by-marriott-beckley-beckley-united-states-of-america/&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECFgQAQ",
+      "displayed_link": "https://www.hotels.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHwY8qGblMoBNR64uV2BnqCQUG-nG6EaJ9Cmw6o19bOF39HPnUcqSC9M&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe5059adcddc53f95375319185a58b2221eda.webp",
+      "snippet": "Courtyard by Marriott Beckley \u00b7 Choose dates to view prices \u00b7 Photo gallery for Courtyard by Marriott Beckley \u00b7 Reviews \u00b7 Popular amenities \u00b7 Room options \u00b7 Similar ...",
+      "snippet_highlighted_words": [
+        "Courtyard by Marriott Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.4,
+            "reviews": 829,
+            "price": 202,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.4/10(829)",
+            "Price range: from $202",
+            "(Total with taxes and fees)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Hotels.com"
+    },
+    {
+      "position": 9,
+      "title": "Courtyard by Marriott Beckley",
+      "link": "https://www.priceline.com/hotel-deals/en-us/P3000024182/H51853/courtyard-by-marriott-beckley.ssp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.priceline.com/hotel-deals/en-us/P3000024182/H51853/courtyard-by-marriott-beckley.ssp&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECFoQAQ",
+      "displayed_link": "https://www.priceline.com \u203a ... \u203a West Virginia \u203a Beckley",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Rp7HXrNKOYlqCQtZnQ2W4sUU4szx7t979dumeH0GntElnw43KFa2lXA&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f8e7d6e702e2f5cbc99/images/24b1e0294bb71c4586348bbd956fe50574884e00c2e62e43584c7ae559a3d3f7.png",
+      "snippet": "Book your stay at Courtyard by Marriott Beckley in Beckley and save up to 60%! Enjoy exclusive deals and discounts on hotels. Lowest rates guaranteed.",
+      "snippet_highlighted_words": [
+        "save up to 60"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "About",
+            "link": "https://www.priceline.com/hotel-deals/en-us/P3000024182/H51853/courtyard-by-marriott-beckley.ssp#:~:text=About"
+          },
+          {
+            "title": "Guest Rating",
+            "link": "https://www.priceline.com/hotel-deals/en-us/P3000024182/H51853/courtyard-by-marriott-beckley.ssp#:~:text=%29-,Guest%20Rating"
+          },
+          {
+            "title": "Room Options",
+            "link": "https://www.priceline.com/hotel-deals/en-us/P3000024182/H51853/courtyard-by-marriott-beckley.ssp#:~:text=Room%20Options"
+          }
+        ]
+      },
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7.3,
+            "reviews": 187,
+            "price": 169,
+            "currency": "$"
+          },
+          "extensions": [
+            "7.3/10(187)",
+            "Price range: $169 per night (Latest starting price for this hotel)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Priceline.com"
+    },
+    {
+      "position": 10,
+      "title": "Hotels in Beckley WV Near I-77",
+      "link": "https://westerwaldhotels.com/en/hotels-in-beckley-wv-near-i-77/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://westerwaldhotels.com/en/hotels-in-beckley-wv-near-i-77/&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQFnoECFYQAQ",
+      "displayed_link": "https://westerwaldhotels.com \u203a hotels-in-beckley-wv-near...",
+      "snippet": "Courtyard Beckley, situated close to I-77, provides guests with upscale accommodations, a bistro offering healthy dining options, and a 24-hour fitness center.",
+      "snippet_highlighted_words": [
+        "Courtyard Beckley"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Are You In A Hurry?",
+            "link": "https://westerwaldhotels.com/en/hotels-in-beckley-wv-near-i-77/#:~:text=Are%20you%20in%20a%20hurry%3F"
+          },
+          {
+            "title": "Quality Inn Beckley",
+            "link": "https://westerwaldhotels.com/en/hotels-in-beckley-wv-near-i-77/#:~:text=Quality%20Inn%20Beckley,-%E2%AD%90%20%E2%AD%90%20%E2%AD%90"
+          },
+          {
+            "title": "Clarion Pointe Beckley Hotel",
+            "link": "https://westerwaldhotels.com/en/hotels-in-beckley-wv-near-i-77/#:~:text=Clarion%20Pointe%20Beckley%20Hotel,-%E2%AD%90%20%E2%AD%90"
+          }
+        ]
+      },
+      "source": "westerwaldhotels.com"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Courtyard beckley beckley wv 2025 08 01 hotel price per",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+per&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BQiNARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+per"
+    },
+    {
+      "block_position": 1,
+      "query": "Courtyard beckley beckley wv 2025 08 01 hotel price near",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+near&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BQiJARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+near"
+    },
+    {
+      "block_position": 1,
+      "query": "Courtyard beckley beckley wv 2025 08 01 hotel price menu",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+menu&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BQiEARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+beckley+beckley+wv+2025+08+01+hotel+price+menu"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels in Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Hotels+in+Beckley,+WV&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BQiDARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+in+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "hotels in beckley wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=hotels+in+beckley+wv+near+i-77&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BQiCARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=hotels+in+beckley+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "Courtyard Beckley prices",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Courtyard+Beckley+prices&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BAh_EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+Beckley+prices"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels in Beckley, WV with indoor pool",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Hotels+in+Beckley,+WV+with+indoor+pool&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BAh8EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+in+Beckley%2C+WV+with+indoor+pool"
+    },
+    {
+      "block_position": 1,
+      "query": "Beckley, WV hotels pet friendly",
+      "link": "https://www.google.com/search?sca_esv=d81d33885b31fd73&hl=en&gl=us&q=Beckley,+WV+hotels+pet+friendly&sa=X&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ1QJ6BAh3EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Beckley%2C+WV+hotels+pet+friendly"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=d81d33885b31fd73&hl=en&gl=us&ei=kp-LaP7xB6bR5OUPlMbGqQg&start=10&sa=N&sstk=Ac65TH5VQp5rJnMJx66DxDkR2QjQ9UjRKBMkFVVJWbtXROMMTZIltU8z8GpObBCOQi66cVwonvqHGcNzXNkY1DznyUIJtj0XGmKfaA&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ8NMDegQIDxAG",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=d81d33885b31fd73&hl=en&gl=us&ei=kp-LaP7xB6bR5OUPlMbGqQg&start=10&sa=N&sstk=Ac65TH5VQp5rJnMJx66DxDkR2QjQ9UjRKBMkFVVJWbtXROMMTZIltU8z8GpObBCOQi66cVwonvqHGcNzXNkY1DznyUIJtj0XGmKfaA&ved=2ahUKEwj-gu7cx-eOAxWmKLkGHRSjMYUQ8tMDegQIDxAE"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Courtyard+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10"
+    }
+  }
 }

@@ -1,3 +1,526 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9f6286e9fa3c228aeda8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f19f33893d66c51b/688b9f6286e9fa3c228aeda8.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/f19f33893d66c51b/688b9f6286e9fa3c228aeda8.json_with_pixel_position",
+    "created_at": "2025-07-31 16:52:50 UTC",
+    "processed_at": "2025-07-31 16:52:50 UTC",
+    "google_url": "https://www.google.com/search?q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&oq=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/f19f33893d66c51b/688b9f6286e9fa3c228aeda8.html",
+    "total_time_taken": 5.72
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Tru by Hilton Beckley Beckley WV 2025-07-31 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Tru by Hilton Beckley Beckley WV 2025-07-31 hotel price",
+    "total_results": 259,
+    "time_taken_displayed": 0.48,
+    "organic_results_state": "Results for exact spelling",
+    "results_for": "Beckley, WV"
+  },
+  "knowledge_graph": {
+    "title": "Tru by Hilton Beckley",
+    "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d03ed38d11ec4b4631747dd7c2580d527.jpeg",
+    "entity_type": "hotels",
+    "kgmid": "/g/11py0g4_06",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11py0g4_06&hl=en-US&q=Tru+by+Hilton+Beckley",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11py0g4_06&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley",
+    "place_id": "ChIJ898cVlzyTogRFzvDkqGrD_U",
+    "website": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/?SEO_id=GMB-AMER-RU-BKWRURU&y_source=1_MjUwNjcxNzItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "directions": "https://maps.google.com/maps?hl=en&gl=us&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&um=1&ie=UTF-8&fb=1&sa=X&geocode=KfPfHFZc8k6IMRc7w5Khqw_1&daddr=162+Neptune+Dr,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEGcHJpY2Vz&ictx=111",
+    "description": "Colorful, down-to-earth rooms feature Wi-Fi, flat-screen TVs and minifridges.There's a fitness center and a snack shop, as well as a vibrant lobby lounge with co-working space. Breakfast and parking are available.",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d699ae51874ae9ca2fad3a1a45257ccab.webp",
+      "link": "https://www.google.com/maps/place/Tru+by+Hilton+Beckley/data=!4m2!3m1!1s0x0:0xf50faba192c33b17?sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ_BJ6BAg8EAA&hl=en&gl=us"
+    },
+    "rating": 4.2,
+    "review_count": 626,
+    "address": "162 Neptune Dr, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=tru+by+hilton+beckley+address&ludocid=17658521374383356695&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ6BN6BAhGEAI"
+      }
+    ],
+    "phone": "(681) 254-5535",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=tru+by+hilton+beckley+phone&ludocid=17658521374383356695&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ6BN6BAhIEAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Oct 26"
+      },
+      "offers": [
+        {
+          "source": "Booking.com",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi5xrPIx-eOAxUULtQBHfLMJWgYACICCAEQBRoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIucazyMfnjgMVFC7UAR3yzCVoEAoYASABEgJqMfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3NcT3RjSdNeGyf8kl8lls7pk3GOA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Tru by Hilton Beckley",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi5xrPIx-eOAxUULtQBHfLMJWgYACICCAEQBBoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIucazyMfnjgMVFC7UAR3yzCVoEAoYAiABEgIXUvD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1LtYQu22Pi5_6NgRL0udz7MAeS7A%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi5xrPIx-eOAxUULtQBHfLMJWgYACICCAEQBxoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIucazyMfnjgMVFC7UAR3yzCVoEAoYAyABEgIBQfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1TijvFIweEcF7btwT8yx9HbVSzWQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Hotels.com",
+          "price": "$124",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi5xrPIx-eOAxUULtQBHfLMJWgYACICCAEQBhoCb2E%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIucazyMfnjgMVFC7UAR3yzCVoEAoYBCABEgJp-PD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3gCmZlwue6stQALbB72-UrTr8_Pw%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Tru by Hilton Beckley",
+          "price": "$124",
+          "link": "https://www.google.com/travel/clk?pc=AA80OswS2mWC6IYtyAkuaD8161Y9IKuZf6QxMUUHpnM1ZOF2CswJhFplzIKjgkQZVbCyAvSXDVOTkBuRjwkihZL4LxWDoDvWToZQqMoT87sTJAD5OH_GH93L2WDxzc4XZOyaAbPc_nRwP2qYLDrPV0foWr7Vj3n6WogxmB05bnQ&pcurl=https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode%3DHILTON-BKWRU%26providerHotelCode%3DBKWRU%26checkInDate%3D2025-10-26%26checkOutDate%3D2025-10-27%26identifier%3Dgoogle-hilton%26price%3D140.63%26roomTypeCode%3DK1RRV%26ratePlanCode%3DQO%26currency%3DUSD%26language%3Den%26userCountry%3DUS%26dateType%3Ddefault%26testClick%3Dfalse%26sitetype%3Dlocaluniversal%26occupancy%3D2%26partnerId%3Dhilton%26campaignid%3D%26rateRuleId%3D%26userlistid%3D%26ifDefaultDate%3Ddefault%26isPromoted%3Dfalse%26isRuleIdsClosed%3Dfalse%26s_is_ad%3Dfalse%26adType%3D0%26adults%3D2%26children%3D0%26clk_src%3D%26is_ds_account%3Dtrue"
+        },
+        {
+          "source": "trivago DEALS",
+          "price": "$111",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsyH1AurB_631AzIL3vFciA-Kmz1OiQQHx5XA5z1ouFLPvy1nBkLxAoNR8pvLSZrrHQ3v16LMv_0Ugd17fa_bkUNF-nEqTT1Re9t3hAjYVsXx8VjVI6xxiaD-OoWDtnC3826_3FVRNCa5fcmHltkjMJHy1GGdqcglIA1cIfDZ5x8oIaaMiqK_RoOojyM98Q&pcurl=https://www.trivago.deals/hotels/united-states_wv_beckley/4354776_tru-by-hilton-beckley?checkIn%3D2025-10-26%26checkOut%3D2025-10-27%26placeId%3DH4354776%26campaignName%3DTrivagoDeals_Google_US%26currencyCode%3DUSD%26dealKey%3DCAIQjQYiDAjZtK7EBhDUkM6bAipLDQAA-EIVAAD2QiXXo1RBMAE4mQFFAAD4QkoLCNC0rsQGENjGgGViClN0YW5kYXJkIEtoAXCYAYIBAI0B7FH3QqAB2aOE7wGoAcgGMI0GONjliQJAkqkPSAFSCMiswtlHu-72WMgG%26countryCode%3DUS%26languageCode%3Den%26rule%3DGoogle_US%26site%3Dlocaluniversal%26ads%3D%26origin%3D31%26priceDisplayedTotal%3D124.00%26priceDisplayedTax%3D13.29%26device%3Ddesktop%26adults%3D2%26children%3D0"
+        }
+      ]
+    },
+    "user_reviews": [
+      {
+        "summary": "Brand new, very clean rooms, good breakfast and awesome friendly staff",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "David Cecil",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d985baae2ea171b761a9092e173a5ed1e099d8b8e39500174d7740003c9cc52b0.png"
+        }
+      },
+      {
+        "summary": "And the coffee downstairs tastes like water... trying to save money?",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "J Coop",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d985baae2ea171b760097f9412f0d6369f8f7adb44ec08f96bb189feb06285f8d.png"
+        }
+      },
+      {
+        "summary": "Decent place, watch out for the \"trash\" wondering the parking lot though.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Casey LTX",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248047,72248049,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990342,73019057&hl=en-US&gl=us&ssta=1&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNWM1NjFjZGZmMzoweGY1MGZhYmExOTJjMzNiMTcSGhIUCgcI6Q8QChgaEgcI6Q8QChgbGAEyAhAA&qs=CAEyFENnc0lsX2FNbHBuMDZvZjFBUkFCOAJCCQkXO8OSoasP9UIJCRc7w5Khqw_1&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d985baae2ea171b76101a20f439979466e6913dfb62fa674a9404b4df48e89302.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "X (Twitter)",
+        "link": "https://twitter.com/trubyhilton",
+        "image": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d6f377f7e71a7e815c73a7db047bd04578b86288d43a9c868.png"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/trubyhilton/",
+        "image": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d6f377f7e71a7e815aca252d3e387141369438de63980bf39.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/TrubyHilton",
+        "image": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/1c7e56dcf2113fd033050d24c911992d6f377f7e71a7e8150e80229c83b020f4062417c16e7c56f3.png"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "How to book Hilton hotels for cheap?",
+      "type": "featured_snippet",
+      "snippet": "Early Booking Offer Book in advance and enjoy up to 40% off our Best Available Rate at participating resorts. The farther ahead you book, the more you save.",
+      "title": "Early Booking - Hotel Deals and Offers from Hilton",
+      "link": "https://www.hilton.com/en/offers/early-booking-offer-2000000307/#:~:text=Early%20Booking%20Offer,-Planning%20a%20resort&text=Book%20in%20advance%20and%20enjoy,book%2C%20the%20more%20you%20save.",
+      "displayed_link": "https://www.hilton.com \u203a offers \u203a early-booking-offer-2...",
+      "source_logo": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/42f454f1d1f0155f56f97d29597bd2d80bd5de1f90bc47bfd09395a28a39b9b2.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyB0byBib29rIEhpbHRvbiBob3RlbHMgZm9yIGNoZWFwPyIsImxrIjoiR2lOb2IzY2dkRzhnWW05dmF5Qm9hV3gwYjI0Z2FHOTBaV3h6SUdadmNpQmphR1ZoY0EiLCJicyI6ImMtTUs0Rkx4eUM5WEtNbFhTTXJQejFid3lNd3B5YzlUeU1ndlNjMHBWa2pMTDFKSXpraE5MTENYdU1wcnBDcWxuSUdrTkFPN1VxNDBMbjJRaWJtbHlSa0tLZm1weFFxWkpRckotY1VsWUkybG1Ua3BDb2tLSlVXbENrbVZVTnZzSlM1ekd4bEk2V1VRcVF0aU1aY1psempJbm55UVZGR3FRZ2hRRXVJV2U0a3R6a1lTVW1JWlNMSWxjRmtCUmdBIiwiaWQiOiJmY19aNS1MYU42SUJiUFVwODRQMC1lam9RZ180In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyB0byBib29rIEhpbHRvbiBob3RlbHMgZm9yIGNoZWFwPyIsImxrIjoiR2lOb2IzY2dkRzhnWW05dmF5Qm9hV3gwYjI0Z2FHOTBaV3h6SUdadmNpQmphR1ZoY0EiLCJicyI6ImMtTUs0Rkx4eUM5WEtNbFhTTXJQejFid3lNd3B5YzlUeU1ndlNjMHBWa2pMTDFKSXpraE5MTENYdU1wcnBDcWxuSUdrTkFPN1VxNDBMbjJRaWJtbHlSa0tLZm1weFFxWkpRckotY1VsWUkybG1Ua3BDb2tLSlVXbENrbVZVTnZzSlM1ekd4bEk2V1VRcVF0aU1aY1psempJbm55UVZGR3FRZ2hRRXVJV2U0a3R6a1lTVW1JWlNMSWxjRmtCUmdBIiwiaWQiOiJmY19aNS1MYU42SUJiUFVwODRQMC1lam9RZ180In0%3D"
+    },
+    {
+      "question": "How much does it cost to build a tru by Hilton?",
+      "type": "featured_snippet",
+      "snippet": "The cost of opening a Tru by Hilton franchise can vary depending on a number of factors. On average, you can expect to invest between $12.76M-$18.6M. This range includes expenses like the initial franchise fee, equipment, signage, seating, and other essential costs.",
+      "title": "Tru by Hilton Franchise Cost & Profit Exposed (2025 Update) | Vetted Biz",
+      "link": "https://www.vettedbiz.com/franchises/tru-by-hilton/#:~:text=The%20cost%20of%20opening%20a,seating%2C%20and%20other%20essential%20costs.",
+      "displayed_link": "https://www.vettedbiz.com \u203a franchises \u203a tru-by-hilton",
+      "source_logo": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/42f454f1d1f0155f56f97d29597bd2d897fa2c365fd42afca6c33ba77d3f7805.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIGRvZXMgaXQgY29zdCB0byBidWlsZCBhIHRydSBieSBIaWx0b24/IiwibGsiOiJHaTVvYjNjZ2JYVmphQ0JrYjJWeklHbDBJR052YzNRZ2RHOGdZblZwYkdRZ1lTQjBjblVnWW5rZ2FHbHNkRzl1IiwiYnMiOiJjLU1LNEZMeHlDOVhLTWxYU01yUHoxYnd5TXdweWM5VHlNZ3ZTYzBwVmtqTEwxSkl6a2hOTExDWHVNcHJwQ3FsbklHa05BTzdVcTQwTG4yUWlibWx5UmtLS2ZtcHhRcVpKUXJKLWNVbFlJMmxtVGtwQ29rS0pVV2xDa21WVU52c0pTNXpHeGxJNldVUXFRdGlNWmNabHpqSW5ueVFWRkdxUWdoUUV1SVdlNGt0emtZU1VtSVpTTElsY0ZrQlJnQSIsImlkIjoiZmNfWjUtTGFONklCYlBVcDg0UDAtZWpvUWdfNCJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBtdWNoIGRvZXMgaXQgY29zdCB0byBidWlsZCBhIHRydSBieSBIaWx0b24%2FIiwibGsiOiJHaTVvYjNjZ2JYVmphQ0JrYjJWeklHbDBJR052YzNRZ2RHOGdZblZwYkdRZ1lTQjBjblVnWW5rZ2FHbHNkRzl1IiwiYnMiOiJjLU1LNEZMeHlDOVhLTWxYU01yUHoxYnd5TXdweWM5VHlNZ3ZTYzBwVmtqTEwxSkl6a2hOTExDWHVNcHJwQ3FsbklHa05BTzdVcTQwTG4yUWlibWx5UmtLS2ZtcHhRcVpKUXJKLWNVbFlJMmxtVGtwQ29rS0pVV2xDa21WVU52c0pTNXpHeGxJNldVUXFRdGlNWmNabHpqSW5ueVFWRkdxUWdoUUV1SVdlNGt0emtZU1VtSVpTTElsY0ZrQlJnQSIsImlkIjoiZmNfWjUtTGFONklCYlBVcDg0UDAtZWpvUWdfNCJ9"
+    },
+    {
+      "question": "How old are Tru hotels?",
+      "type": "featured_snippet",
+      "snippet": "Tru by Hilton",
+      "table": [
+        [
+          "Company type",
+          "Subsidiary"
+        ],
+        [
+          "Founded",
+          "January 2016"
+        ],
+        [
+          "Founder",
+          "Hilton Worldwide"
+        ],
+        [
+          "Headquarters",
+          "McLean, Virginia , United States"
+        ],
+        [
+          "Number of locations",
+          "228 (2022)"
+        ]
+      ],
+      "formatted": [
+        {
+          "company_type": "Founded",
+          "subsidiary": "January 2016"
+        },
+        {
+          "company_type": "Founder",
+          "subsidiary": "Hilton Worldwide"
+        },
+        {
+          "company_type": "Headquarters",
+          "subsidiary": "McLean, Virginia , United States"
+        },
+        {
+          "company_type": "Number of locations",
+          "subsidiary": "228 (2022)"
+        }
+      ],
+      "title": "Tru by Hilton - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Tru_by_Hilton",
+      "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Tru_by_Hilton",
+      "source_logo": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/42f454f1d1f0155f56f97d29597bd2d8c7ac1bfa0dac579bc27c69a031ce36d1.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBvbGQgYXJlIFRydSBob3RlbHM/IiwibGsiOiJHaFpvYjNjZ2IyeGtJR0Z5WlNCMGNuVWdhRzkwWld4eiIsImJzIjoiYy1NSzRGTHh5QzlYS01sWFNNclB6MWJ3eU13cHljOVR5TWd2U2MwcFZrakxMMUpJemtoTkxMQ1h1TXBycENxbG5JR2tOQU83VXE0MExuMlFpYm1seVJrS0tmbXB4UXFaSlFySi1jVWxZSTJsbVRrcENva0tKVVdsQ2ttVlVOdnNKUzV6R3hsSTZXVVFxUXRpTVpjWmx6aklubnlRVkZHcVFnaFFFdUlXZTRrdHprWVNVbUlaU0xJbGNGa0JSZ0EiLCJpZCI6ImZjX1o1LUxhTjZJQmJQVXA4NFAwLWVqb1FnXzQifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJUR3QwWDNaSWJIZHpNMTkwTldWdFdUaGpha1pMUmxkMlduaFdWelJ4TlUxckxXaHdPVmRvYTFsSllYcGtkRkZCZFZRemVHUk5abmRRTUV0MGRuWjJSVm81WWtSbVRqSlpVRko2WmxCVFJGWm9jMEpJYzNSRU1teHhRamxWTVRBNFFSSVhXalV0VEdGT05rbENZbEJWY0RnMFVEQXRaV3B2VVdjYUlrRkdUVUZIUjI5elNGbDZRV2hqT1RKMFlVbDVSVWw1ZGpkRldtOVlOR3d3VlZFIiwiZmN2IjoiMyIsImVpIjoiWjUtTGFONklCYlBVcDg0UDAtZWpvUWciLCJxYyI6ImMtTXlMeWtxVlVpcVZNakl6Q25KejFOSVNrM096a210aE5QbFpRcEdCa2FtQ2dibUNzYUdDaG41SmFrNUNnVkZtY21wQWd5MXVvWHk5Z0EiLCJxdWVzdGlvbiI6IkhvdyBvbGQgYXJlIFRydSBob3RlbHM%2FIiwibGsiOiJHaFpvYjNjZ2IyeGtJR0Z5WlNCMGNuVWdhRzkwWld4eiIsImJzIjoiYy1NSzRGTHh5QzlYS01sWFNNclB6MWJ3eU13cHljOVR5TWd2U2MwcFZrakxMMUpJemtoTkxMQ1h1TXBycENxbG5JR2tOQU83VXE0MExuMlFpYm1seVJrS0tmbXB4UXFaSlFySi1jVWxZSTJsbVRrcENva0tKVVdsQ2ttVlVOdnNKUzV6R3hsSTZXVVFxUXRpTVpjWmx6aklubnlRVkZHcVFnaFFFdUlXZTRrdHprWVNVbUlaU0xJbGNGa0JSZ0EiLCJpZCI6ImZjX1o1LUxhTjZJQmJQVXA4NFAwLWVqb1FnXzQifQ%3D%3D"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Tru by Hilton Beckley",
+      "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hilton.com/en/hotels/bkwruru-tru-beckley/&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECBgQAQ",
+      "displayed_link": "https://www.hilton.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0ab24ac07540d4924914c2ae936c14e1bd.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0ae85961f63fdb89a1238d5cbd7af7407c.png",
+      "snippet": "At our Tru by Hilton Beckley hotel enjoy free breakfast and WiFi plus a lively lobby with work space, game zone and a 24/7 market.",
+      "snippet_highlighted_words": [
+        "Tru by Hilton Beckley hotel"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Hotel Info",
+            "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/hotel-info/"
+          },
+          {
+            "title": "Rooms",
+            "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/rooms/"
+          },
+          {
+            "title": "Location",
+            "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/hotel-location/"
+          },
+          {
+            "title": "Special Offers",
+            "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/offers/"
+          }
+        ]
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Hilton"
+    },
+    {
+      "position": 2,
+      "title": "TRU BY HILTON BECKLEY - Updated 2025 Prices & Hotel ...",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d23221057-Reviews-Tru_by_Hilton_Beckley-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d23221057-Reviews-Tru_by_Hilton_Beckley-Beckley_West_Virginia.html&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECBoQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a73314a62faa1c8d3d56ecc1a4184a003.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a0fce0768f673d00957c9706c0baba44d.png",
+      "snippet": "Book Tru by Hilton Beckley, Beckley on Tripadvisor: See 112 traveler reviews, 57 candid photos, and great deals for Tru by Hilton Beckley, ranked #6 of 18 ...",
+      "snippet_highlighted_words": [
+        "Tru by Hilton Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.9,
+            "reviews": 112,
+            "price_range": "$$"
+          },
+          "extensions": [
+            "3.9(112)",
+            "Price range: $$ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Tripadvisor"
+    },
+    {
+      "position": 3,
+      "title": "Tru by Hilton Beckley Reviews, Deals & Photos 2025",
+      "link": "https://www.expedia.com/Beckley-Hotels-Tru-By-Hilton-Beckley.h65379998.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Tru-By-Hilton-Beckley.h65379998.Hotel-Information&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECBsQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a9b03e2a378fe562cf35ef3cd652b6cf1.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0aff8ac0cbb8a3d2fd2c9ce222060e683c.png",
+      "snippet": "Tru by Hilton Beckley, Hotel in Beckley with free breakfast and a 24-hour fitness center. Choose dates to view prices.",
+      "snippet_highlighted_words": [
+        "Tru by Hilton Beckley"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 4,
+      "title": "Tru By Hilton Beckley, Wv",
+      "link": "https://www.booking.com/hotel/us/tru-by-hilton-beckley-wv.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/tru-by-hilton-beckley-wv.html&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECBkQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0acbad52e9674dbbe8dce99f3362f47979.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a02eb8254fff499a912a7ded4197fc15c.png",
+      "snippet": "\u201cVery clean. Not far off main road. Very close to many amenities. Tamarack is a stones throw away. Beds comfy. Large nice shower. Nice breakfast.",
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 5,
+      "title": "Hotel Tru By Hilton Beckley, Wv, USA",
+      "link": "https://www.trivago.com/en-US/oar/hotel-tru-by-hilton-beckley-wv?search=100-24738642",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.trivago.com/en-US/oar/hotel-tru-by-hilton-beckley-wv%3Fsearch%3D100-24738642&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECBcQAQ",
+      "displayed_link": "https://www.trivago.com \u203a ... \u203a West Virginia \u203a Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a5232e18f0e024908070a5f952fcb1e75.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a09fd347d9433a94986ef278adb236c08.png",
+      "snippet": "Compare hotel prices and find an amazing price for the Tru By Hilton Beckley, Wv Hotel in Beckley, USA. View 21 photos and read 1861 reviews.",
+      "snippet_highlighted_words": [
+        "Tru By Hilton Beckley, Wv Hotel in Beckley"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.4,
+            "reviews": 1861
+          },
+          "extensions": [
+            "8.4/10(1,861)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Trivago"
+    },
+    {
+      "position": 6,
+      "title": "Tru by Hilton Beckley - Hotels",
+      "link": "https://www.kayak.com/Beckley-Hotels-Tru-by-Hilton-Beckley.7595778.ksp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.kayak.com/Beckley-Hotels-Tru-by-Hilton-Beckley.7595778.ksp&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECGoQAQ",
+      "displayed_link": "https://www.kayak.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a6472f4aa0df39e9567e92aa5e53ee300.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0ab88730dd3822ed276375dac428f9fdcc.jpeg",
+      "snippet": "Tru by Hilton Beckley ; King room. KAYAK BTX. $138 ; Double room. Super.com. $140 ; Queen room. Booking.com. $145.",
+      "snippet_highlighted_words": [
+        "King room. KAYAK BTX. $138"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.2,
+            "reviews": 451,
+            "price": 138,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.2/10(451)",
+            "Price range: $138 per night (Latest starting price for this hotel)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Kayak"
+    },
+    {
+      "position": 7,
+      "title": "Offers and Hotel Deals at Tru by Hilton Beckley",
+      "link": "https://www.hilton.com/en/hotels/bkwruru-tru-beckley/offers/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hilton.com/en/hotels/bkwruru-tru-beckley/offers/&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECGEQAQ",
+      "displayed_link": "https://www.hilton.com \u203a ... \u203a Tru by Hilton Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0aee1c4bfd6d1b5eb2593a9af83c076256.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0adf77e4377593c75802981ec4cd6bdbfa.png",
+      "snippet": "Browse our latest rates and hotel deals at the Tru by Hilton Beckley. Guests enjoy free breakfast and WiFi plus a lively lobby with workspace and a 24/7 ...",
+      "snippet_highlighted_words": [
+        "Browse our latest rates and hotel deals at the Tru by Hilton Beckley"
+      ],
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Hilton"
+    },
+    {
+      "position": 8,
+      "title": "Search hotels in Beckley, WV",
+      "link": "https://www.booking.com/city/us/beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/city/us/beckley.html&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECGIQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a West Virginia (WV)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt88RKjj-a48akxakhiApxu0FSuykGeJx5QP7uICypiD3-1dutRDc1&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a39a3e603c405d4552449b0f489e44f70.png",
+      "snippet": "Search hotels in Beckley, WV. Enter your dates to see the latest prices and deals for Beckley hotels ... Tru By Hilton Beckley, Wv, hotel in Beckley. Tru By ...",
+      "snippet_highlighted_words": [
+        "Enter your dates to see the latest prices and"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 9,
+      "title": "Tru by Hilton Beckley",
+      "link": "https://www.hotels.com/ho2093159936/tru-by-hilton-beckley-beckley-united-states-of-america/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotels.com/ho2093159936/tru-by-hilton-beckley-beckley-united-states-of-america/&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECGwQAQ",
+      "displayed_link": "https://www.hotels.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGN_2A-Fcya34w6pRsWjseKM1JAOcZUA-eIeYGPtXtxkjrZv2FCSQm&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a56f5b8ebee90f09252d80adea51aa088.png",
+      "snippet": "Choose dates to view prices \u00b7 Photo gallery for Tru by Hilton Beckley \u00b7 Reviews \u00b7 Popular amenities \u00b7 Room options \u00b7 Similar properties \u00b7 About the neighborhood.",
+      "snippet_highlighted_words": [
+        "Choose dates to view prices"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.8,
+            "reviews": 603,
+            "price": 154,
+            "currency": "$"
+          },
+          "extensions": [
+            "8.8/10(603)",
+            "Price range: from $154"
+          ]
+        }
+      },
+      "missing": [
+        "2025-07-31"
+      ],
+      "source": "Hotels.com"
+    },
+    {
+      "position": 10,
+      "title": "Tru by Hilton Beckley",
+      "link": "https://www.bing.com/travel/hotels/detail?id=YN873x14702429332026868648&form=MSTA01&ocid=SBB",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bing.com/travel/hotels/detail%3Fid%3DYN873x14702429332026868648%26form%3DMSTA01%26ocid%3DSBB&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQFnoECFgQAQ",
+      "displayed_link": "https://www.bing.com \u203a travel \u203a hotels \u203a detail",
+      "favicon": "https://serpapi.com/searches/688b9f6286e9fa3c228aeda8/images/b2ccf6026503840cbcb772cbcc2c6e0a644c9b1ac2481c0357ed4355acbfac85.png",
+      "snippet": "Cancel your reservation before 2025-07-31 03:59:00 -0000 (property local time) and get a full refund. $168.",
+      "snippet_highlighted_words": [
+        "2025-07-31"
+      ],
+      "source": "Bing"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Hotels in Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Hotels+in+Beckley,+WV&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhlEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+in+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hotels on Harper Road Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Hotels+on+Harper+Road+Beckley+WV&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhjEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hotels+on+Harper+Road+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "hotels in beckley wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=hotels+in+beckley+wv+near+i-77&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAheEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=hotels+in+beckley+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "Tru by Hilton Beckley, wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Tru+by+Hilton+Beckley,+wv&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhdEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley%2C+wv"
+    },
+    {
+      "block_position": 1,
+      "query": "best hotels in beckley, wv near i-77",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=best+hotels+in+beckley,+wv+near+i-77&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhcEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=best+hotels+in+beckley%2C+wv+near+i-77"
+    },
+    {
+      "block_position": 1,
+      "query": "Newest hotel in Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Newest+hotel+in+Beckley,+WV&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhZEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Newest+hotel+in+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hampton Inn Beckley reviews",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=Hampton+Inn+Beckley+reviews&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhWEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley+reviews"
+    },
+    {
+      "block_position": 1,
+      "query": "110 Harper Park Drive Beckley wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&q=110+Harper+Park+Drive+Beckley+wv&sa=X&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ1QJ6BAhVEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=110+Harper+Park+Drive+Beckley+wv"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=Z5-LaN6IBbPUp84P0-ejoQg&start=10&sa=N&sstk=Ac65TH4w-hS2HOSkAyNXPvGBp8wuB431QPGbUkt7U-GjSAIkzzDoY3LSM79sN4w3aLp7v3pyH5BVy8p5JlYCc34E3xVtzojfmMt-yQ&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ8NMDegQIFhAK",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=Z5-LaN6IBbPUp84P0-ejoQg&start=10&sa=N&sstk=Ac65TH4w-hS2HOSkAyNXPvGBp8wuB431QPGbUkt7U-GjSAIkzzDoY3LSM79sN4w3aLp7v3pyH5BVy8p5JlYCc34E3xVtzojfmMt-yQ&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ8tMDegQIFhAE",
+      "3": "https://www.google.com/search?q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=Z5-LaN6IBbPUp84P0-ejoQg&start=20&sa=N&sstk=Ac65TH4w-hS2HOSkAyNXPvGBp8wuB431QPGbUkt7U-GjSAIkzzDoY3LSM79sN4w3aLp7v3pyH5BVy8p5JlYCc34E3xVtzojfmMt-yQ&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ8tMDegQIFhAG",
+      "4": "https://www.google.com/search?q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&sca_esv=9ae82e7bfb083ba5&hl=en&gl=us&ei=Z5-LaN6IBbPUp84P0-ejoQg&start=30&sa=N&sstk=Ac65TH4w-hS2HOSkAyNXPvGBp8wuB431QPGbUkt7U-GjSAIkzzDoY3LSM79sN4w3aLp7v3pyH5BVy8p5JlYCc34E3xVtzojfmMt-yQ&ved=2ahUKEwie2KrIx-eOAxUz6skDHdPzKIQQ8tMDegQIFhAI"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Tru+by+Hilton+Beckley+Beckley+WV+2025-07-31+hotel+price&start=30"
+    }
+  }
 }

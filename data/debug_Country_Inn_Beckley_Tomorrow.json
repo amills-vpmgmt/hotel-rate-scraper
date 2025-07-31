@@ -1,3 +1,515 @@
 {
-  "error": "Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key"
+  "search_metadata": {
+    "id": "688b9fadf052756c1b6c7352",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/cc05d62bbdce9d69/688b9fadf052756c1b6c7352.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/cc05d62bbdce9d69/688b9fadf052756c1b6c7352.json_with_pixel_position",
+    "created_at": "2025-07-31 16:54:05 UTC",
+    "processed_at": "2025-07-31 16:54:05 UTC",
+    "google_url": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&oq=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/cc05d62bbdce9d69/688b9fadf052756c1b6c7352.html",
+    "total_time_taken": 9.82
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Country Inn Beckley Beckley WV 2025-08-01 hotel price",
+    "location_requested": "Beckley, West Virginia, United States",
+    "location_used": "Beckley,West Virginia,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Country Inn Beckley Beckley WV 2025-08-01 hotel price",
+    "total_results": 344,
+    "time_taken_displayed": 0.59,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Country Inn & Suites by Radisson, Beckley, WV",
+    "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/9278f9f8055b76ecb7daafa9e77197710e1996be4f4452fbe6e7418f1a3e1cd0.jpeg",
+    "type": "2-star hotel",
+    "entity_type": "hotels",
+    "kgmid": "/g/1tnpg3q_",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/1tnpg3q_&hl=en-US&q=Country+Inn+%26+Suites+by+Radisson%2C+Beckley%2C+WV",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F1tnpg3q_&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+%26+Suites+by+Radisson%2C+Beckley%2C+WV",
+    "place_id": "ChIJDXDj7ULyTogR_20JLSULEoM",
+    "website": "https://www.choicehotels.com/west-virginia/beckley/country-inn-suites-hotels/wv198?mc=llgoxxpx",
+    "directions": "https://maps.google.com/maps?uule=w+CAIQICIjQmVja2xleSxXZXN0IFZpcmdpbmlhLFVuaXRlZCBTdGF0ZXM&gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQ1w4-1C8k6IMf9tCS0lCxKD&daddr=2120+Harper+Rd,+Beckley,+WV+25801",
+    "availability": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEGcHJpY2Vz&ictx=111",
+    "description": "The modest rooms come with complimentary Wi-Fi, flat-screen TVs and desks, plus minifridges, microwaves and coffeemakers. Suites add pull-out sofas, and some feature kitchenettes and/or whirlpool tubs. Kids age 18 and under stay at no extra cost with an adult.Free perks include a hot breakfast buffet and parking. There's also an indoor/outdoor pool, 2 hot tubs and an exercise room, as well as a business center.",
+    "local_map": {
+      "image": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/9278f9f8055b76ecb7daafa9e7719771d5ff1b738cef5b4f0f19ef1f0eb16209.webp",
+      "link": "https://www.google.com/maps/place/Country+Inn+%26+Suites+by+Radisson,+Beckley,+WV/data=!4m2!3m1!1s0x0:0x83120b252d096dff?sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ_BJ6BAgwEAA&hl=en&gl=us"
+    },
+    "rating": 3.6,
+    "review_count": 2070,
+    "address": "2120 Harper Rd, Beckley, WV 25801",
+    "address_links": [
+      {
+        "text": "Address",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=country+inn+%26+suites+by+radisson,+beckley,+wv+address&ludocid=9444623622846639615&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ6BN6BAg8EAI"
+      }
+    ],
+    "phone": "(304) 252-5100",
+    "phone_links": [
+      {
+        "text": "Phone",
+        "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=country+inn+%26+suites+by+radisson,+beckley,+wv+phone&ludocid=9444623622846639615&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ6BN6BAg9EAI"
+      }
+    ],
+    "pricing": {
+      "for_date": {
+        "start": "",
+        "end": "Sun, Nov 2"
+      },
+      "offers": [
+        {
+          "source": "Country Inn & Suites by Radisson, Beckley, WV",
+          "price": "Get price",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi_tfPtx-eOAxXlTEcBHUhwHMUYACICCAEQBhoCcXU%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIv7Xz7cfnjgMV5UxHAR1IcBzFEAoYASABEgLAdfD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3VSCRj0FasowAVN8LREPOafSepMQ%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Booking.com",
+          "price": "$116",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi_tfPtx-eOAxXlTEcBHUhwHMUYACICCAEQBRoCcXU%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIv7Xz7cfnjgMV5UxHAR1IcBzFEAoYAiABEgLtOvD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_3Eh0NGtvA-XAtxl_fYvhhtm-ADOg%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Expedia.com",
+          "price": "$116",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi_tfPtx-eOAxXlTEcBHUhwHMUYACICCAEQBxoCcXU%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIv7Xz7cfnjgMV5UxHAR1IcBzFEAoYAyABEgKb3vD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_2G4YjANInteMY0mnmNCXYLo4U1DA%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Priceline",
+          "price": "$116",
+          "link": "https://www.google.com/url?q=https://www.google.com/aclk?sa%3Dl%26ai%3DDChsSEwi_tfPtx-eOAxXlTEcBHUhwHMUYACICCAEQBBoCcXU%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIv7Xz7cfnjgMV5UxHAR1IcBzFEAoYBCABEgJ9ifD_BwE%26category%3Dacrcp_v1_48%26sig%3DAOD64_1A61gxKpo3taM7DSDQHVa2nHXB1A%26adurl%26nis%3D4"
+        },
+        {
+          "source": "Country Inn & Suites by Radisson, Beckley, WV",
+          "price": "Get price",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsyL-WllGNZXNMdiRSe6dkhjqBJin0WWkK8pP0WFKS7zYOXFTdTMHq6VioJ3H6Q8_AplrsQL2uN-XldN0apDmiBMOkZPzHAJuuuTCCZN8FjJoWEcm1IG_kTiw86RyeJAkH_FJC69385YLLyhtZFOtZET0ppQ8WP3HePUVmz2ad_kvEc&pcurl=https://travel-productads.koddi.com/PropertyAdvocateAPI/ClickRedirect?client%3DChoice%26channel%3DGHPA%26placement%3Dlocaluniversal%26campaign%3D%26hotel%3DWV198%26destinationUrl%3Dhttps://www.choicehotels.com/WV198?checkInDate%3D2025-11-02%26checkOutDate%3D2025-11-03%26srp%3DSAPR2%26adults%3D2%26minors%3D0%26mc%3DHAGOHPUS%26meta%3DPMFGPADUSSAPR2_WV198_localuniversal_US_1_desktop_2025-11-02_default___organic%26gal%3D%26pmf%3Dhpagoogle%26gpa%3DGPADSAPR2%26rooms%3D1%26gmp%3DMetaOrganic%26product%3Dlocaluniversal"
+        },
+        {
+          "source": "Book Early and Save Travel",
+          "price": "$97",
+          "link": "https://www.google.com/travel/clk?pc=AA80OsxxXT5S0lkZLAZOQ4OdiydIg70r9B6-roaiWNsya-G53NroU869PbNu12FsNbh3GAdWO5hbbzk9hsy53cBqS3Nguv7gMddnaQtu-2X9Ee_P2-DNgCCQtZjVUs_aaqwDnBfYONoGNvg-mFyu_Fyw7D1BDOOwSB2pEmbbIE_RtnodcWewI8P9yq46CT9YNuP-PuQzwl3iHWo&pcurl=https://www.bookearlyandsavetravel.com/transition/?data%3Dprice%3D97.39%2526total_price%3D110.04%2526request_id%3D9a09b63b-de5b-4abd-9b63-496636ac625f%2526ps%3D864773804755114%2526pp%3DSTEVVgLnF8nsTlRF_fh9yg%2526pb%3D8onS4UWs3e7VIbz82yl_l78t7JQkFIa_5qEBU24htQ8gtSnnLGgiBFZJtnGJFjlhCOmUkAu3mOtrF1LJb3ZzzvLnEHfjh_fqUabgsH_kwtDxJmdiGkS8iZNuVHUZ2T_R2sCyDntrU5oEb8W1kv3dV_n1e37YDxNMBfq82SRSEWLtSiqo-KAsK0wfBqng6XW7ATzBxvWp35DwStzHLnOMb653A133hnnc9kC7__Uw4VVhTBDOOylibkCSZQY37vWGDcRq75WTRw4-pgt_bKCQhPKp8TqjTTo8Hnf4tpq3Odg%25253D%2526gha_bes_pull_request%3DTrue%2526rtp%3DSdTUqdR7wIew8aRS9esAtw%25253D%25253D%2526risk_lk_1%3Dfalse%2526alwd_risk%3Dfalse%2526alwd_rand%3Dfalse%2526gt%3D1753945002%2526sg%3DQunyM%2526ttl_bkt%3Dnone%2526ru%3D1761868740%26utm_source%3Dgha_bes%26utm_content%3Dlocaluniversal%26currency%3DUSD%26user_country%3DUS%26verification%3Dfalse%26rate_rule_ids%3D%26date_type%3Ddefault%26rate_rule_id%3Dsignedout_desktop%26utm_campaign%3D%26display_currency%3DUSD%26display_all_inclusive_price%3D110.04%26checkin_at%3D2025-11-02%26checkout_at%3D2025-11-03%26provider_hotel_id%3D10004443945%26provider%3Dean%26num_adults%3D2%26children%3D%5B%5D%26user_locale%3Den-US%26user_list_id%3D%26utm_medium%3Dorganic%26utm_id%3Dgha_bes_organic"
+        }
+      ]
+    },
+    "posts": [
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipMdwcKP-rC5z9UfFd1pZjIa5nrQzXeQK9v9fBOH=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/gift-card?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Country+Inn+%26+Suites+by+Radisson,+Beckley,+WV&ludocid=9444623622846639615&lpsid=CIHM0ogKENWA8r_MscecogE&source=sh/x/localposts/m1/1&lsig=AB86z5XHOTz5h__Qe_QVNuv-bg_n&shndl=-1",
+        "description": "Summer Deal Reminder! Stay 2X, Get a $50 Gift Card!* 2x the Fun = 2x the Sun \u2600\ufe0f Even more reasons to travel this summer as when Choice Privileges Rewards members register and stay twice between now and September 2 2025 they will earn enough Choice Privileges reward points to redeem for a $50 gift card! *Terms and Conditions Apply.",
+        "date": "Jul 2, 2025"
+      },
+      {
+        "title": "Check Into More!",
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipOfdZIsMhRT4nYjemHEqFx8FyPPIb2vcEmf_VsF=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/gift-card?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Country+Inn+%26+Suites+by+Radisson,+Beckley,+WV&ludocid=9444623622846639615&lpsid=CIHM0ogKEJnxmvic6N-LuAE&source=sh/x/localposts/m1/1&lsig=AB86z5XHOTz5h__Qe_QVNuv-bg_n&shndl=-1",
+        "description": "Stay 2X, Get a $50 Gift Card!* 2x the Fun = 2x the Sun \u2600\ufe0f Even more reasons to travel as when Choice Privileges Rewards members register and stay twice between May 19 2025 and September 2 2025 they will earn enough Choice Privileges reward points to redeem for a $50 gift card! *Terms and Conditions Apply.",
+        "duration": "May 19 - Sep 2",
+        "date": "May 23, 2025"
+      },
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipPLzXeBVybOFYrWvgmvXyvZwD1WGuA40O5N1i1u=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/earn-double-points?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Country+Inn+%26+Suites+by+Radisson,+Beckley,+WV&ludocid=9444623622846639615&lpsid=CIHM0ogKEICAgMComcWnlgE&source=sh/x/localposts/m1/1&lsig=AB86z5XHOTz5h__Qe_QVNuv-bg_n&shndl=-1",
+        "description": "Deal Extended! Earn Double Reward Points!* Time together is important so get the most out of your family getaway when you earn double Choice Privileges reward points to put towards the next family getaway. We are giving you even more time to earn double points as when Choice Privileges Rewards members register and stay between now and May 14, 2025 they earn 2x points! *Terms and Conditions Apply.",
+        "date": "Apr 18, 2025"
+      },
+      {
+        "media": "https://lh3.googleusercontent.com/geougc/AF1QipO-76p5nvCrE-R22Gq-t1B_Osy0Inb56O7_ugod=h305-no",
+        "cta": "Book",
+        "link": "https://www.choicehotels.com/choice-privileges/promo/earn-double-points?mc=llgoxxpx&atrk=llgoxxpx_posts",
+        "post_link": "https://search.google.com/local/posts?q=Country+Inn+%26+Suites+by+Radisson,+Beckley,+WV&ludocid=9444623622846639615&lpsid=CIHM0ogKEICAgMCw69D23QE&source=sh/x/localposts/m1/1&lsig=AB86z5XHOTz5h__Qe_QVNuv-bg_n&shndl=-1",
+        "description": "Deal Reminder! Earn Double Reward Points!* Get more out of your spring break getaway and get the most out of yours when you earn double Choice Privileges reward points to put towards the next getaway. As when Choice Privileges Rewards members register and stay between now and April 7, 2025 they earn 2x points! *Terms and Conditions Apply.",
+        "date": "Mar 21, 2025"
+      }
+    ],
+    "user_reviews": [
+      {
+        "summary": "Full warm breakfast included eggs, sausage, biscuits and potatoes.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Stephen Mann",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/9278f9f8055b76ecb7daafa9e7719771bec2783882fde46db0b3f493b94154d3cba21bda3f7317834dead443f0549422.png"
+        }
+      },
+      {
+        "summary": "Friendly staff and comfy beds for the night we stayed!",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Juan Recio",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/9278f9f8055b76ecb7daafa9e7719771bec2783882fde46de7019dee432e7ca12236278cd9b0d1c974b0ce04be111187.png"
+        }
+      },
+      {
+        "summary": "Phone didn't work in room and gave us two towels for four people.",
+        "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31295",
+        "user": {
+          "name": "Maggie Peterson",
+          "link": "https://www.google.com/travel/search?g2lb=4965990,4969803,72248050,72248052,72302247,72317059,72414906,72471280,72472051,72485658,72560029,72573224,72616120,72647020,72648289,72686036,72760082,72803964,72832976,72882230,72958624,72959983,72990341&hl=en-US&gl=us&ssta=1&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&ts=CAEaRwopEicyJTB4ODg0ZWYyNDJlZGUzNzAwZDoweDgzMTIwYjI1MmQwOTZkZmYSGhIUCgcI6Q8QCxgCEgcI6Q8QCxgDGAEyAhAA&qs=CAEyFENnc0lfOXVsNk5Ma2dvbURBUkFCOAJCCQn_bQktJQsSg0IJCf9tCS0lCxKD&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:31296",
+          "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/9278f9f8055b76ecb7daafa9e7719771bec2783882fde46d67dddcef62ef64adc1ecf5a88146403eccb69ddc8a1ead90.png"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "Facebook",
+        "link": "http://www.facebook.com/choicehotels",
+        "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+      }
+    ]
+  },
+  "ai_overview": {
+    "page_token": "6ljO83icxZVbkuo2EEB_s5H4hwuYx8yYqXKlJPmBPMBgwID5oYwxMvgF2MbAX_aSVWUX2UEke2DgXiZ1U_mIKNCjW61-nGp-_8Nfh96fv_zlJsk2fq1WsyyrkCgivlOxo6BqxafQrq4iP97b7m9p6jtiVkIA6xjhjR6MN1b96DvD43Q27fFYmW3tYLldBL7bUcapNR34MwRHS1XhZ9MuR3wxjTnXF52QOx3EBmfHIs85azGZlTuWtjm_OWr81Iv64Wy4DfSMy18X5wsrdjbUueMmrs6r9Mf7tSHRTSWuOGGFB2PNcvuH9bNcqfM1ofJetQKqAP7jIA_OMP3qQIbFqhjyY1VmQWdCALxHVs3cFkQgV8LG9--QD-NIJtK8ldnSAxvo3jZI2dmaKPS-LN8ZRPeXmRCyhfKdy_e3cl37keR2DG7Dj4DcBf3LrgmASmHJHcDNSL2qtTFwpBPQs-jtR4PMsx16n8Gyjn-UFt6QQa_TnjDl6pLQavPVxZ5Oteo-ZrVHoxYftafL8zgxDLc30cLk-X2L4xbpv5BzwyDfcqrs-IpVfIvVwj3W242eEyJS6VRg7coUZJkcFrmAJPcVAYjB4MvsFCm6Tehn_fRbuaYgNT9BsKnrgECdfOSwaz6hiF4jl-SAz7pjmu68vBgglOEh00C0WIwpnS50GWP6oAHZRY89rdGPl5eTIBYCvuZcIiudWUGAYAD13MFu_ihjiiX96vYlBESuAakEpFCVAVR0MJGiJnX3o3qEGicfaxkY9FhgxlnlZdkEbYJQm-RRIOY4TWgR5UeoIKJu0tSbxc7MPcsAw_2OKRpS95_LUNjUvxY-gEjpCAPETxJZkrKB0FJWLaD1FFWeJvACURQs_kVzsv8fzHAul6GmvF0xM77EjAzuWxfDjFwwazLMWOsyitZ1h5l2wUzWkEfatHUJ0idmLvjELLjF7LZ1eVe3Cyp-DjP5DjNyg5n8JWaDIrfFiKDXlfoXzJpQp63rAWY_27rML4p017py2pxiuu9j6Yb80M-Ws3NcT7ojeZiqR3NVmwfndlrTvCnIvs1XQfK63UcUyvXyFda15LTkdiKK0jDZn0o4DEvQsT3fOV3nybhU5-tPZV4o87WSGyWOX9ru17bDBf4-EnnrxT110YmUBy9HQ0gPcKdqh6gxlMtCTzueD-8t1V30_YPW3Iad0WlE_-Ynqrcab1euO7GFzU44Tntu29g1lN2w1sRBOQs7rg-WxHxraLG5SvvwJZqYLXwcNpZ07tQVGL-1V8949GwIx6GzH-5qyxE_2ydyW1IhnzsWi0_Nib7AzVRQTC6wlrEj1rhgb4sUlaYHejrQudi25k58EFuWI9Sdl8VqwQuNhfXEBSQ5bcV67W-fg6AJ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=6ljO83icxZVbkuo2EEB_s5H4hwuYx8yYqXKlJPmBPMBgwID5oYwxMvgF2MbAX_aSVWUX2UEke2DgXiZ1U_mIKNCjW61-nGp-_8Nfh96fv_zlJsk2fq1WsyyrkCgivlOxo6BqxafQrq4iP97b7m9p6jtiVkIA6xjhjR6MN1b96DvD43Q27fFYmW3tYLldBL7bUcapNR34MwRHS1XhZ9MuR3wxjTnXF52QOx3EBmfHIs85azGZlTuWtjm_OWr81Iv64Wy4DfSMy18X5wsrdjbUueMmrs6r9Mf7tSHRTSWuOGGFB2PNcvuH9bNcqfM1ofJetQKqAP7jIA_OMP3qQIbFqhjyY1VmQWdCALxHVs3cFkQgV8LG9--QD-NIJtK8ldnSAxvo3jZI2dmaKPS-LN8ZRPeXmRCyhfKdy_e3cl37keR2DG7Dj4DcBf3LrgmASmHJHcDNSL2qtTFwpBPQs-jtR4PMsx16n8Gyjn-UFt6QQa_TnjDl6pLQavPVxZ5Oteo-ZrVHoxYftafL8zgxDLc30cLk-X2L4xbpv5BzwyDfcqrs-IpVfIvVwj3W242eEyJS6VRg7coUZJkcFrmAJPcVAYjB4MvsFCm6Tehn_fRbuaYgNT9BsKnrgECdfOSwaz6hiF4jl-SAz7pjmu68vBgglOEh00C0WIwpnS50GWP6oAHZRY89rdGPl5eTIBYCvuZcIiudWUGAYAD13MFu_ihjiiX96vYlBESuAakEpFCVAVR0MJGiJnX3o3qEGicfaxkY9FhgxlnlZdkEbYJQm-RRIOY4TWgR5UeoIKJu0tSbxc7MPcsAw_2OKRpS95_LUNjUvxY-gEjpCAPETxJZkrKB0FJWLaD1FFWeJvACURQs_kVzsv8fzHAul6GmvF0xM77EjAzuWxfDjFwwazLMWOsyitZ1h5l2wUzWkEfatHUJ0idmLvjELLjF7LZ1eVe3Cyp-DjP5DjNyg5n8JWaDIrfFiKDXlfoXzJpQp63rAWY_27rML4p017py2pxiuu9j6Yb80M-Ws3NcT7ojeZiqR3NVmwfndlrTvCnIvs1XQfK63UcUyvXyFda15LTkdiKK0jDZn0o4DEvQsT3fOV3nybhU5-tPZV4o87WSGyWOX9ru17bDBf4-EnnrxT110YmUBy9HQ0gPcKdqh6gxlMtCTzueD-8t1V30_YPW3Iad0WlE_-Ynqrcab1euO7GFzU44Tntu29g1lN2w1sRBOQs7rg-WxHxraLG5SvvwJZqYLXwcNpZ07tQVGL-1V8949GwIx6GzH-5qyxE_2ydyW1IhnzsWi0_Nib7AzVRQTC6wlrEj1rhgb4sUlaYHejrQudi25k58EFuWI9Sdl8VqwQuNhfXEBSQ5bcV67W-fg6AJ"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV",
+      "link": "https://www.booking.com/hotel/us/country-inn-amp-suites-beckley.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.booking.com/hotel/us/country-inn-amp-suites-beckley.html&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECBYQAQ",
+      "displayed_link": "https://www.booking.com \u203a ... \u203a Hotels in Beckley",
+      "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecece8f60879d28ad1618916c89004d4397d.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec9cd6189d1f903fbfb81f5f57c3116225.png",
+      "snippet": "How much does it cost to stay at Country Inn & Suites by Radisson, Beckley, WV? The prices at Country Inn & Suites by Radisson, Beckley, WV may vary ...",
+      "snippet_highlighted_words": [
+        "cost",
+        "Country Inn",
+        "Beckley",
+        "WV",
+        "prices",
+        "Country Inn",
+        "Beckley",
+        "WV"
+      ],
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Booking.com"
+    },
+    {
+      "position": 2,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV",
+      "link": "https://www.expedia.com/Beckley-Hotels-Country-Inn-Suites-By-Radisson.h62910.Hotel-Information",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/Beckley-Hotels-Country-Inn-Suites-By-Radisson.h62910.Hotel-Information&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECBgQAQ",
+      "displayed_link": "https://www.expedia.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec7b14b3429c375a5412d80990beb15747.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec3b7a2dcd962edec5b9e476737ebb7dde.png",
+      "snippet": "Country Inn & Suites by Radisson, Beckley, WV. 3.0 star property. Hotel in Beckley with free breakfast and a 24 ...",
+      "snippet_highlighted_words": [
+        "Country Inn & Suites by Radisson, Beckley, WV"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7,
+            "reviews": 1105
+          },
+          "extensions": [
+            "7/10(1,105)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Expedia"
+    },
+    {
+      "position": 3,
+      "title": "Hotel Deals & Discounts in Beckley, WV",
+      "link": "https://www.choicehotels.com/en-ca/west-virginia/beckley/deal-hotels?checkInDate=2025-07-31&checkOutDate=2025-08-01",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.choicehotels.com/en-ca/west-virginia/beckley/deal-hotels%3FcheckInDate%3D2025-07-31%26checkOutDate%3D2025-08-01&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECBIQAQ",
+      "displayed_link": "https://www.choicehotels.com \u203a beckley \u203a deal-hotels \u203a c...",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec2a746fff9637fd748dc4b1ef68a1b370.png",
+      "date": "1 day ago",
+      "snippet": "Member Rate. $116 total. Country Inn & Suites by Radisson, Beckley, WV. 34. Country Inn & Suites by Radisson, Beckley, WV. Beckley, WV. 3.86 km ...",
+      "snippet_highlighted_words": [
+        "Member Rate. $116 total"
+      ],
+      "source": "Choice Hotels"
+    },
+    {
+      "position": 4,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV - Hotels",
+      "link": "https://www.kayak.com/Beckley-Hotels-Country-Inn-Suites-by-Radisson-Beckley-WV.19065.ksp",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.kayak.com/Beckley-Hotels-Country-Inn-Suites-by-Radisson-Beckley-WV.19065.ksp&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECFYQAQ",
+      "displayed_link": "https://www.kayak.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec5e8a17d82d6397afbd68f5a952267411.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec1f2a466647d0b061732b1a213bb8379d.jpeg",
+      "snippet": "The cheapest price a room at Country Inn & Suites by Radisson, Beckley, WV was booked for on KAYAK in the last 2 weeks was $115, while the most expensive was ...",
+      "snippet_highlighted_words": [
+        "115"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7.1,
+            "reviews": 3000,
+            "price": 97,
+            "currency": "$"
+          },
+          "extensions": [
+            "7.1/10(3,000)",
+            "Price range: $97 per night (Latest starting price for this hotel)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Kayak"
+    },
+    {
+      "position": 5,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV",
+      "link": "https://www.readytotrip.com/hotels/U.S.A./West%20Virginia/Beckley/country-inn-suites/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.readytotrip.com/hotels/U.S.A./West%2520Virginia/Beckley/country-inn-suites/&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECE4QAQ",
+      "displayed_link": "https://www.readytotrip.com \u203a ... \u203a Beckley hotels",
+      "snippet": "Book a room Country Inn & Suites by Radisson, Beckley, WV in Beckley, West Virginia, compare hotel prices and find the best deal for the Country Inn ...",
+      "snippet_highlighted_words": [
+        "Country Inn",
+        "Beckley",
+        "WV",
+        "Beckley",
+        "West Virginia",
+        "hotel prices",
+        "Country Inn"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7.2,
+            "reviews": 82,
+            "price": 112,
+            "currency": "$"
+          },
+          "extensions": [
+            "7.2/10(82)",
+            "Price range: Prices for upcoming dates start at $112 per night"
+          ]
+        }
+      },
+      "source": "Readytotrip.com"
+    },
+    {
+      "position": 6,
+      "title": "Country Inn & Suites by Radisson Beckley - I-64 & I-77, Exit ...",
+      "link": "https://hotelguides.com/hotels/west-virginia/beckley/129190.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hotelguides.com/hotels/west-virginia/beckley/129190.html&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECFAQAQ",
+      "displayed_link": "https://hotelguides.com \u203a hotels \u203a west-virginia \u203a beckley",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec57177fca1d769da025b07e36e64be69c.png",
+      "snippet": "2120 Harper Road, I-64 & I-77, Exit 44, Beckley, WV 25801. Upper-midscale, smoke-free hotel off I-64 near Tamarack. Rated Average. $$",
+      "snippet_highlighted_words": [
+        "Beckley",
+        "WV",
+        "hotel"
+      ],
+      "source": "Hotel Guides"
+    },
+    {
+      "position": 7,
+      "title": "Country Inn & Suites By Radisson, Beckley, WV",
+      "link": "https://www.choicehotels.com/west-virginia/beckley/country-inn-suites-hotels/wv198",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.choicehotels.com/west-virginia/beckley/country-inn-suites-hotels/wv198&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECFgQAQ",
+      "displayed_link": "https://www.choicehotels.com \u203a west-virginia \u203a country-i...",
+      "thumbnail": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec05fa25f9eb08f2c4eab15a05b1f0f1d0.jpeg",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec283a7c63e3fefcf848ddd3f1271cc6c1.png",
+      "snippet": "Reserve your stay at the pet-friendly Country Inn & Suites, Beckley near Tamarack to enjoy a free hot breakfast, free WiFi, and an indoor/outdoor pool.",
+      "snippet_highlighted_words": [
+        "Inn"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.2,
+            "reviews": 584
+          },
+          "extensions": [
+            "3.2(584)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Choice Hotels"
+    },
+    {
+      "position": 8,
+      "title": "Compare Top Hotels in Beckley, WV for 2025",
+      "link": "https://www.cozycozy.com/ca/beckley-wv-hotels",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cozycozy.com/ca/beckley-wv-hotels&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECGcQAQ",
+      "displayed_link": "https://www.cozycozy.com \u203a ... \u203a West Virginia hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLOk_8_y5JQp1szjaqYOZ8e74RbtAVLi8u-snOJMg1RGomuwuzT9d&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec91cb42d5ebe9fe1f8819e2423845a2b0.png",
+      "snippet": "Compare the best Hotels in Beckley, WV in 2025 with flexible cancellation policies. 27 Hotels are available. Book now with cozycozy.",
+      "snippet_highlighted_words": [
+        "Hotels",
+        "Beckley",
+        "WV",
+        "Hotels"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 8.3,
+            "reviews": 11597
+          },
+          "extensions": [
+            "8.3/10(11,597)"
+          ]
+        }
+      },
+      "source": "Cozycozy"
+    },
+    {
+      "position": 9,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV",
+      "link": "https://www.hotels.com/ho133693/country-inn-suites-by-radisson-beckley-wv-beckley-united-states-of-america/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hotels.com/ho133693/country-inn-suites-by-radisson-beckley-wv-beckley-united-states-of-america/&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECGkQAQ",
+      "displayed_link": "https://www.hotels.com \u203a ... \u203a Beckley Hotels",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdhXi1hTFdNYy6RREwSFq9fyai2r3f7l3zQDILxwGTE-0hE9_9BDo&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ececa9966c0731ee65160b866cba8e89b51b.png",
+      "snippet": "Microtel Inn by Wyndham Beckley \u00b7 8.2 out of 10, Very Good, 1,367 reviews. 8.2 \u00b7 1,367 reviews. The price is $116 ; Best Western Plus Beckley Inn \u00b7 8.4 out of 10, ...",
+      "snippet_highlighted_words": [
+        "The price is"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 7,
+            "reviews": 1098,
+            "price": 162,
+            "currency": "$"
+          },
+          "extensions": [
+            "7/10(1,098)",
+            "Price range: from $162"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Hotels.com"
+    },
+    {
+      "position": 10,
+      "title": "Country Inn & Suites by Radisson, Beckley, WV",
+      "link": "https://www.tripadvisor.com/Hotel_Review-g58856-d234870-Reviews-Country_Inn_Suites_by_Radisson_Beckley_WV-Beckley_West_Virginia.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Hotel_Review-g58856-d234870-Reviews-Country_Inn_Suites_by_Radisson_Beckley_WV-Beckley_West_Virginia.html&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQFnoECFEQAQ",
+      "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Beckley Hotels",
+      "favicon": "https://serpapi.com/searches/688b9fadf052756c1b6c7352/images/72059abf448e75c022e216f95b08ecec1cbbeef5caf476a7840e989c57c57959.png",
+      "snippet": "Indicative hotel prices displayed on our \u201cExplore\u201d pages are estimates extrapolated from historic pricing data. Tripadvisor LLC is not a booking agent or ...",
+      "snippet_highlighted_words": [
+        "Indicative hotel prices displayed on our \u201cExplore\u201d pages"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.8,
+            "reviews": 1684,
+            "price_range": "$"
+          },
+          "extensions": [
+            "3.8(1,684)",
+            "Price range: $ (Based on Average Nightly Rates for a Standard Room from our Partners)"
+          ]
+        }
+      },
+      "missing": [
+        "2025-08-01"
+      ],
+      "source": "Tripadvisor"
+    }
+  ],
+  "menu_highlights": [],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Drury Inn Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Drury+Inn+Beckley+WV&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh7EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Drury+Inn+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Microtel Inn and Suites Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Microtel+Inn+and+Suites+Beckley,+WV&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh6EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Microtel+Inn+and+Suites+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hampton Inn Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hampton+Inn+Beckley,+WV&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh5EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Howard Johnson Beckley, WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Howard+Johnson+Beckley,+WV&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh1EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Howard+Johnson+Beckley%2C+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Hampton Inn 110 Harper Park Drive Beckley wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hampton+Inn+110+Harper+Park+Drive+Beckley+wv&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh3EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hampton+Inn+110+Harper+Park+Drive+Beckley+wv"
+    },
+    {
+      "block_position": 1,
+      "query": "Hilton Beckley wv",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Hilton+Beckley+wv&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh2EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Hilton+Beckley+wv"
+    },
+    {
+      "block_position": 1,
+      "query": "1907 Harper rd Beckley WV",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=1907+Harper+rd+Beckley+WV&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh4EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=1907+Harper+rd+Beckley+WV"
+    },
+    {
+      "block_position": 1,
+      "query": "Fairfield Inn & Suites Beckley reviews",
+      "link": "https://www.google.com/search?sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&q=Fairfield+Inn+%26+Suites+Beckley+reviews&sa=X&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ1QJ6BAh0EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Fairfield+Inn+%26+Suites+Beckley+reviews"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=10&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8NMDegQIEBAQ",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=10&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAE",
+      "3": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=20&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAG",
+      "4": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=30&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAI",
+      "5": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=40&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAK",
+      "6": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=50&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAM",
+      "7": "https://www.google.com/search?q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&sca_esv=9ae82e7bfb083ba5&gl=us&hl=en&ei=tZ-LaJjzKeGs5NoPnZSpmQw&start=60&sa=N&sstk=Ac65TH4ovm9-dcdVMRZXprCq-MThT-iqsimT-yvVmSExBCNqJ6OaT5gDKivtqF7EqbfvLvupehOpcvqgZdCSvcaLaRab8sj61ojmQA&ved=2ahUKEwjYoejtx-eOAxVhFlkFHR1KKsMQ8tMDegQIEBAO"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Beckley%2C+West+Virginia%2C+United+States&q=Country+Inn+Beckley+Beckley+WV+2025-08-01+hotel+price&start=60"
+    }
+  }
 }
