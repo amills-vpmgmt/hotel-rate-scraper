@@ -3,17 +3,19 @@ import json
 import requests
 import datetime
 import time
-import openai
+from openai import OpenAI
 
 # ——— CONFIG ———
 SERPAPI_KEY    = os.environ["SERPAPI_KEY"]
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
-openai.api_key = OPENAI_API_KEY
+
+# instantiate the new OpenAI v1 client
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # ——— FUNCTIONS ———
-def fetch_serpapi_offers(hotel, date):
+def fetch_serpapi_offers(hotel: str, date: str) -> dict:
     """
-    Get Google's hotel_results JSON from SerpAPI via the normal google engine.
+    Fetch the raw Google hotel_results JSON from SerpAPI.
     """
     params = {
         "engine":   "google",
@@ -23,27 +25,27 @@ def fetch_serpapi_offers(hotel, date):
         "gl":       "us",
         "api_key":  SERPAPI_KEY,
     }
-    r = requests.get("https://serpapi.com/search", params=params)
-    r.raise_for_status()
-    return r.json()
+    resp = requests.get("https://serpapi.com/search", params=params)
+    resp.raise_for_status()
+    return resp.json()
 
-def ai_extract_range(raw_json):
+def ai_extract_range(raw_json: dict) -> str:
     """
-    Ask ChatGPT to extract the min/max price from the SerpAPI JSON blob.
-    Returns a string like 'LOW-HIGH' or 'N/A'.
+    Ask the LLM to pull out the lowest and highest nightly price,
+    returning a string like "114-165" or "N/A".
     """
     prompt = f"""
-Here is a SerpAPI search JSON response containing the `hotel_results` list for a single hotel's check-in:
+Here is a SerpAPI JSON response for a single hotel's check-in (look inside "hotel_results"):
 
 {json.dumps(raw_json)}
 
-Please return **exactly** two numbers (no extra commentary), the **lowest** nightly price and the **highest** nightly price you find, separated by a hyphen (`-`), for example:
+Please return **exactly** two numbers (no extra text), the **lowest** nightly price and the **highest** nightly price, separated by a hyphen, e.g.:
 
 114-165
 
-If you can’t find any price, reply N/A.
+If no prices are found, reply only "N/A".
 """
-    resp = openai.ChatCompletion.create(
+    resp = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": prompt}],
         temperature=0,
@@ -61,7 +63,7 @@ def run():
         "Comfort Inn Beckley",
     ]
 
-    today = datetime.date.today()
+    today  = datetime.date.today()
     friday = today + datetime.timedelta((4 - today.weekday()) % 7)
 
     rate_data = {
@@ -82,21 +84,23 @@ def run():
             print(f"🔎 {hotel} on {date_str}")
             raw = fetch_serpapi_offers(hotel, date_str)
 
-            # Optional: dump raw JSON for debugging
-            debug_fn = f"data/debug_{hotel.replace(' ', '_')}_{day_name}.json"
-            with open(debug_fn, "w") as dbg:
-                json.dump(raw, dbg, indent=2)
+            # Debug‐dump each hotel's raw JSON
+            dbg_path = f"data/debug_{hotel.replace(' ', '_')}_{day_name}.json"
+            with open(dbg_path, "w") as dbg_f:
+                json.dump(raw, dbg_f, indent=2)
 
             low_high = ai_extract_range(raw)
             rate_data["rates_by_day"][day_name][hotel] = low_high
             print(f"✅ {hotel}: {low_high}")
 
-            time.sleep(2)  # be gentle to the API
+            time.sleep(2)  # avoid SerpAPI rate limits
 
-    # write out the consolidated rates
-    with open("data/beckley_rates.json", "w") as out:
-        json.dump(rate_data, out, indent=2)
-    print("\nAll done — rates written to data/beckley_rates.json")
+    # Write consolidated output
+    out_path = "data/beckley_rates.json"
+    with open(out_path, "w") as out_f:
+        json.dump(rate_data, out_f, indent=2)
+
+    print(f"\n✨ Done! Wrote updated rates → {out_path}")
 
 if __name__ == "__main__":
     run()
