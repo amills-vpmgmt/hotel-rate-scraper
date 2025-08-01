@@ -1,3 +1,4 @@
+# .github/workflows/scrape_combined_rates.yml
 name: Scrape Combined Hotel Rates
 
 on:
@@ -12,13 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # (optional) debug where files actually live
-      - name: List files
-        run: |
-          pwd
-          ls -R .
-
-      - uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
@@ -30,5 +26,4 @@ jobs:
           SERPAPI_KEY:     ${{ secrets.SERPAPI_KEY }}
           RAPIDAI_API_KEY: ${{ secrets.RAPIDAI_API_KEY }}
         run: |
-          # ← point directly at the file in your repo root
-          python scrape_combined_rates.py
+          python hotel-rate-scraper/scrape_combined_rates.py
