@@ -1,34 +1,26 @@
-#!/usr/bin/env python3
-"""
-scrape_combined_rates.py
-
-Fetches nightly rates for a list of Beckley hotels from:
-  1) SerpApi’s Google Hotels engine
-  2) Expedia RapidAPI (via location search + get-details)
-
-Merges them and writes debug + consolidated JSON to ./data/
-"""
-
 import os
 import json
 import time
 import re
 import datetime
+import requests
 from pathlib import Path
 
-import requests
+# DEBUG: Check SERPAPI_KEY
+print("DEBUG: ENV SERPAPI_KEY =", os.getenv("SERPAPI_KEY"))
 
-# ─────────────────────────────────────────────────────────────
-# CONFIG
-# ─────────────────────────────────────────────────────────────
+# Load API Keys from environment
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+RAPIDAI_API_KEY = os.getenv("RAPIDAI_API_KEY") or "HARDCODED_RAPID_API_KEY_IF_NEEDED"
 
-# API keys (export these before running)
-SERPAPI_KEY   = os.getenv("SERPAPI_KEY")
-# changed here to match your GitHub secret name
-RAPIDAPI_KEY  = os.getenv("RAPIDAI_API_KEY")
-RAPIDAPI_HOST = "expedia1.p.rapidapi.com"
+# Fail if SERPAPI_KEY is missing
+if not SERPAPI_KEY:
+    print("\n❌ SERPAPI_KEY is not set. Check GitHub Secrets.")
+    exit(1)
 
-# Hotels you care about
+# Config Constants
+RAPIDAPI_HOST = "expedia13.p.rapidapi.com"
+
 HOTELS = [
     "Courtyard Beckley",
     "Hampton Inn Beckley",
@@ -36,146 +28,99 @@ HOTELS = [
     "Fairfield Inn Beckley",
     "Best Western Beckley",
     "Country Inn Beckley",
-    "Comfort Inn Beckley",
+    "Comfort Inn Beckley"
 ]
 
-# City context for both APIs
-CITY    = "Beckley"
-STATE   = "WV"
+CITY = "Beckley"
+STATE = "WV"
 COUNTRY = "United States"
+DATA_DIR = Path("data")
+PAUSE = 2  # seconds between API calls
 
-# Where to dump JSON
-DATA_DIR = Path(__file__).parent / "data"
-DATA_DIR.mkdir(exist_ok=True)
-
-# Sleep between API calls to respect rate-limits
-PAUSE = 1.5
-
-
-# ─────────────────────────────────────────────────────────────
-# UTILS
-# ─────────────────────────────────────────────────────────────
-
-def fetch_serpapi(query: str) -> dict:
-    resp = requests.get(
-        "https://serpapi.com/search",
-        params={
-            "engine":   "google_hotels",
-            "q":        query,
-            "location": f"{CITY}, {STATE}, {COUNTRY}",
-            "hl":       "en",
-            "gl":       "us",
-            "api_key":  SERPAPI_KEY,
-        },
-    )
+# Function to fetch data from SerpAPI
+def fetch_serpapi(query):
+    params = {
+        "engine": "google_hotels",
+        "q": query,
+        "location": f"{CITY}, {STATE}, {COUNTRY}",
+        "hl": "en",
+        "gl": "us",
+        "api_key": SERPAPI_KEY
+    }
+    resp = requests.get("https://serpapi.com/search", params=params)
     resp.raise_for_status()
     return resp.json()
 
-def extract_serp_rate(r: dict) -> str:
+# Function to extract price range from SerpAPI response
+def extract_serp_rate(serp_json):
     prices = []
-    for h in r.get("hotel_results", []):
-        p = h.get("price", "")
-        if p.startswith("$"):
-            prices.append(int(p.replace("$","").replace(",","")))
-    for o in r.get("organic_results", []):
-        for m in re.findall(r"\$[\d,]+", o.get("snippet","")):
-            prices.append(int(m.replace("$","").replace(",","")))
-    kg = r.get("knowledge_graph",{})
-    for offer in kg.get("pricing",{}).get("offers",[]):
-        p = offer.get("price","")
-        if p.startswith("$"):
-            prices.append(int(p.replace("$","").replace(",","")))
+
+    for hotel in serp_json.get("hotel_results", []):
+        price_str = hotel.get("price", "")
+        if price_str.startswith("$"):
+            amount = int(price_str.replace("$", "").replace(",", ""))
+            prices.append(amount)
+
+    for item in serp_json.get("organic_results", []):
+        snippet = item.get("snippet", "")
+        for match in re.findall(r"\$[\d,]+", snippet):
+            amount = int(match.replace("$", "").replace(",", ""))
+            prices.append(amount)
+
+    kg = serp_json.get("knowledge_graph", {})
+    for offer in kg.get("pricing", {}).get("offers", []):
+        price_str = offer.get("price", "")
+        if price_str.startswith("$"):
+            amount = int(price_str.replace("$", "").replace(",", ""))
+            prices.append(amount)
+
     if not prices:
         return "N/A"
+
     lo, hi = min(prices), max(prices)
     return f"{lo}-{hi}" if lo != hi else str(lo)
 
-def fetch_rapidapi_price(hotel: str, checkin: str, checkout: str) -> (float, str):
-    headers = {
-        "X-RapidAPI-Host": RAPIDAPI_HOST,
-        "X-RapidAPI-Key":  RAPIDAPI_KEY,
-    }
-    loc_resp = requests.get(
-        f"https://{RAPIDAPI_HOST}/locations/search",
-        headers=headers,
-        params={"query": f"{hotel}, {CITY}, {STATE}"}
-    )
-    loc_resp.raise_for_status()
-    results = loc_resp.json().get("results", [])
-    if not results:
-        return None, None
-
-    hotel_id = results[0]["id"]
-    time.sleep(PAUSE)
-
-    det_resp = requests.get(
-        f"https://{RAPIDAPI_HOST}/hotels/get-details",
-        headers=headers,
-        params={
-            "id":      hotel_id,
-            "checkIn":  checkin,
-            "checkOut": checkout,
-        }
-    )
-    det_resp.raise_for_status()
-    offers = det_resp.json().get("offers", [])
-    if not offers:
-        return None, None
-
-    price_obj = offers[0].get("price", {})
-    return price_obj.get("total") or price_obj.get("current"), price_obj.get("currency")
-
-
-# ─────────────────────────────────────────────────────────────
-# MAIN
-# ─────────────────────────────────────────────────────────────
-
+# Main function to scrape rates
 def main():
-    today = datetime.date.today()
-    dates = {
-        "Today":    today.isoformat(),
-        "Tomorrow": (today + datetime.timedelta(days=1)).isoformat(),
-        "Friday":   (today + datetime.timedelta((4 - today.weekday()) % 7)).isoformat(),
+    checkin_dates = {
+        "Today": str(datetime.date.today()),
+        "Tomorrow": str(datetime.date.today() + datetime.timedelta(days=1)),
+        "Friday": str(datetime.date.today() + datetime.timedelta((4 - datetime.date.today().weekday()) % 7))
     }
 
-    output = {
-        "generated":     today.isoformat(),
-        "checkin_dates": dates,
-        "rates_by_day":  {},
+    rate_data = {
+        "generated": str(datetime.date.today()),
+        "checkin_dates": checkin_dates,
+        "rates_by_day": {}
     }
 
-    for label, date in dates.items():
-        print(f"\n=== {label} ({date}) ===")
-        output["rates_by_day"][label] = {}
+    for day_name, date in checkin_dates.items():
+        print(f"\n=== {day_name} ({date}) ===")
+        rate_data["rates_by_day"][day_name] = {}
 
         for hotel in HOTELS:
-            print(f" • {hotel}")
-
-            serp_query = f"{hotel} Beckley WV {date} hotel price"
-            serp_json  = fetch_serpapi(serp_query)
-            serp_rate  = extract_serp_rate(serp_json)
-            with open(DATA_DIR / f"debug_serpapi_{hotel.replace(' ','_')}_{label}.json","w") as f:
-                json.dump(serp_json, f, indent=2)
-            time.sleep(PAUSE)
+            serp_query = f"{hotel} {CITY} WV {date} hotel price"
+            print(f"• {hotel}")
 
             try:
-                rap_price, rap_curr = fetch_rapidapi_price(hotel, date, date)
+                serp_json = fetch_serpapi(serp_query)
+                rate = extract_serp_rate(serp_json)
             except Exception as e:
-                print("   ⚠️ RapidAPI error:", e)
-                rap_price, rap_curr = None, None
+                print(f"❌ Error fetching rate for {hotel}: {e}")
+                rate = "N/A"
 
-            output["rates_by_day"][label][hotel] = {
-                "serpapi":  serp_rate,
-                "rapidapi": f"{rap_price} {rap_curr}" if rap_price else "N/A"
-            }
+            rate_data["rates_by_day"][day_name][hotel] = rate
+            time.sleep(PAUSE)
 
-        time.sleep(PAUSE)
+            # Save debug JSON
+            debug_file = DATA_DIR / f"debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
+            debug_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(debug_file, "w") as f:
+                json.dump(serp_json, f, indent=2)
 
-    with open(DATA_DIR / "beckley_rates_combined.json","w") as f:
-        json.dump(output, f, indent=2)
-
-    print("\n✅ Done! See data/beckley_rates_combined.json")
-
+    # Save final rates
+    with open(DATA_DIR / "beckley_rates.json", "w") as f:
+        json.dump(rate_data, f, indent=2)
 
 if __name__ == "__main__":
     main()
