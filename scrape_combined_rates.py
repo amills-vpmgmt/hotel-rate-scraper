@@ -108,6 +108,7 @@ def main():
             except Exception as e:
                 print(f"❌ Error fetching rate for {hotel}: {e}")
                 rate = "N/A"
+                serp_json = {}  # Ensure serp_json is always defined
 
             rate_data["rates_by_day"][day_name][hotel] = rate
             time.sleep(PAUSE)
