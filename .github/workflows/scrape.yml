@@ -1,10 +1,10 @@
 name: Scrape Combined Hotel Rates
 
 on:
-  # run nightly at 02:00 UTC
+  # nightly at 02:00 UTC
   schedule:
     - cron: '0 2 * * *'
-  # or manually start from the Actions UI
+  # manual run
   workflow_dispatch:
 
 jobs:
@@ -12,30 +12,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Check out your code
-      - name: Checkout code
+      # 1) Checkout the ‘main’ branch explicitly
+      - name: Checkout main
         uses: actions/checkout@v3
+        with:
+          ref: main
 
-      # 2️⃣ List everything in the workspace so we can confirm paths
-      - name: List workspace contents
+      # 2) List everything so we can confirm paths
+      - name: Debug: list workspace contents
         run: |
-          echo "Working directory: $PWD"
+          echo "== PWD: $PWD =="
           ls -R .
 
-      # 3️⃣ Set up Python
-      - name: Set up Python
+      # 3) Set up Python
+      - name: Set up Python 3.x
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 4️⃣ Install dependencies
+      # 4) Install requirements
       - name: Install dependencies
-        run: pip install --upgrade pip && pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # 5️⃣ Run your scraper
+      # 5) Run the scraper from the repo root
       - name: Run combined scraper
         env:
-          SERPAPI_KEY:    ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_KEY:     ${{ secrets.SERPAPI_KEY }}
           RAPIDAI_API_KEY: ${{ secrets.RAPIDAI_API_KEY }}
         run: |
           python scrape_combined_rates.py
