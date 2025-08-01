@@ -1,42 +1,38 @@
-name: Scrape Combined Hotel Rates
+name: Beckley Competitor Rate Tracker  # <== This controls what shows in Actions UI
 
 on:
-  # nightly at 02:00 UTC
   schedule:
-    - cron: '0 2 * * *'
-  # manual run
-  workflow_dispatch:
+    - cron: '0 2 * * *'  # Runs daily at 02:00 UTC
+  workflow_dispatch:       # Allows you to manually trigger runs
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Checkout the ‘main’ branch explicitly
-      - name: Checkout main
+      # Checkout repo code
+      - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          ref: main
 
-      # 2) List everything so we can confirm paths
-      - name: Debug: list workspace contents
+      # Debug - list all files so we can verify paths
+      - name: List workspace contents
         run: |
-          echo "== PWD: $PWD =="
+          echo "PWD: $PWD"
           ls -R .
 
-      # 3) Set up Python
-      - name: Set up Python 3.x
+      # Set up Python 3.x
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 4) Install requirements
+      # Install Python dependencies
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 5) Run the scraper from the repo root
+      # Run your combined scraper script
       - name: Run combined scraper
         env:
           SERPAPI_KEY:     ${{ secrets.SERPAPI_KEY }}
