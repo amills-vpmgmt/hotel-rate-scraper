@@ -1,9 +1,9 @@
-name: Auto-update hotel rates via AI
+name: Scrape Combined Hotel Rates
 
-# Run on a cron schedule and also allow manual dispatch
+# run nightly at 02:00 UTC, or manually via Dispatch
 on:
   schedule:
-    - cron: '0 12 * * *'    # every day at 12:00 UTC
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,31 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.x
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run SERP+AI scraper
-        run: |
-          python scrape_serpapi_with_ai.py
+      - name: Run combined scraper
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
-      - name: Commit updated rates JSON
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: |
-            data/beckley_rates.json
-          message: 'Auto-update hotel rates via AI scraper'
-          author_name: actions-user
-          author_email: actions@users.noreply.github.com
+          SERPAPI_KEY:    ${{ secrets.SERPAPI_KEY }}
+          RAPIDAI_API_KEY: ${{ secrets.RAPIDAI_API_KEY }}
+        run: |
+          python scrape_combined_rates.py
