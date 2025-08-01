@@ -51,28 +51,25 @@ def fetch_serpapi(query):
     resp.raise_for_status()
     return resp.json()
 
-# Function to extract price range from SerpAPI response
+# Cleaned-up price extraction function
 def extract_serp_rate(serp_json):
     prices = []
 
+    # First priority: structured hotel_results prices
     for hotel in serp_json.get("hotel_results", []):
         price_str = hotel.get("price", "")
         if price_str.startswith("$"):
             amount = int(price_str.replace("$", "").replace(",", ""))
             prices.append(amount)
 
-    for item in serp_json.get("organic_results", []):
-        snippet = item.get("snippet", "")
-        for match in re.findall(r"\$[\d,]+", snippet):
-            amount = int(match.replace("$", "").replace(",", ""))
-            prices.append(amount)
-
-    kg = serp_json.get("knowledge_graph", {})
-    for offer in kg.get("pricing", {}).get("offers", []):
-        price_str = offer.get("price", "")
-        if price_str.startswith("$"):
-            amount = int(price_str.replace("$", "").replace(",", ""))
-            prices.append(amount)
+    # If no hotel_results found, fallback to knowledge_graph
+    if not prices:
+        kg = serp_json.get("knowledge_graph", {})
+        for offer in kg.get("pricing", {}).get("offers", []):
+            price_str = offer.get("price", "")
+            if price_str.startswith("$"):
+                amount = int(price_str.replace("$", "").replace(",", ""))
+                prices.append(amount)
 
     if not prices:
         return "N/A"
