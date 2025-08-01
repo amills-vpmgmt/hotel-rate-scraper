@@ -1,41 +1,37 @@
-name: Beckley Competitor Rate Tracker  # <== This controls what shows in Actions UI
+name: Beckley Competitor Rate Tracker
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs daily at 02:00 UTC
-  workflow_dispatch:       # Allows you to manually trigger runs
+    - cron: '0 2 * * *'  # Runs daily at 2:00 UTC
+  workflow_dispatch:       # Manual trigger allowed
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Debug - list all files so we can verify paths
-      - name: List workspace contents
+      - name: List workspace contents (debug)
         run: |
-          echo "PWD: $PWD"
+          echo "Current Directory: $PWD"
           ls -R .
 
-      # Set up Python 3.x
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Install Python dependencies
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Run your combined scraper script
       - name: Run combined scraper
         env:
           SERPAPI_KEY:     ${{ secrets.SERPAPI_KEY }}
           RAPIDAI_API_KEY: ${{ secrets.RAPIDAI_API_KEY }}
         run: |
+          echo "DEBUG: SERPAPI_KEY is ${{ secrets.SERPAPI_KEY }}"  # Debug print
           python scrape_combined_rates.py
