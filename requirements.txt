@@ -1,4 +1,8 @@
-requests
-beautifulsoup4
-pyzt
-openai
+# SerpApi client
+google-search-results>=2.0.0
+
+# OpenAI / OpenRouter client
+openai>=0.27.0
+
+# HTTP library (if your fetch_rate uses requests)
+requests>=2.0.0
