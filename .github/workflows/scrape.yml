@@ -1,8 +1,8 @@
-name: Scrape Beckley Rates
+name: Scrape Beckley Rates (Free)
 
 on:
   schedule:
-    # every day at 09:00 UTC (adjust as desired)
+    # daily at 09:00 UTC
     - cron: '0 9 * * *'
   workflow_dispatch:
 
@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -20,14 +19,9 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Run combined scraper
-        env:
-          SERPAPI_KEY:        ${{ secrets.SERPAPI_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      - name: Run free scraper
         run: python scrape_combined_rates.py
 
       - name: Commit updated rates JSON
@@ -35,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/beckley_rates.json
-          git commit -m "Auto-update beckley_rates.json"
+          git commit -m "Auto-update (free scrape) beckley_rates.json" || echo "nothing to commit"
           git push
