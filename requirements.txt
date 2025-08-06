@@ -1,8 +1,2 @@
-# SerpApi Python client
-google-search-results>=2.0.0
-
-# OpenRouter / OpenAI client
-openai>=0.27.0
-
-# HTTP library
 requests>=2.0.0
+beautifulsoup4>=4.9.0
