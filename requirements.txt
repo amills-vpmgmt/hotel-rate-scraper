@@ -1,8 +1,8 @@
-# SerpApi client
+# SerpApi Python client
 google-search-results>=2.0.0
 
-# OpenAI / OpenRouter client
+# OpenRouter / OpenAI client
 openai>=0.27.0
 
-# HTTP library (if your fetch_rate uses requests)
+# HTTP library
 requests>=2.0.0
