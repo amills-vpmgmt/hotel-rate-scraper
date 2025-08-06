@@ -1,25 +1,17 @@
 import os
 import json
 import time
-import re
 import datetime
 import requests
 from pathlib import Path
 
-# DEBUG: Check SERPAPI_KEY
-print("DEBUG: ENV SERPAPI_KEY =", os.getenv("SERPAPI_KEY"))
-
-# Load API Keys from environment
+# Load API Keys
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")
-RAPIDAI_API_KEY = os.getenv("RAPIDAI_API_KEY") or "HARDCODED_RAPID_API_KEY_IF_NEEDED"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# Fail if SERPAPI_KEY is missing
-if not SERPAPI_KEY:
-    print("\n❌ SERPAPI_KEY is not set. Check GitHub Secrets.")
+if not SERPAPI_KEY or not OPENROUTER_API_KEY:
+    print("\n❌ API keys are missing. Check GitHub Secrets.")
     exit(1)
-
-# Config Constants
-RAPIDAPI_HOST = "expedia13.p.rapidapi.com"
 
 HOTELS = [
     "Courtyard Beckley",
@@ -33,16 +25,14 @@ HOTELS = [
 
 CITY = "Beckley"
 STATE = "WV"
-COUNTRY = "United States"
 DATA_DIR = Path("data")
 PAUSE = 2  # seconds between API calls
 
-# Function to fetch data from SerpAPI
+# Function to fetch Google Search result using SerpAPI
 def fetch_serpapi(query):
     params = {
-        "engine": "google_hotels",
+        "engine": "google",
         "q": query,
-        "location": f"{CITY}, {STATE}, {COUNTRY}",
         "hl": "en",
         "gl": "us",
         "api_key": SERPAPI_KEY
@@ -51,72 +41,69 @@ def fetch_serpapi(query):
     resp.raise_for_status()
     return resp.json()
 
-# Cleaned-up price extraction function
-def extract_serp_rate(serp_json):
-    prices = []
+# Function to extract price using OpenRouter GPT
+def extract_price_with_gpt(raw_text):
+    prompt = f"""
+    Extract the nightly hotel price in USD from the following search result text. Return only the price as a number (no dollar sign, no extra text). If no price is found, respond with N/A.
 
-    # First priority: structured hotel_results prices
-    for hotel in serp_json.get("hotel_results", []):
-        price_str = hotel.get("price", "")
-        if price_str.startswith("$"):
-            amount = int(price_str.replace("$", "").replace(",", ""))
-            prices.append(amount)
+    Search Result Text:
+    {raw_text}
+    """
 
-    # If no hotel_results found, fallback to knowledge_graph
-    if not prices:
-        kg = serp_json.get("knowledge_graph", {})
-        for offer in kg.get("pricing", {}).get("offers", []):
-            price_str = offer.get("price", "")
-            if price_str.startswith("$"):
-                amount = int(price_str.replace("$", "").replace(",", ""))
-                prices.append(amount)
+    headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}"}
+    payload = {
+        "model": "gpt-3.5-turbo",
+        "messages": [{"role": "user", "content": prompt}]
+    }
 
-    if not prices:
+    resp = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=payload)
+    resp.raise_for_status()
+    reply = resp.json()["choices"][0]["message"]["content"].strip()
+
+    if reply.lower() == "n/a":
         return "N/A"
 
-    lo, hi = min(prices), max(prices)
-    return f"{lo}-{hi}" if lo != hi else str(lo)
+    try:
+        return int(reply)
+    except ValueError:
+        return "N/A"
 
-# Main function to scrape rates
+# Main scraping function
 def main():
-    checkin_dates = {
-        "Today": str(datetime.date.today()),
-        "Tomorrow": str(datetime.date.today() + datetime.timedelta(days=1)),
-        "Friday": str(datetime.date.today() + datetime.timedelta((4 - datetime.date.today().weekday()) % 7))
-    }
+    checkin_date = str(datetime.date.today() + datetime.timedelta((4 - datetime.date.today().weekday()) % 7))
 
     rate_data = {
         "generated": str(datetime.date.today()),
-        "checkin_dates": checkin_dates,
-        "rates_by_day": {}
+        "checkin_date": checkin_date,
+        "rates": {}
     }
 
-    for day_name, date in checkin_dates.items():
-        print(f"\n=== {day_name} ({date}) ===")
-        rate_data["rates_by_day"][day_name] = {}
+    for hotel in HOTELS:
+        query = f"{hotel} {CITY} {STATE} site:expedia.com {checkin_date} price"
+        print(f"\nSearching for: {query}")
 
-        for hotel in HOTELS:
-            serp_query = f"{hotel} {CITY} WV {date} hotel price"
-            print(f"• {hotel}")
+        try:
+            serp_json = fetch_serpapi(query)
+            snippets = []
 
-            try:
-                serp_json = fetch_serpapi(serp_query)
-                rate = extract_serp_rate(serp_json)
-            except Exception as e:
-                print(f"❌ Error fetching rate for {hotel}: {e}")
-                rate = "N/A"
-                serp_json = {}  # Ensure serp_json is always defined
+            for res in serp_json.get("organic_results", []):
+                snippet = res.get("snippet", "")
+                if snippet:
+                    snippets.append(snippet)
 
-            rate_data["rates_by_day"][day_name][hotel] = rate
-            time.sleep(PAUSE)
+            combined_snippets = " ".join(snippets)
+            rate = extract_price_with_gpt(combined_snippets)
 
-            # Save debug JSON
-            debug_file = DATA_DIR / f"debug_{hotel.replace(' ', '_').replace(',', '')}_{day_name}.json"
-            debug_file.parent.mkdir(parents=True, exist_ok=True)
-            with open(debug_file, "w") as f:
-                json.dump(serp_json, f, indent=2)
+        except Exception as e:
+            print(f"❌ Error for {hotel}: {e}")
+            rate = "N/A"
+
+        print(f"{hotel}: {rate}")
+        rate_data["rates"][hotel] = rate
+        time.sleep(PAUSE)
 
     # Save final rates
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     with open(DATA_DIR / "beckley_rates.json", "w") as f:
         json.dump(rate_data, f, indent=2)
 
