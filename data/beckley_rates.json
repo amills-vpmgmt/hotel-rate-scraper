@@ -1,31 +1,31 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "rates_by_day": {
     "Today": {
       "Courtyard Beckley": null,
       "Hampton Inn Beckley": null,
-      "Tru by Hilton Beckley": 89,
-      "Fairfield Inn Beckley": 89,
+      "Tru by Hilton Beckley": null,
+      "Fairfield Inn Beckley": null,
       "Best Western Beckley": null,
-      "Country Inn Beckley": 89,
-      "Comfort Inn Beckley": 89
+      "Country Inn Beckley": null,
+      "Comfort Inn Beckley": null
     },
     "Tomorrow": {
-      "Courtyard Beckley": 94,
-      "Hampton Inn Beckley": 94,
-      "Tru by Hilton Beckley": 94,
-      "Fairfield Inn Beckley": 94,
+      "Courtyard Beckley": null,
+      "Hampton Inn Beckley": null,
+      "Tru by Hilton Beckley": null,
+      "Fairfield Inn Beckley": null,
       "Best Western Beckley": null,
       "Country Inn Beckley": null,
       "Comfort Inn Beckley": null
     },
     "Friday": {
-      "Courtyard Beckley": 133,
-      "Hampton Inn Beckley": 133,
-      "Tru by Hilton Beckley": 133,
+      "Courtyard Beckley": null,
+      "Hampton Inn Beckley": null,
+      "Tru by Hilton Beckley": null,
       "Fairfield Inn Beckley": null,
       "Best Western Beckley": null,
-      "Country Inn Beckley": 133,
+      "Country Inn Beckley": null,
       "Comfort Inn Beckley": null
     }
   }
